@@ -1,4 +1,5 @@
 <?php
+
 namespace frontend\models;
 
 use yii\base\Model;
@@ -12,6 +13,10 @@ class SignupForm extends Model
     public $username;
     public $email;
     public $password;
+    public $password_repeat;
+    public $family;
+    public $name;
+    public $patronymic;
 
 
     /**
@@ -22,17 +27,30 @@ class SignupForm extends Model
         return [
             ['username', 'trim'],
             ['username', 'required'],
-            ['username', 'unique', 'targetClass' => '\common\models\User', 'message' => 'This username has already been taken.'],
+            [
+                'username',
+                'unique',
+                'targetClass' => '\common\models\User',
+                'message' => 'This username has already been taken.'
+            ],
             ['username', 'string', 'min' => 2, 'max' => 255],
-
+            [['family', 'name', 'patronymic'], 'string'],
+            [['family', 'name', 'patronymic'], 'required'],
             ['email', 'trim'],
             ['email', 'required'],
             ['email', 'email'],
             ['email', 'string', 'max' => 255],
-            ['email', 'unique', 'targetClass' => '\common\models\User', 'message' => 'This email address has already been taken.'],
+            [
+                'email',
+                'unique',
+                'targetClass' => '\common\models\User',
+                'message' => 'This email address has already been taken.'
+            ],
 
             ['password', 'required'],
             ['password', 'string', 'min' => 6],
+            ['password_repeat', 'required'],
+            ['password_repeat', 'compare', 'compareAttribute' => 'password', 'message' => "Passwords don't match"],
         ];
     }
 
@@ -46,13 +64,15 @@ class SignupForm extends Model
         if (!$this->validate()) {
             return null;
         }
-        
         $user = new User();
         $user->username = $this->username;
         $user->email = $this->email;
         $user->setPassword($this->password);
+        $user->name=$this->name;
+        $user->family=$this->family;
+        $user->patronymic=$this->patronymic;
         $user->generateAuthKey();
-        
+
         return $user->save() ? $user : null;
     }
 }
