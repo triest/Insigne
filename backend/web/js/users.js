@@ -9,7 +9,7 @@ new Vue({
     },
     methods: {
         getUsers: function () {
-            axios.get('admin/default/get')
+            axios.get('/admin/default/get')
                 .then(
                     response => {
 

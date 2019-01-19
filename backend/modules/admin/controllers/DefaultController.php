@@ -60,10 +60,7 @@ class DefaultController extends Controller
      */
     public function actionTest()
     {
-
         return $this->render('index');
-
-
     }
 
     public function actionEdit($id)
