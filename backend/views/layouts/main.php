@@ -24,7 +24,12 @@ AppAsset::register($this);
     <?php $this->head() ?>
 </head>
 <body>
+
+<!--enable Vue -->
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
 <?php $this->beginBody() ?>
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
 <div class="wrap">
     <?php
