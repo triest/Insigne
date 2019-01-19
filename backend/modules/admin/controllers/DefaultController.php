@@ -2,6 +2,7 @@
 
 namespace app\modules\admin\controllers;
 
+use yii\helpers\ArrayHelper;
 use yii\web\Controller;
 use yii\web\Response;
 use common\models\User;
@@ -41,9 +42,13 @@ class DefaultController extends Controller
      */
     public function actionGet()
     {
+        $users=User::find()->all();
+        $userArray=ArrayHelper::toArray($users);
+        $json=ArrayHelper::toArray($userArray);
         \Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
-        $items = ['some', 'array', 'of', 'data' => ['associative', 'array']];
-        return $items;
+        return $json;
+      //  $items = ['some', 'array', 'of', 'data' => ['associative', 'array']];
+      //  return $items;
     }
 
     /**
