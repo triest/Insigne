@@ -63,14 +63,46 @@ class DefaultController extends Controller
         return $this->render('index');
     }
 
+    /**
+     * Updates an existing User model.
+     * If update is successful, the browser will be redirected to the 'view' page.
+     *
+     * @param integer $id
+     * @return mixed
+     * @throws NotFoundHttpException if the model cannot be found
+     */
     public function actionEdit($id)
     {
+        $model = User::find($id)->one();
+        /*   if ($model->load(Yii::$app->request->post()) && $model->save()) {
 
+           }*/
+        $requvest = Yii::$app->request->post();
         $model = User::find()->where(['id' => $id])->one();
+        if ($model->load(Yii::$app->request->post())) {
+            if ($model->validate()) {
+                $model->save();
 
-        if ($model->load(Yii::$app->request->post()) && $model->save(false)) {
-            return $this->redirect(['', 'id' => $model->getId()]);
+            } else {
+                // validation failed: $errors is an array containing error messages
+                // and just for debug var_dump  the errors
+                $errors = $model->errors;
+                var_dump($errors);
+                die();
+            }
+            $model->save(false);
         }
+        /* if ($model->load(Yii::$app->request->post()) ) {
+             $requvest=Yii::$app->request->post();
+             var_dump($requvest);
+             $username=$requvest->User->username;
+             var_dump($username);
+             $user = User::find()->where(['id' => $id])->one();
+             $user->username=$requvest->user->username;
+             $user->email=$requvest->user->email;
+             $user->save(false);
+             die();
+         }*/
 
         return $this->render('edit', [
             'model' => $model,
