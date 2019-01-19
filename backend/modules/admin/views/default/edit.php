@@ -24,11 +24,9 @@ $this->params['breadcrumbs'][] = $this->title;
 
             <?= $form->field($model, 'email') ?>
 
-            <?= $form->field($model, 'password')->passwordInput() ?>
 
-            <?= $form->field($model, 'password_repeat')->passwordInput() ?>
 
-            <?= $form->field($model, 'famili')->textInput(['autofocus' => true]) ?>
+            <?= $form->field($model, 'family')->textInput(['autofocus' => true]) ?>
 
             <?= $form->field($model, 'name')->textInput(['autofocus' => true]) ?>
 

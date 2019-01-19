@@ -1,24 +1,38 @@
-
 new Vue({
     el: '#usersApp',
-    data:{
-
+    data: {
+        users: [],
+        searchLogin: "",
+        searchName: "",
+        searchFalily: "",
+        searchPatronymic: ""
     },
     methods: {
         getUsers: function () {
             axios.get('admin/default/get')
                 .then(
-                    response=> {
-                           console.log(response.data);
-                        this.tasks=response.data;
+                    response => {
+
+                        this.users = response.data;
                     }
                 )
                 .catch(
                     // error=>console.log(error)
                 )
+        },
+        searchNameFunction: function () {
+            return users;
+        },
+        computed: {
+            filterName: function () {
+                console.log("filetes");
+                //  return this.users.filter(this.users=>{return users.username.match(this.searchName)})
+            }
         }
+
+
     },
-    beforeMount(){
+    beforeMount() {
         this.getUsers()
     }
 })

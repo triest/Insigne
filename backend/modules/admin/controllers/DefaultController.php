@@ -2,10 +2,12 @@
 
 namespace app\modules\admin\controllers;
 
+use Yii;
 use yii\helpers\ArrayHelper;
 use yii\web\Controller;
 use yii\web\Response;
 use common\models\User;
+use app\models\SignupForm;
 
 /**
  * Default controller for the `admin` module
@@ -42,13 +44,13 @@ class DefaultController extends Controller
      */
     public function actionGet()
     {
-        $users=User::find()->all();
-        $userArray=ArrayHelper::toArray($users);
-        $json=ArrayHelper::toArray($userArray);
+        $users = User::find()->all();
+        $userArray = ArrayHelper::toArray($users);
+        $json = ArrayHelper::toArray($userArray);
         \Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
         return $json;
-      //  $items = ['some', 'array', 'of', 'data' => ['associative', 'array']];
-      //  return $items;
+        //  $items = ['some', 'array', 'of', 'data' => ['associative', 'array']];
+        //  return $items;
     }
 
     /**
@@ -62,5 +64,19 @@ class DefaultController extends Controller
         return $this->render('index');
 
 
+    }
+
+    public function actionEdit($id)
+    {
+
+        $model = User::find()->where(['id' => $id])->one();
+
+        if ($model->load(Yii::$app->request->post()) && $model->save(false)) {
+            return $this->redirect(['', 'id' => $model->getId()]);
+        }
+
+        return $this->render('edit', [
+            'model' => $model,
+        ]);
     }
 }
