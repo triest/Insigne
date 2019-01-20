@@ -7,10 +7,12 @@
  */
 
 namespace backend\controllers;
+use common\models\User;
+use yii\helpers\ArrayHelper;
 use yii\web\Controller;
 use Yii;
 
-class AuthController extends Controller
+class UserController extends Controller
 {
     public function actionSingup()
     {
@@ -138,5 +140,37 @@ class AuthController extends Controller
             echo $exception->getMessage();
         }
         $this->redirect(['site/index']);
+    }
+
+    public function actionIndex(){
+        $users=User::find()->select(['id','family','name','patronymic','enddate'])->all();
+        $results = ArrayHelper::toArray($users, [
+            'common\models\Teams' => [
+                'id',
+                'name',
+                'status',
+                'DP',
+            ],
+        ]);
+
+       //  $this->dump($users);
+      ////  $name=$users['name'];
+       // $patronymic=$users['patronymic'];
+       // $family=$users['family'];
+      //  $fio=$family."&".$name."&".$patronymic;
+     //   $users=ArrayHelper::remove($users,'family');
+      //  $users=ArrayHelper::remove($users,'name');
+      //  $users=ArrayHelper::remove($users,'patronymic');
+       // $users['fio']=$fio;
+        $json = ArrayHelper::toArray($users);
+
+        \Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
+     //   return $json;
+    }
+
+    function dump($mixed){
+        echo '<pre>';
+        print_r($mixed);
+        echo '</pre>';
     }
 }

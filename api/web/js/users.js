@@ -26,7 +26,7 @@ new Vue({
         computed: {
             filterName: function () {
                 console.log("filetes");
-                //  return this.users.filter(this.users=>{return users.username.match(this.searchName)})
+                //  return this.user.filter(this.user=>{return user.username.match(this.searchName)})
             }
         }
 
