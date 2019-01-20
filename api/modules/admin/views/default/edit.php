@@ -24,11 +24,14 @@ $this->params['breadcrumbs'][] = $this->title;
 
             <?= $form->field($model, 'email') ?>
 
+
+
             <?= $form->field($model, 'family')->textInput(['autofocus' => true]) ?>
 
             <?= $form->field($model, 'name')->textInput(['autofocus' => true]) ?>
 
             <?= $form->field($model, 'patronymic')->textInput(['autofocus' => true]) ?>
+
 
             <div class="form-group">
                 <?= Html::submitButton('Signup', ['class' => 'btn btn-primary', 'name' => 'signup-button']) ?>

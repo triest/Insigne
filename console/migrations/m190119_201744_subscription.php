@@ -14,7 +14,7 @@ class m190119_201744_subscription extends Migration
     {
         $this->createTable('subscription', [
             'id' => $this->primaryKey(),
-            'name' => $this->integer()]);
+            'name' => $this->string()]);
     }
     /**
      * @inheritdoc
