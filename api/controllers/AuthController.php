@@ -6,11 +6,10 @@
  * Time: 22:04
  */
 
-namespace backend\controllers;
-use yii\web\Controller;
-use Yii;
+namespace api\controllers;
 
-class AuthController extends Controller
+
+class AuthController
 {
     public function actionSingup()
     {

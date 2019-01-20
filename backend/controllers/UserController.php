@@ -174,10 +174,6 @@ class UserController extends Controller
         return $json;
     }
 
-    function dump($mixed)
-    {
-        echo '<pre>';
-        print_r($mixed);
-        echo '</pre>';
-    }
+
+    
 }

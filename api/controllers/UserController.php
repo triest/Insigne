@@ -7,8 +7,10 @@
  */
 
 namespace backend\controllers;
+
 use common\models\User;
 use yii\helpers\ArrayHelper;
+use yii\helpers\Json;
 use yii\web\Controller;
 use Yii;
 
@@ -142,8 +144,9 @@ class UserController extends Controller
         $this->redirect(['site/index']);
     }
 
-    public function actionIndex(){
-        $users=User::find()->select(['id','family','name','patronymic','enddate'])->all();
+    public function actionIndex()
+    {
+        $users = User::find()->select(['id', 'family', 'name', 'patronymic', 'enddate'])->all();
         $results = ArrayHelper::toArray($users, [
             'common\models\Teams' => [
                 'id',
@@ -153,24 +156,22 @@ class UserController extends Controller
             ],
         ]);
 
-       //  $this->dump($users);
-      ////  $name=$users['name'];
-       // $patronymic=$users['patronymic'];
-       // $family=$users['family'];
-      //  $fio=$family."&".$name."&".$patronymic;
-     //   $users=ArrayHelper::remove($users,'family');
-      //  $users=ArrayHelper::remove($users,'name');
-      //  $users=ArrayHelper::remove($users,'patronymic');
-       // $users['fio']=$fio;
-        $json = ArrayHelper::toArray($users);
+
+        $json = Json::encode($users);
+        $array = json_decode($json, true);
+        foreach ($array as $key => $item) {
+            // unset them
+            $fio = $array[$key]["family"] . "&" . $array[$key]["name"] . "&" . $array[$key]["patronymic"];
+            unset($array[$key]["family"]);
+            unset($array[$key]["name"]);
+            unset($array[$key]["patronymic"]);
+            $array[$key]["fio"] = $fio;
+        }
+
+        $json = Json::encode($array);
 
         \Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
-     //   return $json;
+        return $json;
     }
-
-    function dump($mixed){
-        echo '<pre>';
-        print_r($mixed);
-        echo '</pre>';
-    }
+    
 }

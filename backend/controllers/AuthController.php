@@ -7,10 +7,9 @@
  */
 
 namespace backend\controllers;
-use yii\web\Controller;
-use Yii;
 
-class AuthController extends Controller
+
+class AuthController
 {
     public function actionSingup()
     {

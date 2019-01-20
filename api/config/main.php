@@ -18,7 +18,19 @@ return [
     ],
     'components' => [
         'request' => [
-            'csrfParam' => '_csrf-backend',
+            'parsers' => [
+                'application/json' => 'yii\web\JsonParser',
+                'application/xml' => 'yii\web\XmlParser',
+            ],
+        ],
+        'response' => [
+            'formatters' => [
+                'json' => [
+                    'class' => 'yii\web\JsonResponseFormatter',
+                    'prettyPrint' => YII_DEBUG,
+                    'encodeOptions' => JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE,
+                ],
+            ],
         ],
         'user' => [
             'identityClass' => 'common\models\User',

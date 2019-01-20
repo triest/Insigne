@@ -1,6 +1,6 @@
 <?php
 
-$this->registerJsFile('@web/js/user.js');
+$this->registerJsFile('@web/js/users.js');
 ?>
 <div id="usersApp" class="vue">
     <div class="admin-default-index">
