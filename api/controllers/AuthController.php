@@ -6,7 +6,7 @@
  * Time: 22:04
  */
 
-namespace api\controllers;
+namespace backend\controllers;
 
 
 class AuthController

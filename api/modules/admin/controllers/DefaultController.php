@@ -3,7 +3,9 @@
 namespace app\modules\admin\controllers;
 
 use Yii;
+use yii\base\Exception;
 use yii\helpers\ArrayHelper;
+use yii\helpers\VarDumper;
 use yii\web\Controller;
 use yii\web\Response;
 use common\models\User;
@@ -71,18 +73,17 @@ class DefaultController extends Controller
      * @return mixed
      * @throws NotFoundHttpException if the model cannot be found
      */
-    public function actionEdit($id)
+
+    function actionEdit($id)
     {
         $model = User::find($id)->one();
         /*   if ($model->load(Yii::$app->request->post()) && $model->save()) {
-
            }*/
         $requvest = Yii::$app->request->post();
         $model = User::find()->where(['id' => $id])->one();
         if ($model->load(Yii::$app->request->post())) {
             if ($model->validate()) {
                 $model->save();
-
             } else {
                 // validation failed: $errors is an array containing error messages
                 // and just for debug var_dump  the errors
@@ -103,9 +104,21 @@ class DefaultController extends Controller
              $user->save(false);
              die();
          }*/
-
         return $this->render('edit', [
             'model' => $model,
         ]);
+
     }
+
+
+    function vardump($var)
+    {
+        echo '<br>';
+        echo '<br>';
+        echo '<br>';
+        echo '<pre>';
+        var_dump($var);
+        echo '</pre>';
+    }
+
 }

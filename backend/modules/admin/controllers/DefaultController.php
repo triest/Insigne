@@ -73,44 +73,26 @@ class DefaultController extends Controller
      * @return mixed
      * @throws NotFoundHttpException if the model cannot be found
      */
-    public function actionEdit($id)
+
+    function actionEdit($id)
     {
+        $model = User::find($id)->one();
         /*   if ($model->load(Yii::$app->request->post()) && $model->save()) {
-
            }*/
+        $requvest = Yii::$app->request->post();
         $model = User::find()->where(['id' => $id])->one();
-        //  $model=SignupForm::findModel($id);
-
         if ($model->load(Yii::$app->request->post())) {
-            // var_dump(Yii::$app->request->post());
-            $post = Yii::$app->request->post();
-            $user = User::find()->where(['id' => $id])->one();
-
-            $user_post = $post["User"];
-
-            //$username
-            $user->username = $user_post["username"];
-            $user->email = $user_post["email"];
-            $user->family = $user_post["family"];
-            $user->patronymic = $user_post["patronymic"];
-            if ($user_post["password"] != null) {
-                try {
-                    $hash = Yii::$app->getSecurity()->generatePasswordHash($user_post["password"]);
-                    $user->password_hash = $hash;
-                } catch (Exception $e) {
-                }
+            if ($model->validate()) {
+                $model->save();
+            } else {
+                // validation failed: $errors is an array containing error messages
+                // and just for debug var_dump  the errors
+                $errors = $model->errors;
+                var_dump($errors);
+                die();
             }
-            $user->save();
-            //model->username=$user->username;
-
-
-        } else {
-            // validation failed: $errors is an array containing error messages
-            // and just for debug var_dump  the errors
-            $errors = $model->errors;
-
+            $model->save(false);
         }
-
         /* if ($model->load(Yii::$app->request->post()) ) {
              $requvest=Yii::$app->request->post();
              var_dump($requvest);
@@ -122,11 +104,12 @@ class DefaultController extends Controller
              $user->save(false);
              die();
          }*/
-
         return $this->render('edit', [
             'model' => $model,
         ]);
+
     }
+
 
     function vardump($var)
     {
