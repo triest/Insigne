@@ -17,9 +17,6 @@ return [
         ],
     ],
     'components' => [
-        'request' => [
-            'csrfParam' => '_csrf-backend',
-        ],
         'user' => [
             'identityClass' => 'common\models\User',
             'enableAutoLogin' => true,
@@ -44,10 +41,16 @@ return [
 
         'urlManager' => [
             'enablePrettyUrl' => true,
+            'enableStrictParsing' => true,
             'showScriptName' => false,
             'rules' => [
-              //  '/admin'=>'admin/index/index'
+                ['class' => 'yii\rest\UrlRule', 'controller' => 'user'],
             ],
+        ],
+        'request' => [
+            'parsers' => [
+                'application/json' => 'yii\web\JsonParser',
+            ]
         ],
 
     ],
