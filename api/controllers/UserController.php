@@ -129,9 +129,59 @@ class UserController extends ActiveController
         return $json;
     }
 
-    public function actionUpdate()
+    public function actionUpdate($id)
     {
 
+        $request = Yii::$app->request;
+        $post = $request->post();
+        //    var_dump($post);
+
+        $users = User::find()->select([
+            'id',
+            'username',
+            'family',
+            'name',
+            'patronymic',
+            'enddate'
+        ])->where(['id' => $id])
+            ->one();;
+
+        if ($post["email"] != null) {
+            $users["email"] = $post->email;
+        }
+
+        if ($post["password"] != null) {
+            $hash = Yii::$app->getSecurity()->generatePasswordHash($post['password']);
+            $users["password"] =$hash;
+        }
+        if ($post["status"] != null) {
+            $users["status"] = $post['status'];
+        }
+
+        if ($post["family"] != null) {
+            $users["family"] = $post["family"];
+        }
+
+        if ($post["name"] != null) {
+            $users["name"] = $post["name"];
+        }
+        if ($post["family"] != null) {
+            $users["family"] = $post["family"];
+        }
+
+        if ($post["patronymic"] != null) {
+            $users["patronymic"] = $post["patronymic"];
+        }
+
+        if ($post["enddate"] != null) {
+            $users["enddate"] = $post["enddate"];
+        }
+
+
+        $users->save(false);
+
+        Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
+        // return $json;
     }
 
 }
