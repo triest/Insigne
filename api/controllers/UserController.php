@@ -114,23 +114,24 @@ class UserController extends ActiveController
 
     public function actionView($id)
     {
-        $users = User::find()->select(['id', 'family', 'name', 'patronymic', 'enddate'])->one();
+        $users = User::find()->select(['id', 'family', 'name', 'patronymic', 'enddate'])->where(['id' => $id])
+            ->one();;
         $json = Json::encode($users);
         $array = json_decode($json, true);
-
-        // unset them
+        //costom json filds for out
         $fio = $array["family"] . "&" . $array["name"] . "&" . $array["patronymic"];
         unset($array["family"]);
         unset($array["name"]);
         unset($array["patronymic"]);
         $array["fio"] = $fio;
-
-
         $json = Json::encode($array);
-
         \Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
         return $json;
     }
 
+    public function actionUpdate()
+    {
+
+    }
 
 }
