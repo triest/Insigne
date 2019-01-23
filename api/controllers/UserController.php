@@ -92,20 +92,9 @@ class UserController extends ActiveController
     }
 
 
-
     public function actionIndex()
     {
         $users = User::find()->select(['id', 'family', 'name', 'patronymic', 'enddate'])->all();
-        $results = ArrayHelper::toArray($users, [
-            'common\models\Teams' => [
-                'id',
-                'name',
-                'status',
-                'DP',
-            ],
-        ]);
-
-
         $json = Json::encode($users);
         $array = json_decode($json, true);
         foreach ($array as $key => $item) {
@@ -123,10 +112,25 @@ class UserController extends ActiveController
         return $json;
     }
 
+    public function actionView($id)
+    {
+        $users = User::find()->select(['id', 'family', 'name', 'patronymic', 'enddate'])->one();
+        $json = Json::encode($users);
+        $array = json_decode($json, true);
+
+        // unset them
+        $fio = $array["family"] . "&" . $array["name"] . "&" . $array["patronymic"];
+        unset($array["family"]);
+        unset($array["name"]);
+        unset($array["patronymic"]);
+        $array["fio"] = $fio;
 
 
+        $json = Json::encode($array);
+
+        \Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
+        return $json;
+    }
 
 
-
-    
 }
