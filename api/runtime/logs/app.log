@@ -3749,3 +3749,400 @@ $_SERVER = [
     'argv' => []
     'argc' => 0
 ]
+2019-01-23 14:08:24 [127.0.0.1][-][jleikvbccisi1k2emghetbehdhe54mvi][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\Insigne\yii-application\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2019-01-23 14:08:24 [127.0.0.1][-][jleikvbccisi1k2emghetbehdhe54mvi][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'jleikvbccisi1k2emghetbehdhe54mvi'
+    '_csrf' => 'abc9e00de6c46db77bee7aa9ac2a0c315e449ff86a25ed7431e9b663b8c073dfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cvdTEAn9iSfLeTSSZOPTjByIpAT8wPAn\";}'
+    '_csrf-backend' => 'cd7fb74bd7ed0ecaa6666f9a9e4605c9eb349bad06eff08bc472d6b83f2ab740a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"NsHpT8GE6wtQH225mux1YbdREV21SZPz\";}'
+    'advanced-frontend' => 'aipuiivnmrkll5oqhjpgq85hf37k2pad'
+    '_csrf-frontend' => '2ab8dbb1e0b888ce440144bcf3e7e1535ebffdb35493865303942db38cc1ef3ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mZP_FxXuy07VEZK4uLoLCvpd04kCjPtU\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=jleikvbccisi1k2emghetbehdhe54mvi; _csrf=abc9e00de6c46db77bee7aa9ac2a0c315e449ff86a25ed7431e9b663b8c073dfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cvdTEAn9iSfLeTSSZOPTjByIpAT8wPAn%22%3B%7D; _csrf-backend=cd7fb74bd7ed0ecaa6666f9a9e4605c9eb349bad06eff08bc472d6b83f2ab740a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22NsHpT8GE6wtQH225mux1YbdREV21SZPz%22%3B%7D; advanced-frontend=aipuiivnmrkll5oqhjpgq85hf37k2pad; _csrf-frontend=2ab8dbb1e0b888ce440144bcf3e7e1535ebffdb35493865303942db38cc1ef3ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mZP_FxXuy07VEZK4uLoLCvpd04kCjPtU%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/api/web/index.php'
+    'REMOTE_PORT' => '22461'
+    'REDIRECT_URL' => '/user'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1548241704.377
+    'REQUEST_TIME' => 1548241704
+    'argv' => []
+    'argc' => 0
+]
+2019-01-23 14:08:30 [127.0.0.1][-][jleikvbccisi1k2emghetbehdhe54mvi][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\Insigne\yii-application\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2019-01-23 14:08:30 [127.0.0.1][-][jleikvbccisi1k2emghetbehdhe54mvi][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'jleikvbccisi1k2emghetbehdhe54mvi'
+    '_csrf' => 'abc9e00de6c46db77bee7aa9ac2a0c315e449ff86a25ed7431e9b663b8c073dfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cvdTEAn9iSfLeTSSZOPTjByIpAT8wPAn\";}'
+    '_csrf-backend' => 'cd7fb74bd7ed0ecaa6666f9a9e4605c9eb349bad06eff08bc472d6b83f2ab740a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"NsHpT8GE6wtQH225mux1YbdREV21SZPz\";}'
+    'advanced-frontend' => 'aipuiivnmrkll5oqhjpgq85hf37k2pad'
+    '_csrf-frontend' => '2ab8dbb1e0b888ce440144bcf3e7e1535ebffdb35493865303942db38cc1ef3ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mZP_FxXuy07VEZK4uLoLCvpd04kCjPtU\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=jleikvbccisi1k2emghetbehdhe54mvi; _csrf=abc9e00de6c46db77bee7aa9ac2a0c315e449ff86a25ed7431e9b663b8c073dfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cvdTEAn9iSfLeTSSZOPTjByIpAT8wPAn%22%3B%7D; _csrf-backend=cd7fb74bd7ed0ecaa6666f9a9e4605c9eb349bad06eff08bc472d6b83f2ab740a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22NsHpT8GE6wtQH225mux1YbdREV21SZPz%22%3B%7D; advanced-frontend=aipuiivnmrkll5oqhjpgq85hf37k2pad; _csrf-frontend=2ab8dbb1e0b888ce440144bcf3e7e1535ebffdb35493865303942db38cc1ef3ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mZP_FxXuy07VEZK4uLoLCvpd04kCjPtU%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/api/web/index.php'
+    'REMOTE_PORT' => '22461'
+    'REDIRECT_URL' => '/user/4'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/4'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1548241710.858
+    'REQUEST_TIME' => 1548241710
+    'argv' => []
+    'argc' => 0
+]
+2019-01-23 14:08:34 [127.0.0.1][-][jleikvbccisi1k2emghetbehdhe54mvi][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\Insigne\yii-application\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2019-01-23 14:08:34 [127.0.0.1][-][jleikvbccisi1k2emghetbehdhe54mvi][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'jleikvbccisi1k2emghetbehdhe54mvi'
+    '_csrf' => 'abc9e00de6c46db77bee7aa9ac2a0c315e449ff86a25ed7431e9b663b8c073dfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cvdTEAn9iSfLeTSSZOPTjByIpAT8wPAn\";}'
+    '_csrf-backend' => 'cd7fb74bd7ed0ecaa6666f9a9e4605c9eb349bad06eff08bc472d6b83f2ab740a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"NsHpT8GE6wtQH225mux1YbdREV21SZPz\";}'
+    'advanced-frontend' => 'aipuiivnmrkll5oqhjpgq85hf37k2pad'
+    '_csrf-frontend' => '2ab8dbb1e0b888ce440144bcf3e7e1535ebffdb35493865303942db38cc1ef3ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mZP_FxXuy07VEZK4uLoLCvpd04kCjPtU\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=jleikvbccisi1k2emghetbehdhe54mvi; _csrf=abc9e00de6c46db77bee7aa9ac2a0c315e449ff86a25ed7431e9b663b8c073dfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cvdTEAn9iSfLeTSSZOPTjByIpAT8wPAn%22%3B%7D; _csrf-backend=cd7fb74bd7ed0ecaa6666f9a9e4605c9eb349bad06eff08bc472d6b83f2ab740a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22NsHpT8GE6wtQH225mux1YbdREV21SZPz%22%3B%7D; advanced-frontend=aipuiivnmrkll5oqhjpgq85hf37k2pad; _csrf-frontend=2ab8dbb1e0b888ce440144bcf3e7e1535ebffdb35493865303942db38cc1ef3ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mZP_FxXuy07VEZK4uLoLCvpd04kCjPtU%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/api/web/index.php'
+    'REMOTE_PORT' => '22461'
+    'REDIRECT_URL' => '/user/4'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/4'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1548241714.16
+    'REQUEST_TIME' => 1548241714
+    'argv' => []
+    'argc' => 0
+]
+2019-01-23 17:03:08 [127.0.0.1][-][jleikvbccisi1k2emghetbehdhe54mvi][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\Insigne\yii-application\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2019-01-23 17:03:08 [127.0.0.1][-][jleikvbccisi1k2emghetbehdhe54mvi][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'jleikvbccisi1k2emghetbehdhe54mvi'
+    '_csrf' => 'abc9e00de6c46db77bee7aa9ac2a0c315e449ff86a25ed7431e9b663b8c073dfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cvdTEAn9iSfLeTSSZOPTjByIpAT8wPAn\";}'
+    '_csrf-backend' => 'cd7fb74bd7ed0ecaa6666f9a9e4605c9eb349bad06eff08bc472d6b83f2ab740a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"NsHpT8GE6wtQH225mux1YbdREV21SZPz\";}'
+    'advanced-frontend' => 'aipuiivnmrkll5oqhjpgq85hf37k2pad'
+    '_csrf-frontend' => '2ab8dbb1e0b888ce440144bcf3e7e1535ebffdb35493865303942db38cc1ef3ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mZP_FxXuy07VEZK4uLoLCvpd04kCjPtU\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=jleikvbccisi1k2emghetbehdhe54mvi; _csrf=abc9e00de6c46db77bee7aa9ac2a0c315e449ff86a25ed7431e9b663b8c073dfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cvdTEAn9iSfLeTSSZOPTjByIpAT8wPAn%22%3B%7D; _csrf-backend=cd7fb74bd7ed0ecaa6666f9a9e4605c9eb349bad06eff08bc472d6b83f2ab740a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22NsHpT8GE6wtQH225mux1YbdREV21SZPz%22%3B%7D; advanced-frontend=aipuiivnmrkll5oqhjpgq85hf37k2pad; _csrf-frontend=2ab8dbb1e0b888ce440144bcf3e7e1535ebffdb35493865303942db38cc1ef3ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mZP_FxXuy07VEZK4uLoLCvpd04kCjPtU%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/api/web/index.php'
+    'REMOTE_PORT' => '37672'
+    'REDIRECT_URL' => '/user'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1548252188.295
+    'REQUEST_TIME' => 1548252188
+    'argv' => []
+    'argc' => 0
+]
+2019-01-23 17:13:55 [127.0.0.1][-][jleikvbccisi1k2emghetbehdhe54mvi][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\Insigne\yii-application\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2019-01-23 17:13:55 [127.0.0.1][-][jleikvbccisi1k2emghetbehdhe54mvi][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'jleikvbccisi1k2emghetbehdhe54mvi'
+    '_csrf' => 'abc9e00de6c46db77bee7aa9ac2a0c315e449ff86a25ed7431e9b663b8c073dfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cvdTEAn9iSfLeTSSZOPTjByIpAT8wPAn\";}'
+    '_csrf-backend' => 'cd7fb74bd7ed0ecaa6666f9a9e4605c9eb349bad06eff08bc472d6b83f2ab740a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"NsHpT8GE6wtQH225mux1YbdREV21SZPz\";}'
+    'advanced-frontend' => 'aipuiivnmrkll5oqhjpgq85hf37k2pad'
+    '_csrf-frontend' => '2ab8dbb1e0b888ce440144bcf3e7e1535ebffdb35493865303942db38cc1ef3ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mZP_FxXuy07VEZK4uLoLCvpd04kCjPtU\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=jleikvbccisi1k2emghetbehdhe54mvi; _csrf=abc9e00de6c46db77bee7aa9ac2a0c315e449ff86a25ed7431e9b663b8c073dfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cvdTEAn9iSfLeTSSZOPTjByIpAT8wPAn%22%3B%7D; _csrf-backend=cd7fb74bd7ed0ecaa6666f9a9e4605c9eb349bad06eff08bc472d6b83f2ab740a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22NsHpT8GE6wtQH225mux1YbdREV21SZPz%22%3B%7D; advanced-frontend=aipuiivnmrkll5oqhjpgq85hf37k2pad; _csrf-frontend=2ab8dbb1e0b888ce440144bcf3e7e1535ebffdb35493865303942db38cc1ef3ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mZP_FxXuy07VEZK4uLoLCvpd04kCjPtU%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/api/web/index.php'
+    'REMOTE_PORT' => '41661'
+    'REDIRECT_URL' => '/users/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/users/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1548252835.604
+    'REQUEST_TIME' => 1548252835
+    'argv' => []
+    'argc' => 0
+]
+2019-01-23 17:14:32 [127.0.0.1][-][jleikvbccisi1k2emghetbehdhe54mvi][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\Insigne\yii-application\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2019-01-23 17:14:32 [127.0.0.1][-][jleikvbccisi1k2emghetbehdhe54mvi][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'jleikvbccisi1k2emghetbehdhe54mvi'
+    '_csrf' => 'abc9e00de6c46db77bee7aa9ac2a0c315e449ff86a25ed7431e9b663b8c073dfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cvdTEAn9iSfLeTSSZOPTjByIpAT8wPAn\";}'
+    '_csrf-backend' => 'cd7fb74bd7ed0ecaa6666f9a9e4605c9eb349bad06eff08bc472d6b83f2ab740a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"NsHpT8GE6wtQH225mux1YbdREV21SZPz\";}'
+    'advanced-frontend' => 'aipuiivnmrkll5oqhjpgq85hf37k2pad'
+    '_csrf-frontend' => '2ab8dbb1e0b888ce440144bcf3e7e1535ebffdb35493865303942db38cc1ef3ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"mZP_FxXuy07VEZK4uLoLCvpd04kCjPtU\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=jleikvbccisi1k2emghetbehdhe54mvi; _csrf=abc9e00de6c46db77bee7aa9ac2a0c315e449ff86a25ed7431e9b663b8c073dfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cvdTEAn9iSfLeTSSZOPTjByIpAT8wPAn%22%3B%7D; _csrf-backend=cd7fb74bd7ed0ecaa6666f9a9e4605c9eb349bad06eff08bc472d6b83f2ab740a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22NsHpT8GE6wtQH225mux1YbdREV21SZPz%22%3B%7D; advanced-frontend=aipuiivnmrkll5oqhjpgq85hf37k2pad; _csrf-frontend=2ab8dbb1e0b888ce440144bcf3e7e1535ebffdb35493865303942db38cc1ef3ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22mZP_FxXuy07VEZK4uLoLCvpd04kCjPtU%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/api/web/index.php'
+    'REMOTE_PORT' => '41887'
+    'REDIRECT_URL' => '/user'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1548252872.52
+    'REQUEST_TIME' => 1548252872
+    'argv' => []
+    'argc' => 0
+]

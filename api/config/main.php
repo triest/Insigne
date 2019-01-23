@@ -47,7 +47,18 @@ return [
             'enableStrictParsing' => true,
             'showScriptName' => false,
             'rules' => [
-                ['class' => 'yii\rest\UrlRule', 'controller' => 'user'],
+                [
+                    'class' => 'yii\rest\UrlRule',
+                    'controller' => 'user',
+                    'extraPatterns' => [
+                        'POST' => 'create', // 'xxxxx' refers to 'actionXxxxx'
+                        'PUT {id}' => 'update',
+                        'PATCH {id}' => 'update',
+                        'DELETE {id}' => 'delete',
+                        'GET {id}' => 'view',
+                        'GET ' => 'index',
+                    ],
+                ],
             ],
         ],
         'request' => [

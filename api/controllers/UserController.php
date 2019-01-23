@@ -20,6 +20,17 @@ class UserController extends ActiveController
 {
     public $modelClass = 'app\models\User';
 
+    public function actions()
+    {
+        $actions = parent::actions();
+        unset($actions['update']);
+        unset($actions['delete']);
+        unset($actions['view']);
+        unset($actions['index']);
+
+        return $actions;
+    }
+
     public function actionSingup()
     {
         $model = new SignupForm();
@@ -80,73 +91,7 @@ class UserController extends ActiveController
         return true;
     }
 
-    //active user by link
-    function actionConfurm($token)
-    {
-        $user = User::find()->where(['emailToken' => $token])->one();
-        if ($user != null) {
-            $user->emailConfurm = 1;
-            $user->save();
-            $this->redirect('login');
-        } else {
-            echo "Ошибка! Неверная ссылка!";
-        }
-    }
 
-    //method Get, return view for reset pass
-    function actionReset()
-    {
-        if (Yii::$app->user->isGuest) {
-            return $this->render('/auth/resetPass');
-        } else {
-            $this->redirect('site/index');
-        }
-    }
-
-    //send email for reset Password method POST
-    function actionResetpassmail()
-    {
-        $request = Yii::$app->request;
-        $email = $request->post('email'); //получаем email
-        $user = User::find()->where(['email' => $email])->one();
-        $user->resetToken = Yii::$app->security->generateRandomString(32);
-        $user->save();
-        try {
-            $send = Yii::$app->mailer->compose(['html' => '@app/mail/reset'], ['token' => $user->resetToken])
-                ->setFrom('sakura-testmail@sakura-city.info')
-                ->setTo($user->email)
-                ->setSubject('ResetPassword')
-                ->send();
-        } catch (\Exception $exception) {
-            echo $exception->getMessage();
-        }
-        if ($send) {
-            return Yii::$app->response->statusCode = 200;
-        } else {
-            return Yii::$app->response->statusCode = 503;
-        }
-    }
-
-    function actionSended()
-    {
-        return $this->render('sended');
-    }
-
-//send mail to confurm
-    public function sentEmailConfirm($user)
-    {
-        $email = $user->email;
-        try {
-            Yii::$app->mailer->compose(['html' => '@app/mail/html'], ['token' => $user->emailToken])
-                ->setFrom('sakura-testmail@sakura-city.info')
-                ->setTo($email)
-                ->setSubject('Confurm email')
-                ->send();
-        } catch (\Exception $exception) {
-            echo $exception->getMessage();
-        }
-        $this->redirect(['site/index']);
-    }
 
     public function actionIndex()
     {

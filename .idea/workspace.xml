@@ -2,39 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a83ccce-360c-4867-8d0f-4e729b3a1cab" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/api/models/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/main.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/runtime/debug/5c44e1b537de4.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/runtime/debug/5c44e4fb30f37.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/runtime/debug/5c44e4fd7340a.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/runtime/debug/5c44e4fdc5d27.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/runtime/debug/5c44e692b5b60.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/runtime/debug/5c44e7e84df7e.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/runtime/debug/5c44e7e8a6f98.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/runtime/debug/5c44f4d05e7a0.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/runtime/debug/5c44f4d06cf81.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/runtime/debug/5c44f4d201152.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/runtime/debug/5c44f4d20ed01.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/runtime/debug/5c44f4e19c29b.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/runtime/debug/5c44f4e1be2fe.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/runtime/debug/5c44f4e6d05c0.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/runtime/debug/5c44f4e97abca.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/runtime/debug/5c44f4eb96fa7.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/runtime/debug/5c44f4f08eb83.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/runtime/debug/5c44f4f41b4ee.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/runtime/debug/5c44f52d806ea.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/runtime/debug/5c44f53b10373.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/runtime/debug/5c44f59eb9a7a.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/runtime/debug/5c44f5b32dea8.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/runtime/debug/5c44f80c508cd.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/runtime/debug/5c44f80e5ff17.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/runtime/debug/5c44f80e6ee5b.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/runtime/debug/5c457f0e00d2b.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/runtime/debug/5c457f0e41a38.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/runtime/debug/5c457fd2877a1.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/runtime/debug/5c457fe71ee9e.data" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/api/runtime/debug/index.data" beforeDir="false" afterPath="$PROJECT_DIR$/api/runtime/debug/index.data" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/runtime/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/api/runtime/logs/app.log" afterDir="false" />
     </list>
@@ -50,11 +20,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/models/User.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/config/main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="466">
+              <caret line="58" column="29" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api/controllers/UserController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+              <folding>
+                <element signature="e#118#141#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,7 +63,7 @@
         <entry file="remoteDeploymentFS://&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/app/Http/Controllers/PrivateController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="393">
-              <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
+              <caret line="140" selection-start-line="140" selection-end-line="140" />
             </state>
           </provider>
         </entry>
@@ -81,7 +72,7 @@
         <entry file="remoteDeploymentFS://&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/app/Http/Controllers/GirlsController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="162" column="21" lean-forward="true" selection-start-line="162" selection-start-column="21" selection-end-line="162" selection-end-column="21" />
+              <caret line="162" column="21" selection-start-line="162" selection-start-column="21" selection-end-line="162" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -90,7 +81,7 @@
         <entry file="remoteDeploymentFS://&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/resources/views/requwest/myRequwest.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="39" />
+              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -108,7 +99,7 @@
         <entry file="remoteDeploymentFS://&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/app/Girl.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="233">
-              <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -204,13 +195,13 @@
         <option value="$PROJECT_DIR$/api/models/ContactForm.php" />
         <option value="$PROJECT_DIR$/api/models/PasswordResetRequestForm.php" />
         <option value="$PROJECT_DIR$/api/models/ResetPasswordForm.php" />
-        <option value="$PROJECT_DIR$/api/config/main.php" />
-        <option value="$PROJECT_DIR$/api/controllers/UserController.php" />
         <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/app/Girl.php" />
         <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/resources/views/requwest/myRequwest.blade.php" />
         <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/routes/web.php" />
         <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/app/Http/Controllers/PrivateController.php" />
         <option value="$PROJECT_DIR$/api/models/User.php" />
+        <option value="$PROJECT_DIR$/api/config/main.php" />
+        <option value="$PROJECT_DIR$/api/controllers/UserController.php" />
       </list>
     </option>
   </component>
@@ -325,7 +316,7 @@
               <item name="yii-application" type="b2602c69:ProjectViewProjectNode" />
               <item name="yii-application" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yii-application" type="b2602c69:ProjectViewProjectNode" />
@@ -467,7 +458,7 @@
       <workItem from="1548024091929" duration="534000" />
       <workItem from="1548048641318" duration="13235000" />
       <workItem from="1548080274636" duration="25415000" />
-      <workItem from="1548232817823" duration="7524000" />
+      <workItem from="1548232817823" duration="9379000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1547705077064</created>
@@ -581,11 +572,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548237443244</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Fix get users and user in api">
+      <created>1548241571742</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1548241571742</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140698000" />
+    <option name="totallyTimeSpent" value="142553000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -638,7 +636,8 @@
     <MESSAGE value="add api module" />
     <MESSAGE value="Add get users" />
     <MESSAGE value="Add api module" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add api module" />
+    <MESSAGE value="Fix get users and user in api" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix get users and user in api" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -855,13 +854,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/config/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="56" column="10" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/controllers/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -903,13 +895,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/controllers/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/models/PasswordResetRequestForm.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -927,7 +912,24 @@
     <entry file="file://$PROJECT_DIR$/api/models/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/config/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="58" column="29" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+          <folding>
+            <element signature="e#118#141#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
