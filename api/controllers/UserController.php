@@ -6,19 +6,16 @@
  * Time: 22:04
  */
 
-namespace backend\controllers;
+namespace api\controllers;
 
 use common\models\User;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Json;
 use yii\web\Controller;
 use Yii;
-use yii\rest\ActiveController;
 
-class UserController extends ActiveController
+class UserController extends Controller
 {
-    public $modelClass = 'app\models\User';
-
     public function actionSingup()
     {
         $model = new SignupForm();
@@ -176,7 +173,6 @@ class UserController extends ActiveController
         \Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
         return $json;
     }
-
 
 
 

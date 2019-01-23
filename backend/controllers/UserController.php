@@ -144,7 +144,7 @@ class UserController extends Controller
         $this->redirect(['site/index']);
     }
 
-    public function actionIndex()
+ /*   public function actionIndex()
     {
         $users = User::find()->select(['id', 'family', 'name', 'patronymic', 'enddate'])->all();
         $results = ArrayHelper::toArray($users, [
@@ -173,7 +173,7 @@ class UserController extends Controller
         \Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
         return $json;
     }
-
+*/
 
 
 
