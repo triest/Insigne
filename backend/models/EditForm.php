@@ -35,8 +35,27 @@ class EditForm extends Model
             [['email'], 'email'],
             [['email'], 'unique', 'targetClass' => 'app\models\User', 'targetAttribute' => 'email'],
             [['username'], 'unique', 'targetClass' => 'app\models\User', 'targetAttribute' => 'username'],
-            [['family', 'name', 'patronymic'], 'string'],
-            [['family', 'name', 'patronymic'], 'required'],
+            [
+                ['family'],
+                'required',
+                'when' => function ($model) {
+                    return $model->name != null || $model->patronymic != null;
+                },
+            ],
+            [
+                ['name'],
+                'required',
+                'when' => function ($model) {
+                    return $model->family != null || $model->patronymic != null;
+                },
+            ],
+            [
+                ['patronymic'],
+                'required',
+                'when' => function ($model) {
+                    return $model->family != null || $model->name != null;
+                },
+            ],
         ];
     }
 

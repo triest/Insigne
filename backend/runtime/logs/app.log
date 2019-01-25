@@ -3673,3 +3673,88 @@ $_SERVER = [
     ]
     'argc' => 1
 ]
+2019-01-25 15:53:15 [127.0.0.1][-][h4d1upee32ta12d14s46reudsku0poue][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: Invalid validation rule: a rule must specify both attribute names and validator type. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Model.php:461
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Model.php(420): yii\base\Model->createValidators()
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Model.php(436): yii\base\Model->getValidators()
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Model.php(484): yii\base\Model->getActiveValidators('username')
+#3 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\widgets\ActiveField.php(915): yii\base\Model->isAttributeRequired('username')
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\widgets\ActiveField.php(402): yii\widgets\ActiveField->addAriaAttributes('<span class="st...')
+#5 W:\domains\Insigne\yii-application\backend\modules\admin\views\default\edit.php(23): yii\widgets\ActiveField->textInput('<span class="st...')
+#6 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\View.php(336): require('W:\\domains\\Insi...')
+#7 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('W:\\domains\\Insi...', Array)
+#8 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('W:\\domains\\Insi...', Array, Object(app\modules\admin\controllers\DefaultController))
+#9 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('edit', Array, Object(app\modules\admin\controllers\DefaultController))
+#10 W:\domains\Insigne\yii-application\backend\modules\admin\controllers\DefaultController.php(108): yii\base\Controller->render('edit', Array)
+#11 [internal function]: app\modules\admin\controllers\DefaultController->actionEdit('3')
+#12 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#13 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#14 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('edit', Array)
+#15 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/default/e...', Array)
+#16 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#18 {main}
+2019-01-25 15:53:15 [127.0.0.1][-][h4d1upee32ta12d14s46reudsku0poue][info][application] $_GET = [
+    'id' => '3'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'h4d1upee32ta12d14s46reudsku0poue'
+    '_csrf-backend' => 'a6f9919e80a5851ed07266424ea646d18f5ab05bac174c99e5850428901e284fa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"xhpuH6MN_6c7AkjZ89wrmocXD8RDEx8m\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'backend'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://backend/admin/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=h4d1upee32ta12d14s46reudsku0poue; _csrf-backend=a6f9919e80a5851ed07266424ea646d18f5ab05bac174c99e5850428901e284fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22xhpuH6MN_6c7AkjZ89wrmocXD8RDEx8m%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'backend'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '28558'
+    'REDIRECT_URL' => '/admin/default/edit'
+    'REDIRECT_QUERY_STRING' => 'id=3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=3'
+    'REQUEST_URI' => '/admin/default/edit?id=3'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1548420795.522
+    'REQUEST_TIME' => 1548420795
+    'argv' => [
+        0 => 'id=3'
+    ]
+    'argc' => 1
+]

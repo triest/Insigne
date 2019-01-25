@@ -152,7 +152,7 @@ class UserController extends ActiveController
 
         if ($post["password"] != null) {
             $hash = Yii::$app->getSecurity()->generatePasswordHash($post['password']);
-            $users["password"] =$hash;
+            $users["password"] = $hash;
         }
         if ($post["status"] != null) {
             $users["status"] = $post['status'];
@@ -181,7 +181,6 @@ class UserController extends ActiveController
         $users->save(false);
 
         Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
-        // return $json;
     }
 
 }
