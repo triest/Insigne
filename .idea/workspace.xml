@@ -1,89 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a83ccce-360c-4867-8d0f-4e729b3a1cab" name="Default" comment="Update user">
+    <list default="true" id="1a83ccce-360c-4867-8d0f-4e729b3a1cab" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/models/EditForm.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/runtime/debug/index.data" beforeDir="false" afterPath="$PROJECT_DIR$/api/runtime/debug/index.data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/SignupForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/SignupForm.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/modules/admin/controllers/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/admin/controllers/DefaultController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5c44df84c6672.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5c44e06c356a9.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5c44e06d30778.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5c44e06d7809a.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5c44e0701d447.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5c44e0727ecb7.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5c44e072d3bc3.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5c44e1a26ae07.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5c44e1a27e966.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5c44e1b2cb18c.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5c44e1b4e3876.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5c44e1b537de4.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5c44e4fb30f37.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5c44e4fd7340a.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5c44e4fdc5d27.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5c44e692b5b60.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5c44e7e84df7e.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5c44e7e8a6f98.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5c44f4d05e7a0.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5c44f4d06cf81.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5c44f4d201152.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5c44f4d20ed01.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5c44f4e19c29b.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5c44f4e1be2fe.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5c44f4e6d05c0.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5c44f4e97abca.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5c44f4eb96fa7.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5c44f4f08eb83.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5c44f4f41b4ee.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5c44f52d806ea.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5c44f53b10373.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5c44f59eb9a7a.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5c44f5b32dea8.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5c44f80c508cd.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5c44f80e5ff17.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5c44f80e6ee5b.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5c457f0e00d2b.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5c457f0e41a38.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5c457fd2877a1.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5c457fe71ee9e.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/modules/admin/views/default/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/admin/views/default/edit.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/runtime/debug/index.data" beforeDir="false" afterPath="$PROJECT_DIR$/backend/runtime/debug/index.data" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/runtime/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/backend/runtime/logs/app.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/models/SignupForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/models/SignupForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c40e8be02ff6.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c40e8bea686a.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c40e8bfc9736.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c40e8c06b9f0.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c40e8c0ed747.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c40e8e06c811.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c40e92569e93.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c40e92601752.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c40e927184a8.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c40e92f94e35.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c40e9f9f321e.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c40e9feaac62.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c40ee584947b.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c40ee5870096.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c40ee59f1677.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c40ee5ab03d8.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c40ee5c7df50.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c40ee5f256a5.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c40ee609774b.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c40ee8f6be68.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c40ee9088286.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c40ee909f3f2.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c40ee9205464.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c40ee929563e.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c40ee92af206.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c40ee9a1d0b2.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c40fe0a9fbb6.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c442b9975f55.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c442bae79bb9.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c4435beac278.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c44361f16790.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c4436b68fad9.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c4436e325a9b.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/index.data" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/runtime/debug/index.data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/runtime/logs/app.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -97,6 +22,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backend/modules/admin/controllers/DefaultController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="379">
+              <caret line="97" column="64" selection-start-line="97" selection-start-column="64" selection-end-line="97" selection-end-column="64" />
+              <folding>
+                <element signature="e#49#57#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EditForm.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/models/EditForm.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/controllers/UserController.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -109,34 +55,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/backend/modules/admin/controllers/DefaultController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="96" column="27" selection-start-line="96" selection-start-column="27" selection-end-line="96" selection-end-column="27" />
-              <folding>
-                <element signature="e#47#55#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SignupForm.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/models/SignupForm.php">
+        <entry file="file://$PROJECT_DIR$/backend/models/SignupForm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="64" column="24" lean-forward="true" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+            <state relative-caret-position="374">
+              <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SiteController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/controllers/SiteController.php">
+      <file leaf-file-name="AuthController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/controllers/AuthController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="272">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="34" />
               <folding>
-                <element signature="e#40#48#0#PHP" expanded="true" />
+                <element signature="e#122#130#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -189,10 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/console/migrations/m190119_204903_add_date_end_subscription.php" />
-        <option value="$PROJECT_DIR$/common/config/bootstrap.php" />
-        <option value="$PROJECT_DIR$/frontend/views/site/signup.php" />
-        <option value="$PROJECT_DIR$/backend/modules/admin/views/default/edit.php" />
         <option value="$PROJECT_DIR$/api/controllers/PostController.php" />
         <option value="$PROJECT_DIR$/api/controllers/UsersController.php" />
         <option value="$PROJECT_DIR$/backend/controllers/UserController.php" />
@@ -239,6 +169,10 @@
         <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/resources/views/requwest/myRequwest.blade.php" />
         <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/resources/views/requwest/whoCanSee.blade.php" />
         <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/app/Http/Controllers/PrivateController.php" />
+        <option value="$PROJECT_DIR$/backend/models/SignupForm.php" />
+        <option value="$PROJECT_DIR$/backend/modules/admin/views/default/edit.php" />
+        <option value="$PROJECT_DIR$/backend/modules/admin/models/EditForm.php" />
+        <option value="$PROJECT_DIR$/backend/models/EditForm.php" />
         <option value="$PROJECT_DIR$/backend/modules/admin/controllers/DefaultController.php" />
       </list>
     </option>
@@ -354,6 +288,18 @@
               <item name="yii-application" type="b2602c69:ProjectViewProjectNode" />
               <item name="yii-application" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yii-application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yii-application" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yii-application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yii-application" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -370,6 +316,31 @@
               <item name="modules" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yii-application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yii-application" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yii-application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yii-application" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yii-application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yii-application" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yii-application" type="b2602c69:ProjectViewProjectNode" />
@@ -401,15 +372,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="W:\domains\Insigne\yii-application\backend\modules\admin\views\admin" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="W:\domains\Insigne\yii-application\backend\models" />
+      <recent name="W:\domains\Insigne\yii-application\backend\modules\admin\models" />
       <recent name="W:\domains\Insigne\yii-application\api\models" />
       <recent name="W:\domains\Insigne\yii-application" />
       <recent name="W:\domains\Insigne\yii-application\api\controllers" />
-      <recent name="W:\domains\Insigne\yii-application\api\views\user" />
-      <recent name="W:\domains\Insigne\yii-application\api\views" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="W:\domains\Insigne\yii-application\backend\modules\admin\views\admin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -445,7 +416,7 @@
       <workItem from="1548080274636" duration="25415000" />
       <workItem from="1548232817823" duration="26128000" />
       <workItem from="1548317719990" duration="14654000" />
-      <workItem from="1548401930422" duration="1593000" />
+      <workItem from="1548401930422" duration="6017000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1547705077064</created>
@@ -594,11 +565,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548261018627</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Fix update data in edit form after save">
+      <created>1548404156006</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1548404156006</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175549000" />
+    <option name="totallyTimeSpent" value="179973000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -655,24 +633,15 @@
     <MESSAGE value="Add custom actions to API" />
     <MESSAGE value="Get one user" />
     <MESSAGE value="Update user" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update user" />
+    <MESSAGE value="Fix update data in edit form after save" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix update data in edit form after save" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/api/controllers/PostController.php" />
-    <entry file="file://$PROJECT_DIR$/api/controllers/.gitkeep" />
-    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/ArrayHelper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/controllers/UsersController.php" />
     <entry file="file://$PROJECT_DIR$/api/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -897,13 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/controllers/AuthController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/controllers/SiteController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -931,12 +893,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/backend/controllers/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="34" />
+          <folding>
+            <element signature="e#122#130#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/models/SignupForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/modules/admin/views/default/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/modules/admin/models/EditForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/models/EditForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/backend/modules/admin/controllers/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="96" column="27" selection-start-line="96" selection-start-column="27" selection-end-line="96" selection-end-column="27" />
+        <state relative-caret-position="379">
+          <caret line="97" column="64" selection-start-line="97" selection-start-column="64" selection-end-line="97" selection-end-column="64" />
           <folding>
-            <element signature="e#47#55#0#PHP" expanded="true" />
+            <element signature="e#49#57#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

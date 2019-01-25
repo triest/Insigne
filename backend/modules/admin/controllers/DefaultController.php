@@ -10,6 +10,7 @@ use yii\web\Controller;
 use yii\web\Response;
 use common\models\User;
 use app\models\SignupForm;
+use app\models\EditForm;
 
 /**
  * Default controller for the `admin` module
@@ -75,17 +76,17 @@ class DefaultController extends Controller
      */
     public function actionEdit($id)
     {
-        $model = User::find()->where(['id' => $id])->one();
+        $model2 = User::find()->where(['id' => $id])->one();
+        $model = new EditForm();
         if ($model->load(Yii::$app->request->post())) {
-
             $post = Yii::$app->request->post();
+            $user_post = $post["EditForm"];
             $user = User::find()->where(['id' => $id])->one();
-            $user_post = $post["User"];
-            //$username
             $user->username = $user_post["username"];
             $user->email = $user_post["email"];
             $user->family = $user_post["family"];
             $user->patronymic = $user_post["patronymic"];
+            //     die("pass");
             if ($user_post["password"] != null) {
                 try {
                     $hash = Yii::$app->getSecurity()->generatePasswordHash($user_post["password"]);
@@ -94,14 +95,19 @@ class DefaultController extends Controller
                 }
             }
             $user->save(false);
-            $model = $user;
+            $model2 = User::find()->where(['id' => $id])->one();
         } else {
             $errors = $model->errors;
         }
-
+        $model->username = $model2->username;
+        $model->email = $model2->email;
+        $model->name = $model2->name;
+        $model->patronymic = $model2->patronymic;
+        $model->family = $model2->family;
         return $this->render('edit', [
             'model' => $model,
         ]);
     }
-    
+
+
 }

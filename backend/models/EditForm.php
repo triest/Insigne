@@ -13,7 +13,7 @@ use yii\base\Model;
 use yii\base\Security;
 use yii\base\CSecurityManager;
 
-class SignupForm extends Model
+class EditForm extends Model
 {
     public $username;
     public $email;
@@ -28,7 +28,7 @@ class SignupForm extends Model
     public function rules()
     {
         return [
-            [['username', 'email', 'password'], 'required'],
+            [['username', 'email'], 'required'],
             ['password_repeat', 'required'],
             ['password_repeat', 'compare', 'compareAttribute' => 'password', 'message' => "Passwords don't match"],
             [['username'], 'string'],
