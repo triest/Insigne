@@ -35,7 +35,28 @@ class SignupForm extends Model
             ],
             ['username', 'string', 'min' => 2, 'max' => 255],
             [['family', 'name', 'patronymic'], 'string'],
-            [['family', 'name', 'patronymic'], 'required'],
+            //  [['family', 'name', 'patronymic'], 'required'],
+            [
+                ['family'],
+                'required',
+                'when' => function ($model) {
+                    return $model->name != null and $model->patronymic != null;
+                }
+            ],
+            [
+                ['name'],
+                'required',
+                'when' => function ($model) {
+                    return $model->family != null and $model->patronymic != null;
+                }
+            ],
+            [
+                ['patronymic'],
+                'required',
+                'when' => function ($model) {
+                    return $model->family != null and $model->name != null;
+                }
+            ],
             ['email', 'trim'],
             ['email', 'required'],
             ['email', 'email'],
@@ -68,9 +89,9 @@ class SignupForm extends Model
         $user->username = $this->username;
         $user->email = $this->email;
         $user->setPassword($this->password);
-        $user->name=$this->name;
-        $user->family=$this->family;
-        $user->patronymic=$this->patronymic;
+        $user->name = $this->name;
+        $user->family = $this->family;
+        $user->patronymic = $this->patronymic;
         $user->generateAuthKey();
 
         return $user->save() ? $user : null;
