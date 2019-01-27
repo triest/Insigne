@@ -37,26 +37,31 @@ class SignupForm extends Model
             [['family', 'name', 'patronymic'], 'string'],
             //  [['family', 'name', 'patronymic'], 'required'],
             [
-                ['family'],
-                'required',
-                'when' => function ($model) {
-                    return $model->name != null and $model->patronymic != null;
-                }
+                ['family'], 'required', 'when' => function ($model) {
+                return $model->patronymic !== null || $model->name !== null;
+            },
+                'whenClient' => 'function(attribute,value){
+            return $("#' . \yii\helpers\Html::getInputId($this, 'patronymic') . '").val()!=="" || $("#' . \yii\helpers\Html::getInputId($this, 'name') . '").val() !=="";
+        }',
             ],
             [
-                ['name'],
-                'required',
-                'when' => function ($model) {
-                    return $model->family != null and $model->patronymic != null;
-                }
+                ['patronymic'], 'required', 'when' => function ($model) {
+                return $model->family !== null || $model->name !== null;
+            },
+                'whenClient' => 'function(attribue,value){
+            return $("#' . \yii\helpers\Html::getInputId($this, 'family') . '").val()!=="" || $("#' . \yii\helpers\Html::getInputId($this, 'name') . '").val() !=="";
+        }',
             ],
             [
-                ['patronymic'],
-                'required',
-                'when' => function ($model) {
-                    return $model->family != null and $model->name != null;
-                }
+                ['name'], 'required', 'when' => function ($model) {
+                return $model->patronymic !== null || $model->family !== null;
+            },
+                'whenClient' => 'function(attribute,value){
+            return $("#' . \yii\helpers\Html::getInputId($this, 'patronymic') . '").val()!=="" || $("#' . \yii\helpers\Html::getInputId($this, 'name') . '").val() !=="";
+        }',
             ],
+
+
             ['email', 'trim'],
             ['email', 'required'],
             ['email', 'email'],
