@@ -11808,3 +11808,2427 @@ $_SERVER = [
     'argv' => []
     'argc' => 0
 ]
+2019-01-28 19:32:06 [127.0.0.1][6][es6vpegl06luem4a8k75bft8hsr45tlp][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(61): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#9 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('user/index', Array)
+#10 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 W:\domains\Insigne\yii-application\api\web\index.php(17): yii\base\Application->run()
+#12 {main}
+2019-01-28 19:32:06 [127.0.0.1][6][es6vpegl06luem4a8k75bft8hsr45tlp][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '0b024c69fc57ffb2d4422bc110ecde0559b26a9dccb5f5bb8ce161288abff94ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"OigFnVjW_Dhrj-TlcR8gKnR6hP6vl_Du\";}'
+    '_csrf-backend' => '3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX\";}'
+    '_csrf-frontend' => 'cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL\";}'
+    'advanced-backend' => 'es6vpegl06luem4a8k75bft8hsr45tlp'
+    'advanced-frontend' => 'npllkbntnkjqo32s6hdi47o34dnnd3bj'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/?id=54'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api'
+    'HTTP_USER_AGENT' => 'insomnia/6.3.2'
+    'HTTP_COOKIE' => '_csrf=0b024c69fc57ffb2d4422bc110ecde0559b26a9dccb5f5bb8ce161288abff94ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22OigFnVjW_Dhrj-TlcR8gKnR6hP6vl_Du%22%3B%7D; _csrf-backend=3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX%22%3B%7D; _csrf-frontend=cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL%22%3B%7D; advanced-backend=es6vpegl06luem4a8k75bft8hsr45tlp; advanced-frontend=npllkbntnkjqo32s6hdi47o34dnnd3bj'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '179'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/api/web/index.php'
+    'REMOTE_PORT' => '48950'
+    'REDIRECT_URL' => '/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'triest1'
+    'PHP_AUTH_PW' => '2af28'
+    'REQUEST_TIME_FLOAT' => 1548693126.573
+    'REQUEST_TIME' => 1548693126
+    'argv' => []
+    'argc' => 0
+]
+2019-01-28 19:35:42 [127.0.0.1][6][jjuai71vkcasaaulqtmpp1tub7rs02ki][error][Error] Error: Using $this when not in object context in W:\domains\Insigne\yii-application\common\models\User.php:163
+Stack trace:
+#0 W:\domains\Insigne\yii-application\common\models\User.php(78): common\models\User::validatePassword('yii\\filters\\aut...')
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\User.php(298): common\models\User::findIdentityByAccessToken('triest', 'yii\\filters\\aut...')
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\HttpBasicAuth.php(110): yii\web\User->loginByAccessToken('triest', 'yii\\filters\\aut...')
+#3 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(61): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\base\InlineAction))
+#5 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#6 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#7 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#8 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#9 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#10 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#11 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('user/index', Array)
+#12 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 W:\domains\Insigne\yii-application\api\web\index.php(17): yii\base\Application->run()
+#14 {main}
+2019-01-28 19:35:41 [127.0.0.1][6][jjuai71vkcasaaulqtmpp1tub7rs02ki][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '73ae4f493bc3729caf2d42fd60a735b0e0627f9be08100bab0178600ea296e83a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ZryzLFrxMi7m2l3W6A032cuwDFYwtHtb\";}'
+    '_csrf-backend' => '3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX\";}'
+    '_csrf-frontend' => 'cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL\";}'
+    'advanced-backend' => 'jjuai71vkcasaaulqtmpp1tub7rs02ki'
+    'advanced-frontend' => 'npllkbntnkjqo32s6hdi47o34dnnd3bj'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/?id=54'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api'
+    'HTTP_USER_AGENT' => 'insomnia/6.3.2'
+    'HTTP_COOKIE' => '_csrf=73ae4f493bc3729caf2d42fd60a735b0e0627f9be08100bab0178600ea296e83a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ZryzLFrxMi7m2l3W6A032cuwDFYwtHtb%22%3B%7D; _csrf-backend=3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX%22%3B%7D; _csrf-frontend=cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL%22%3B%7D; advanced-backend=jjuai71vkcasaaulqtmpp1tub7rs02ki; advanced-frontend=npllkbntnkjqo32s6hdi47o34dnnd3bj'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '179'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/api/web/index.php'
+    'REMOTE_PORT' => '50278'
+    'REDIRECT_URL' => '/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'triest'
+    'PHP_AUTH_PW' => '2af28'
+    'REQUEST_TIME_FLOAT' => 1548693341.891
+    'REQUEST_TIME' => 1548693341
+    'argv' => []
+    'argc' => 0
+]
+2019-01-28 19:37:11 [127.0.0.1][6][jjuai71vkcasaaulqtmpp1tub7rs02ki][error][Error] Error: Using $this when not in object context in W:\domains\Insigne\yii-application\common\models\User.php:163
+Stack trace:
+#0 W:\domains\Insigne\yii-application\common\models\User.php(78): common\models\User::validatePassword('yii\\filters\\aut...')
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\User.php(298): common\models\User::findIdentityByAccessToken('triest', 'yii\\filters\\aut...')
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\HttpBasicAuth.php(110): yii\web\User->loginByAccessToken('triest', 'yii\\filters\\aut...')
+#3 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(61): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\base\InlineAction))
+#5 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#6 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#7 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#8 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#9 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#10 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#11 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('user/index', Array)
+#12 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 W:\domains\Insigne\yii-application\api\web\index.php(17): yii\base\Application->run()
+#14 {main}
+2019-01-28 19:37:11 [127.0.0.1][6][jjuai71vkcasaaulqtmpp1tub7rs02ki][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '73ae4f493bc3729caf2d42fd60a735b0e0627f9be08100bab0178600ea296e83a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ZryzLFrxMi7m2l3W6A032cuwDFYwtHtb\";}'
+    '_csrf-backend' => '3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX\";}'
+    '_csrf-frontend' => 'cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL\";}'
+    'advanced-backend' => 'jjuai71vkcasaaulqtmpp1tub7rs02ki'
+    'advanced-frontend' => 'npllkbntnkjqo32s6hdi47o34dnnd3bj'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/?id=54'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api'
+    'HTTP_USER_AGENT' => 'insomnia/6.3.2'
+    'HTTP_COOKIE' => '_csrf=73ae4f493bc3729caf2d42fd60a735b0e0627f9be08100bab0178600ea296e83a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ZryzLFrxMi7m2l3W6A032cuwDFYwtHtb%22%3B%7D; _csrf-backend=3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX%22%3B%7D; _csrf-frontend=cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL%22%3B%7D; advanced-backend=jjuai71vkcasaaulqtmpp1tub7rs02ki; advanced-frontend=npllkbntnkjqo32s6hdi47o34dnnd3bj'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '179'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/api/web/index.php'
+    'REMOTE_PORT' => '50868'
+    'REDIRECT_URL' => '/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'triest'
+    'PHP_AUTH_PW' => '2af28'
+    'REQUEST_TIME_FLOAT' => 1548693431.876
+    'REQUEST_TIME' => 1548693431
+    'argv' => []
+    'argc' => 0
+]
+2019-01-28 19:37:23 [127.0.0.1][6][jjuai71vkcasaaulqtmpp1tub7rs02ki][error][Error] Error: Using $this when not in object context in W:\domains\Insigne\yii-application\common\models\User.php:163
+Stack trace:
+#0 W:\domains\Insigne\yii-application\common\models\User.php(78): common\models\User::validatePassword('yii\\filters\\aut...')
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\User.php(298): common\models\User::findIdentityByAccessToken('triest', 'yii\\filters\\aut...')
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\HttpBasicAuth.php(110): yii\web\User->loginByAccessToken('triest', 'yii\\filters\\aut...')
+#3 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(61): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\base\InlineAction))
+#5 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#6 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#7 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#8 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#9 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#10 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#11 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('user/index', Array)
+#12 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 W:\domains\Insigne\yii-application\api\web\index.php(17): yii\base\Application->run()
+#14 {main}
+2019-01-28 19:37:23 [127.0.0.1][6][jjuai71vkcasaaulqtmpp1tub7rs02ki][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '73ae4f493bc3729caf2d42fd60a735b0e0627f9be08100bab0178600ea296e83a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ZryzLFrxMi7m2l3W6A032cuwDFYwtHtb\";}'
+    '_csrf-backend' => '3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX\";}'
+    '_csrf-frontend' => 'cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL\";}'
+    'advanced-backend' => 'jjuai71vkcasaaulqtmpp1tub7rs02ki'
+    'advanced-frontend' => 'npllkbntnkjqo32s6hdi47o34dnnd3bj'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/?id=54'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api'
+    'HTTP_USER_AGENT' => 'insomnia/6.3.2'
+    'HTTP_COOKIE' => '_csrf=73ae4f493bc3729caf2d42fd60a735b0e0627f9be08100bab0178600ea296e83a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ZryzLFrxMi7m2l3W6A032cuwDFYwtHtb%22%3B%7D; _csrf-backend=3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX%22%3B%7D; _csrf-frontend=cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL%22%3B%7D; advanced-backend=jjuai71vkcasaaulqtmpp1tub7rs02ki; advanced-frontend=npllkbntnkjqo32s6hdi47o34dnnd3bj'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '179'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/api/web/index.php'
+    'REMOTE_PORT' => '50951'
+    'REDIRECT_URL' => '/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'triest'
+    'PHP_AUTH_PW' => '2af28'
+    'REQUEST_TIME_FLOAT' => 1548693443.475
+    'REQUEST_TIME' => 1548693443
+    'argv' => []
+    'argc' => 0
+]
+2019-01-28 19:40:53 [127.0.0.1][6][jjuai71vkcasaaulqtmpp1tub7rs02ki][error][Error] Error: Undefined class constant 'password_hash' in W:\domains\Insigne\yii-application\common\models\User.php:163
+Stack trace:
+#0 W:\domains\Insigne\yii-application\common\models\User.php(78): common\models\User::validatePassword('yii\\filters\\aut...')
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\User.php(298): common\models\User::findIdentityByAccessToken('triest', 'yii\\filters\\aut...')
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\HttpBasicAuth.php(110): yii\web\User->loginByAccessToken('triest', 'yii\\filters\\aut...')
+#3 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(61): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\base\InlineAction))
+#5 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#6 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#7 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#8 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#9 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#10 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#11 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('user/index', Array)
+#12 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 W:\domains\Insigne\yii-application\api\web\index.php(17): yii\base\Application->run()
+#14 {main}
+2019-01-28 19:40:53 [127.0.0.1][6][jjuai71vkcasaaulqtmpp1tub7rs02ki][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '73ae4f493bc3729caf2d42fd60a735b0e0627f9be08100bab0178600ea296e83a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ZryzLFrxMi7m2l3W6A032cuwDFYwtHtb\";}'
+    '_csrf-backend' => '3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX\";}'
+    '_csrf-frontend' => 'cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL\";}'
+    'advanced-backend' => 'jjuai71vkcasaaulqtmpp1tub7rs02ki'
+    'advanced-frontend' => 'npllkbntnkjqo32s6hdi47o34dnnd3bj'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/?id=54'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api'
+    'HTTP_USER_AGENT' => 'insomnia/6.3.2'
+    'HTTP_COOKIE' => '_csrf=73ae4f493bc3729caf2d42fd60a735b0e0627f9be08100bab0178600ea296e83a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ZryzLFrxMi7m2l3W6A032cuwDFYwtHtb%22%3B%7D; _csrf-backend=3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX%22%3B%7D; _csrf-frontend=cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL%22%3B%7D; advanced-backend=jjuai71vkcasaaulqtmpp1tub7rs02ki; advanced-frontend=npllkbntnkjqo32s6hdi47o34dnnd3bj'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '179'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/api/web/index.php'
+    'REMOTE_PORT' => '52202'
+    'REDIRECT_URL' => '/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'triest'
+    'PHP_AUTH_PW' => '2af28'
+    'REQUEST_TIME_FLOAT' => 1548693653.518
+    'REQUEST_TIME' => 1548693653
+    'argv' => []
+    'argc' => 0
+]
+2019-01-28 19:41:26 [127.0.0.1][6][jjuai71vkcasaaulqtmpp1tub7rs02ki][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(61): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#9 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('user/index', Array)
+#10 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 W:\domains\Insigne\yii-application\api\web\index.php(17): yii\base\Application->run()
+#12 {main}
+2019-01-28 19:41:26 [127.0.0.1][6][jjuai71vkcasaaulqtmpp1tub7rs02ki][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '73ae4f493bc3729caf2d42fd60a735b0e0627f9be08100bab0178600ea296e83a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ZryzLFrxMi7m2l3W6A032cuwDFYwtHtb\";}'
+    '_csrf-backend' => '3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX\";}'
+    '_csrf-frontend' => 'cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL\";}'
+    'advanced-backend' => 'jjuai71vkcasaaulqtmpp1tub7rs02ki'
+    'advanced-frontend' => 'npllkbntnkjqo32s6hdi47o34dnnd3bj'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/?id=54'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api'
+    'HTTP_USER_AGENT' => 'insomnia/6.3.2'
+    'HTTP_COOKIE' => '_csrf=73ae4f493bc3729caf2d42fd60a735b0e0627f9be08100bab0178600ea296e83a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ZryzLFrxMi7m2l3W6A032cuwDFYwtHtb%22%3B%7D; _csrf-backend=3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX%22%3B%7D; _csrf-frontend=cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL%22%3B%7D; advanced-backend=jjuai71vkcasaaulqtmpp1tub7rs02ki; advanced-frontend=npllkbntnkjqo32s6hdi47o34dnnd3bj'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '179'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/api/web/index.php'
+    'REMOTE_PORT' => '52411'
+    'REDIRECT_URL' => '/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'triest'
+    'PHP_AUTH_PW' => '2af28'
+    'REQUEST_TIME_FLOAT' => 1548693686.256
+    'REQUEST_TIME' => 1548693686
+    'argv' => []
+    'argc' => 0
+]
+2019-01-28 19:42:19 [127.0.0.1][6][9vooidpo0tf4p16h93mns0lvhrnhc0t5][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(61): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#9 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('user/index', Array)
+#10 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 W:\domains\Insigne\yii-application\api\web\index.php(17): yii\base\Application->run()
+#12 {main}
+2019-01-28 19:42:18 [127.0.0.1][6][9vooidpo0tf4p16h93mns0lvhrnhc0t5][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'aae9c8948ba1cd5ffe3b72aa26dbbee23284286859ac0e99b00d3e10ad555f8ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-Gxp_CDoxGFI8cPvONSMaqlk-0qg3cwG\";}'
+    '_csrf-backend' => '3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX\";}'
+    '_csrf-frontend' => 'cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL\";}'
+    'advanced-backend' => '9vooidpo0tf4p16h93mns0lvhrnhc0t5'
+    'advanced-frontend' => 'npllkbntnkjqo32s6hdi47o34dnnd3bj'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/?id=54'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api'
+    'HTTP_USER_AGENT' => 'insomnia/6.3.2'
+    'HTTP_COOKIE' => '_csrf=aae9c8948ba1cd5ffe3b72aa26dbbee23284286859ac0e99b00d3e10ad555f8ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-Gxp_CDoxGFI8cPvONSMaqlk-0qg3cwG%22%3B%7D; _csrf-backend=3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX%22%3B%7D; _csrf-frontend=cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL%22%3B%7D; advanced-backend=9vooidpo0tf4p16h93mns0lvhrnhc0t5; advanced-frontend=npllkbntnkjqo32s6hdi47o34dnnd3bj'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '179'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/api/web/index.php'
+    'REMOTE_PORT' => '52740'
+    'REDIRECT_URL' => '/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'triest'
+    'PHP_AUTH_PW' => '2af28'
+    'REQUEST_TIME_FLOAT' => 1548693738.612
+    'REQUEST_TIME' => 1548693738
+    'argv' => []
+    'argc' => 0
+]
+2019-01-28 19:42:38 [127.0.0.1][6][9vooidpo0tf4p16h93mns0lvhrnhc0t5][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(61): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#9 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('user/index', Array)
+#10 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 W:\domains\Insigne\yii-application\api\web\index.php(17): yii\base\Application->run()
+#12 {main}
+2019-01-28 19:42:37 [127.0.0.1][6][9vooidpo0tf4p16h93mns0lvhrnhc0t5][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'aae9c8948ba1cd5ffe3b72aa26dbbee23284286859ac0e99b00d3e10ad555f8ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-Gxp_CDoxGFI8cPvONSMaqlk-0qg3cwG\";}'
+    '_csrf-backend' => '3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX\";}'
+    '_csrf-frontend' => 'cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL\";}'
+    'advanced-backend' => '9vooidpo0tf4p16h93mns0lvhrnhc0t5'
+    'advanced-frontend' => 'npllkbntnkjqo32s6hdi47o34dnnd3bj'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/?id=54'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api'
+    'HTTP_USER_AGENT' => 'insomnia/6.3.2'
+    'HTTP_COOKIE' => '_csrf=aae9c8948ba1cd5ffe3b72aa26dbbee23284286859ac0e99b00d3e10ad555f8ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-Gxp_CDoxGFI8cPvONSMaqlk-0qg3cwG%22%3B%7D; _csrf-backend=3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX%22%3B%7D; _csrf-frontend=cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL%22%3B%7D; advanced-backend=9vooidpo0tf4p16h93mns0lvhrnhc0t5; advanced-frontend=npllkbntnkjqo32s6hdi47o34dnnd3bj'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '179'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/api/web/index.php'
+    'REMOTE_PORT' => '52852'
+    'REDIRECT_URL' => '/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'triest'
+    'PHP_AUTH_PW' => '2af28'
+    'REQUEST_TIME_FLOAT' => 1548693757.576
+    'REQUEST_TIME' => 1548693757
+    'argv' => []
+    'argc' => 0
+]
+2019-01-28 19:43:25 [127.0.0.1][6][9vooidpo0tf4p16h93mns0lvhrnhc0t5][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(61): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#9 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('user/index', Array)
+#10 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 W:\domains\Insigne\yii-application\api\web\index.php(17): yii\base\Application->run()
+#12 {main}
+2019-01-28 19:43:24 [127.0.0.1][6][9vooidpo0tf4p16h93mns0lvhrnhc0t5][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'aae9c8948ba1cd5ffe3b72aa26dbbee23284286859ac0e99b00d3e10ad555f8ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-Gxp_CDoxGFI8cPvONSMaqlk-0qg3cwG\";}'
+    '_csrf-backend' => '3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX\";}'
+    '_csrf-frontend' => 'cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL\";}'
+    'advanced-backend' => '9vooidpo0tf4p16h93mns0lvhrnhc0t5'
+    'advanced-frontend' => 'npllkbntnkjqo32s6hdi47o34dnnd3bj'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/?id=54'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api'
+    'HTTP_USER_AGENT' => 'insomnia/6.3.2'
+    'HTTP_COOKIE' => '_csrf=aae9c8948ba1cd5ffe3b72aa26dbbee23284286859ac0e99b00d3e10ad555f8ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-Gxp_CDoxGFI8cPvONSMaqlk-0qg3cwG%22%3B%7D; _csrf-backend=3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX%22%3B%7D; _csrf-frontend=cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL%22%3B%7D; advanced-backend=9vooidpo0tf4p16h93mns0lvhrnhc0t5; advanced-frontend=npllkbntnkjqo32s6hdi47o34dnnd3bj'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '179'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/api/web/index.php'
+    'REMOTE_PORT' => '53139'
+    'REDIRECT_URL' => '/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'triest'
+    'PHP_AUTH_PW' => '2af28'
+    'REQUEST_TIME_FLOAT' => 1548693804.329
+    'REQUEST_TIME' => 1548693804
+    'argv' => []
+    'argc' => 0
+]
+2019-01-28 19:47:17 [127.0.0.1][-][00vn1sv9drcbu8hv3a427n8dlasm3111][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(76): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#8 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('user/index', Array)
+#9 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 W:\domains\Insigne\yii-application\api\web\index.php(17): yii\base\Application->run()
+#11 {main}
+2019-01-28 19:47:17 [127.0.0.1][-][00vn1sv9drcbu8hv3a427n8dlasm3111][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '4fc075f81fcc487bf14372977706b505f76a894a0906c6a60c4066a127cda048a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lBtmFrBz5AKRx-2cLr4It4mK8tHaHYwq\";}'
+    '_csrf-backend' => '3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX\";}'
+    '_csrf-frontend' => 'cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL\";}'
+    'advanced-backend' => '00vn1sv9drcbu8hv3a427n8dlasm3111'
+    'advanced-frontend' => 'npllkbntnkjqo32s6hdi47o34dnnd3bj'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api'
+    'HTTP_USER_AGENT' => 'insomnia/6.3.2'
+    'HTTP_COOKIE' => '_csrf=4fc075f81fcc487bf14372977706b505f76a894a0906c6a60c4066a127cda048a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lBtmFrBz5AKRx-2cLr4It4mK8tHaHYwq%22%3B%7D; _csrf-backend=3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX%22%3B%7D; _csrf-frontend=cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL%22%3B%7D; advanced-backend=00vn1sv9drcbu8hv3a427n8dlasm3111; advanced-frontend=npllkbntnkjqo32s6hdi47o34dnnd3bj'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '179'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/api/web/index.php'
+    'REMOTE_PORT' => '54663'
+    'REDIRECT_URL' => '/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1548694037.907
+    'REQUEST_TIME' => 1548694037
+    'argv' => []
+    'argc' => 0
+]
+2019-01-28 19:47:21 [127.0.0.1][6][9vooidpo0tf4p16h93mns0lvhrnhc0t5][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(61): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#9 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('user/index', Array)
+#10 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 W:\domains\Insigne\yii-application\api\web\index.php(17): yii\base\Application->run()
+#12 {main}
+2019-01-28 19:47:20 [127.0.0.1][6][9vooidpo0tf4p16h93mns0lvhrnhc0t5][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'aae9c8948ba1cd5ffe3b72aa26dbbee23284286859ac0e99b00d3e10ad555f8ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-Gxp_CDoxGFI8cPvONSMaqlk-0qg3cwG\";}'
+    '_csrf-backend' => '3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX\";}'
+    '_csrf-frontend' => 'cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL\";}'
+    'advanced-backend' => '9vooidpo0tf4p16h93mns0lvhrnhc0t5'
+    'advanced-frontend' => 'npllkbntnkjqo32s6hdi47o34dnnd3bj'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/?id=54'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api'
+    'HTTP_USER_AGENT' => 'insomnia/6.3.2'
+    'HTTP_COOKIE' => '_csrf=aae9c8948ba1cd5ffe3b72aa26dbbee23284286859ac0e99b00d3e10ad555f8ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-Gxp_CDoxGFI8cPvONSMaqlk-0qg3cwG%22%3B%7D; _csrf-backend=3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX%22%3B%7D; _csrf-frontend=cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL%22%3B%7D; advanced-backend=9vooidpo0tf4p16h93mns0lvhrnhc0t5; advanced-frontend=npllkbntnkjqo32s6hdi47o34dnnd3bj'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '179'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/api/web/index.php'
+    'REMOTE_PORT' => '54684'
+    'REDIRECT_URL' => '/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'triest'
+    'PHP_AUTH_PW' => '2af28'
+    'REQUEST_TIME_FLOAT' => 1548694040.977
+    'REQUEST_TIME' => 1548694040
+    'argv' => []
+    'argc' => 0
+]
+2019-01-28 19:47:55 [127.0.0.1][6][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(61): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#9 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('user/index', Array)
+#10 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 W:\domains\Insigne\yii-application\api\web\index.php(17): yii\base\Application->run()
+#12 {main}
+2019-01-28 19:47:54 [127.0.0.1][6][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'aae9c8948ba1cd5ffe3b72aa26dbbee23284286859ac0e99b00d3e10ad555f8ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-Gxp_CDoxGFI8cPvONSMaqlk-0qg3cwG\";}'
+    '_csrf-backend' => '3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX\";}'
+    '_csrf-frontend' => 'cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL\";}'
+    'advanced-backend' => '9vooidpo0tf4p16h93mns0lvhrnhc0t5'
+    'advanced-frontend' => 'npllkbntnkjqo32s6hdi47o34dnnd3bj'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/?id=54'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api'
+    'HTTP_USER_AGENT' => 'insomnia/6.3.2'
+    'HTTP_COOKIE' => '_csrf=aae9c8948ba1cd5ffe3b72aa26dbbee23284286859ac0e99b00d3e10ad555f8ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-Gxp_CDoxGFI8cPvONSMaqlk-0qg3cwG%22%3B%7D; _csrf-backend=3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX%22%3B%7D; _csrf-frontend=cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL%22%3B%7D; advanced-backend=9vooidpo0tf4p16h93mns0lvhrnhc0t5; advanced-frontend=npllkbntnkjqo32s6hdi47o34dnnd3bj'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '179'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/api/web/index.php'
+    'REMOTE_PORT' => '54903'
+    'REDIRECT_URL' => '/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'triest'
+    'PHP_AUTH_PW' => '2af28'
+    'REQUEST_TIME_FLOAT' => 1548694074.924
+    'REQUEST_TIME' => 1548694074
+    'argv' => []
+    'argc' => 0
+]
+2019-01-28 19:48:14 [127.0.0.1][6][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(61): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#9 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('user/index', Array)
+#10 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 W:\domains\Insigne\yii-application\api\web\index.php(17): yii\base\Application->run()
+#12 {main}
+2019-01-28 19:48:14 [127.0.0.1][6][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'aae9c8948ba1cd5ffe3b72aa26dbbee23284286859ac0e99b00d3e10ad555f8ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-Gxp_CDoxGFI8cPvONSMaqlk-0qg3cwG\";}'
+    '_csrf-backend' => '3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX\";}'
+    '_csrf-frontend' => 'cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL\";}'
+    'advanced-backend' => '9vooidpo0tf4p16h93mns0lvhrnhc0t5'
+    'advanced-frontend' => 'npllkbntnkjqo32s6hdi47o34dnnd3bj'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/?id=54'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api'
+    'HTTP_USER_AGENT' => 'insomnia/6.3.2'
+    'HTTP_COOKIE' => '_csrf=aae9c8948ba1cd5ffe3b72aa26dbbee23284286859ac0e99b00d3e10ad555f8ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-Gxp_CDoxGFI8cPvONSMaqlk-0qg3cwG%22%3B%7D; _csrf-backend=3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX%22%3B%7D; _csrf-frontend=cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL%22%3B%7D; advanced-backend=9vooidpo0tf4p16h93mns0lvhrnhc0t5; advanced-frontend=npllkbntnkjqo32s6hdi47o34dnnd3bj'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '179'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/api/web/index.php'
+    'REMOTE_PORT' => '55008'
+    'REDIRECT_URL' => '/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'triest'
+    'PHP_AUTH_PW' => '22d2af28'
+    'REQUEST_TIME_FLOAT' => 1548694093.991
+    'REQUEST_TIME' => 1548694093
+    'argv' => []
+    'argc' => 0
+]
+2019-01-28 19:48:24 [127.0.0.1][6][9vooidpo0tf4p16h93mns0lvhrnhc0t5][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(61): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#9 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('user/index', Array)
+#10 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 W:\domains\Insigne\yii-application\api\web\index.php(17): yii\base\Application->run()
+#12 {main}
+2019-01-28 19:48:23 [127.0.0.1][6][9vooidpo0tf4p16h93mns0lvhrnhc0t5][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'aae9c8948ba1cd5ffe3b72aa26dbbee23284286859ac0e99b00d3e10ad555f8ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-Gxp_CDoxGFI8cPvONSMaqlk-0qg3cwG\";}'
+    '_csrf-backend' => '3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX\";}'
+    '_csrf-frontend' => 'cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL\";}'
+    'advanced-backend' => '9vooidpo0tf4p16h93mns0lvhrnhc0t5'
+    'advanced-frontend' => 'npllkbntnkjqo32s6hdi47o34dnnd3bj'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/?id=54'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api'
+    'HTTP_USER_AGENT' => 'insomnia/6.3.2'
+    'HTTP_COOKIE' => '_csrf=aae9c8948ba1cd5ffe3b72aa26dbbee23284286859ac0e99b00d3e10ad555f8ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-Gxp_CDoxGFI8cPvONSMaqlk-0qg3cwG%22%3B%7D; _csrf-backend=3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX%22%3B%7D; _csrf-frontend=cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL%22%3B%7D; advanced-backend=9vooidpo0tf4p16h93mns0lvhrnhc0t5; advanced-frontend=npllkbntnkjqo32s6hdi47o34dnnd3bj'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '179'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/api/web/index.php'
+    'REMOTE_PORT' => '55008'
+    'REDIRECT_URL' => '/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'triest'
+    'PHP_AUTH_PW' => '22d2af28'
+    'REQUEST_TIME_FLOAT' => 1548694103.556
+    'REQUEST_TIME' => 1548694103
+    'argv' => []
+    'argc' => 0
+]
+2019-01-28 20:01:04 [127.0.0.1][6][trp7iqg0m23ac7m7jup7p5fc77htomtj][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(61): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#9 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('user/index', Array)
+#10 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 W:\domains\Insigne\yii-application\api\web\index.php(17): yii\base\Application->run()
+#12 {main}
+2019-01-28 20:01:03 [127.0.0.1][6][trp7iqg0m23ac7m7jup7p5fc77htomtj][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ed1689b925452d985e02a2dec0b7aa5e87903e2ef26ed87f7110800c01c10a0ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"LbeSlJM8zPcnXiuhdIyv9VmukuOWw1_i\";}'
+    '_csrf-backend' => '3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX\";}'
+    '_csrf-frontend' => 'cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL\";}'
+    'advanced-backend' => 'trp7iqg0m23ac7m7jup7p5fc77htomtj'
+    'advanced-frontend' => 'npllkbntnkjqo32s6hdi47o34dnnd3bj'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/?id=54'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api'
+    'HTTP_USER_AGENT' => 'insomnia/6.3.2'
+    'HTTP_COOKIE' => '_csrf=ed1689b925452d985e02a2dec0b7aa5e87903e2ef26ed87f7110800c01c10a0ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22LbeSlJM8zPcnXiuhdIyv9VmukuOWw1_i%22%3B%7D; _csrf-backend=3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX%22%3B%7D; _csrf-frontend=cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL%22%3B%7D; advanced-backend=trp7iqg0m23ac7m7jup7p5fc77htomtj; advanced-frontend=npllkbntnkjqo32s6hdi47o34dnnd3bj'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '179'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/api/web/index.php'
+    'REMOTE_PORT' => '59881'
+    'REDIRECT_URL' => '/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'triest'
+    'PHP_AUTH_PW' => '22d2af28'
+    'REQUEST_TIME_FLOAT' => 1548694863.398
+    'REQUEST_TIME' => 1548694863
+    'argv' => []
+    'argc' => 0
+]
+2019-01-28 20:06:46 [127.0.0.1][6][trp7iqg0m23ac7m7jup7p5fc77htomtj][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(61): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#9 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('user/index', Array)
+#10 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 W:\domains\Insigne\yii-application\api\web\index.php(17): yii\base\Application->run()
+#12 {main}
+2019-01-28 20:06:46 [127.0.0.1][6][trp7iqg0m23ac7m7jup7p5fc77htomtj][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ed1689b925452d985e02a2dec0b7aa5e87903e2ef26ed87f7110800c01c10a0ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"LbeSlJM8zPcnXiuhdIyv9VmukuOWw1_i\";}'
+    '_csrf-backend' => '3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX\";}'
+    '_csrf-frontend' => 'cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL\";}'
+    'advanced-backend' => 'trp7iqg0m23ac7m7jup7p5fc77htomtj'
+    'advanced-frontend' => 'npllkbntnkjqo32s6hdi47o34dnnd3bj'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/?id=54'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api'
+    'HTTP_USER_AGENT' => 'insomnia/6.3.2'
+    'HTTP_COOKIE' => '_csrf=ed1689b925452d985e02a2dec0b7aa5e87903e2ef26ed87f7110800c01c10a0ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22LbeSlJM8zPcnXiuhdIyv9VmukuOWw1_i%22%3B%7D; _csrf-backend=3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX%22%3B%7D; _csrf-frontend=cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL%22%3B%7D; advanced-backend=trp7iqg0m23ac7m7jup7p5fc77htomtj; advanced-frontend=npllkbntnkjqo32s6hdi47o34dnnd3bj'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '179'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/api/web/index.php'
+    'REMOTE_PORT' => '61913'
+    'REDIRECT_URL' => '/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'triest'
+    'PHP_AUTH_PW' => '22d2af28'
+    'REQUEST_TIME_FLOAT' => 1548695206.022
+    'REQUEST_TIME' => 1548695206
+    'argv' => []
+    'argc' => 0
+]
+2019-01-28 20:08:16 [127.0.0.1][6][trp7iqg0m23ac7m7jup7p5fc77htomtj][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(61): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#9 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('user/index', Array)
+#10 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 W:\domains\Insigne\yii-application\api\web\index.php(17): yii\base\Application->run()
+#12 {main}
+2019-01-28 20:08:15 [127.0.0.1][6][trp7iqg0m23ac7m7jup7p5fc77htomtj][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ed1689b925452d985e02a2dec0b7aa5e87903e2ef26ed87f7110800c01c10a0ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"LbeSlJM8zPcnXiuhdIyv9VmukuOWw1_i\";}'
+    '_csrf-backend' => '3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX\";}'
+    '_csrf-frontend' => 'cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL\";}'
+    'advanced-backend' => 'trp7iqg0m23ac7m7jup7p5fc77htomtj'
+    'advanced-frontend' => 'npllkbntnkjqo32s6hdi47o34dnnd3bj'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/?id=54'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api'
+    'HTTP_USER_AGENT' => 'insomnia/6.3.2'
+    'HTTP_COOKIE' => '_csrf=ed1689b925452d985e02a2dec0b7aa5e87903e2ef26ed87f7110800c01c10a0ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22LbeSlJM8zPcnXiuhdIyv9VmukuOWw1_i%22%3B%7D; _csrf-backend=3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX%22%3B%7D; _csrf-frontend=cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL%22%3B%7D; advanced-backend=trp7iqg0m23ac7m7jup7p5fc77htomtj; advanced-frontend=npllkbntnkjqo32s6hdi47o34dnnd3bj'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '179'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/api/web/index.php'
+    'REMOTE_PORT' => '62493'
+    'REDIRECT_URL' => '/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'triest'
+    'PHP_AUTH_PW' => '22d2af28'
+    'REQUEST_TIME_FLOAT' => 1548695295.163
+    'REQUEST_TIME' => 1548695295
+    'argv' => []
+    'argc' => 0
+]
+2019-01-28 20:20:30 [127.0.0.1][6][trp7iqg0m23ac7m7jup7p5fc77htomtj][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(61): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#9 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('user/index', Array)
+#10 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 W:\domains\Insigne\yii-application\api\web\index.php(17): yii\base\Application->run()
+#12 {main}
+2019-01-28 20:20:28 [127.0.0.1][6][trp7iqg0m23ac7m7jup7p5fc77htomtj][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ed1689b925452d985e02a2dec0b7aa5e87903e2ef26ed87f7110800c01c10a0ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"LbeSlJM8zPcnXiuhdIyv9VmukuOWw1_i\";}'
+    '_csrf-backend' => '3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX\";}'
+    '_csrf-frontend' => 'cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL\";}'
+    'advanced-backend' => 'trp7iqg0m23ac7m7jup7p5fc77htomtj'
+    'advanced-frontend' => 'npllkbntnkjqo32s6hdi47o34dnnd3bj'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/?id=54'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api'
+    'HTTP_USER_AGENT' => 'insomnia/6.3.2'
+    'HTTP_COOKIE' => '_csrf=ed1689b925452d985e02a2dec0b7aa5e87903e2ef26ed87f7110800c01c10a0ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22LbeSlJM8zPcnXiuhdIyv9VmukuOWw1_i%22%3B%7D; _csrf-backend=3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX%22%3B%7D; _csrf-frontend=cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL%22%3B%7D; advanced-backend=trp7iqg0m23ac7m7jup7p5fc77htomtj; advanced-frontend=npllkbntnkjqo32s6hdi47o34dnnd3bj'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '179'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/api/web/index.php'
+    'REMOTE_PORT' => '2673'
+    'REDIRECT_URL' => '/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'triest'
+    'PHP_AUTH_PW' => '22d2af28'
+    'REQUEST_TIME_FLOAT' => 1548696027.492
+    'REQUEST_TIME' => 1548696027
+    'argv' => []
+    'argc' => 0
+]
+2019-01-28 20:26:12 [127.0.0.1][6][trp7iqg0m23ac7m7jup7p5fc77htomtj][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(61): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#9 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('user/index', Array)
+#10 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 W:\domains\Insigne\yii-application\api\web\index.php(17): yii\base\Application->run()
+#12 {main}
+2019-01-28 20:26:08 [127.0.0.1][6][trp7iqg0m23ac7m7jup7p5fc77htomtj][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ed1689b925452d985e02a2dec0b7aa5e87903e2ef26ed87f7110800c01c10a0ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"LbeSlJM8zPcnXiuhdIyv9VmukuOWw1_i\";}'
+    '_csrf-backend' => '3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX\";}'
+    '_csrf-frontend' => 'cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL\";}'
+    'advanced-backend' => 'trp7iqg0m23ac7m7jup7p5fc77htomtj'
+    'advanced-frontend' => 'npllkbntnkjqo32s6hdi47o34dnnd3bj'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/?id=54'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api'
+    'HTTP_USER_AGENT' => 'insomnia/6.3.2'
+    'HTTP_COOKIE' => '_csrf=ed1689b925452d985e02a2dec0b7aa5e87903e2ef26ed87f7110800c01c10a0ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22LbeSlJM8zPcnXiuhdIyv9VmukuOWw1_i%22%3B%7D; _csrf-backend=3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX%22%3B%7D; _csrf-frontend=cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL%22%3B%7D; advanced-backend=trp7iqg0m23ac7m7jup7p5fc77htomtj; advanced-frontend=npllkbntnkjqo32s6hdi47o34dnnd3bj'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '179'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/api/web/index.php'
+    'REMOTE_PORT' => '4386'
+    'REDIRECT_URL' => '/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'triest'
+    'PHP_AUTH_PW' => '22d2af28'
+    'REQUEST_TIME_FLOAT' => 1548696368.464
+    'REQUEST_TIME' => 1548696368
+    'argv' => []
+    'argc' => 0
+]
+2019-01-28 20:26:48 [127.0.0.1][-][trp7iqg0m23ac7m7jup7p5fc77htomtj][error][yii\base\ErrorException:64] yii\base\ErrorException: Declaration of common\models\User::findIdentityByAccessToken($username, $password) must be compatible with yii\web\IdentityInterface::findIdentityByAccessToken($token, $type = NULL) in W:\domains\Insigne\yii-application\common\models\User.php:28
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2019-01-28 20:26:48 [127.0.0.1][-][trp7iqg0m23ac7m7jup7p5fc77htomtj][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ed1689b925452d985e02a2dec0b7aa5e87903e2ef26ed87f7110800c01c10a0ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"LbeSlJM8zPcnXiuhdIyv9VmukuOWw1_i\";}'
+    '_csrf-backend' => '3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX\";}'
+    '_csrf-frontend' => 'cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL\";}'
+    'advanced-backend' => 'trp7iqg0m23ac7m7jup7p5fc77htomtj'
+    'advanced-frontend' => 'npllkbntnkjqo32s6hdi47o34dnnd3bj'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/?id=54'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api'
+    'HTTP_USER_AGENT' => 'insomnia/6.3.2'
+    'HTTP_COOKIE' => '_csrf=ed1689b925452d985e02a2dec0b7aa5e87903e2ef26ed87f7110800c01c10a0ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22LbeSlJM8zPcnXiuhdIyv9VmukuOWw1_i%22%3B%7D; _csrf-backend=3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX%22%3B%7D; _csrf-frontend=cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL%22%3B%7D; advanced-backend=trp7iqg0m23ac7m7jup7p5fc77htomtj; advanced-frontend=npllkbntnkjqo32s6hdi47o34dnnd3bj'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '179'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/api/web/index.php'
+    'REMOTE_PORT' => '4701'
+    'REDIRECT_URL' => '/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'triest'
+    'PHP_AUTH_PW' => '22d2af28'
+    'REQUEST_TIME_FLOAT' => 1548696408.397
+    'REQUEST_TIME' => 1548696408
+    'argv' => []
+    'argc' => 0
+]
+2019-01-28 20:27:05 [127.0.0.1][6][trp7iqg0m23ac7m7jup7p5fc77htomtj][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(61): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#9 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('user/index', Array)
+#10 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 W:\domains\Insigne\yii-application\api\web\index.php(17): yii\base\Application->run()
+#12 {main}
+2019-01-28 20:27:03 [127.0.0.1][6][trp7iqg0m23ac7m7jup7p5fc77htomtj][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ed1689b925452d985e02a2dec0b7aa5e87903e2ef26ed87f7110800c01c10a0ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"LbeSlJM8zPcnXiuhdIyv9VmukuOWw1_i\";}'
+    '_csrf-backend' => '3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX\";}'
+    '_csrf-frontend' => 'cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL\";}'
+    'advanced-backend' => 'trp7iqg0m23ac7m7jup7p5fc77htomtj'
+    'advanced-frontend' => 'npllkbntnkjqo32s6hdi47o34dnnd3bj'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/?id=54'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api'
+    'HTTP_USER_AGENT' => 'insomnia/6.3.2'
+    'HTTP_COOKIE' => '_csrf=ed1689b925452d985e02a2dec0b7aa5e87903e2ef26ed87f7110800c01c10a0ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22LbeSlJM8zPcnXiuhdIyv9VmukuOWw1_i%22%3B%7D; _csrf-backend=3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX%22%3B%7D; _csrf-frontend=cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL%22%3B%7D; advanced-backend=trp7iqg0m23ac7m7jup7p5fc77htomtj; advanced-frontend=npllkbntnkjqo32s6hdi47o34dnnd3bj'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '179'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/api/web/index.php'
+    'REMOTE_PORT' => '4831'
+    'REDIRECT_URL' => '/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'triest'
+    'PHP_AUTH_PW' => '22d2af28'
+    'REQUEST_TIME_FLOAT' => 1548696423.755
+    'REQUEST_TIME' => 1548696423
+    'argv' => []
+    'argc' => 0
+]
+2019-01-28 20:35:54 [127.0.0.1][6][trp7iqg0m23ac7m7jup7p5fc77htomtj][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(61): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#9 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('user/index', Array)
+#10 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 W:\domains\Insigne\yii-application\api\web\index.php(17): yii\base\Application->run()
+#12 {main}
+2019-01-28 20:35:53 [127.0.0.1][6][trp7iqg0m23ac7m7jup7p5fc77htomtj][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ed1689b925452d985e02a2dec0b7aa5e87903e2ef26ed87f7110800c01c10a0ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"LbeSlJM8zPcnXiuhdIyv9VmukuOWw1_i\";}'
+    '_csrf-backend' => '3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX\";}'
+    '_csrf-frontend' => 'cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL\";}'
+    'advanced-backend' => 'trp7iqg0m23ac7m7jup7p5fc77htomtj'
+    'advanced-frontend' => 'npllkbntnkjqo32s6hdi47o34dnnd3bj'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/?id=54'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api'
+    'HTTP_USER_AGENT' => 'insomnia/6.3.2'
+    'HTTP_COOKIE' => '_csrf=ed1689b925452d985e02a2dec0b7aa5e87903e2ef26ed87f7110800c01c10a0ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22LbeSlJM8zPcnXiuhdIyv9VmukuOWw1_i%22%3B%7D; _csrf-backend=3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX%22%3B%7D; _csrf-frontend=cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL%22%3B%7D; advanced-backend=trp7iqg0m23ac7m7jup7p5fc77htomtj; advanced-frontend=npllkbntnkjqo32s6hdi47o34dnnd3bj'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '179'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/api/web/index.php'
+    'REMOTE_PORT' => '8348'
+    'REDIRECT_URL' => '/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'triest'
+    'PHP_AUTH_PW' => '22d2af28'
+    'REQUEST_TIME_FLOAT' => 1548696953.454
+    'REQUEST_TIME' => 1548696953
+    'argv' => []
+    'argc' => 0
+]
+2019-01-28 20:36:25 [127.0.0.1][6][3256e4hsge6sbpuf3eudq5r9cn2rv3iv][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(61): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#9 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('user/index', Array)
+#10 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 W:\domains\Insigne\yii-application\api\web\index.php(17): yii\base\Application->run()
+#12 {main}
+2019-01-28 20:36:25 [127.0.0.1][6][3256e4hsge6sbpuf3eudq5r9cn2rv3iv][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '1534702370392f0bf056658f78f0f9dc24cef3ccad5a9ded94bc12df5cbf5d9ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"rhjMz7JFU99H05B9F75L9nJwzdKw0wts\";}'
+    '_csrf-backend' => '3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX\";}'
+    '_csrf-frontend' => 'cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL\";}'
+    'advanced-backend' => '3256e4hsge6sbpuf3eudq5r9cn2rv3iv'
+    'advanced-frontend' => 'npllkbntnkjqo32s6hdi47o34dnnd3bj'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/?id=54'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api'
+    'HTTP_USER_AGENT' => 'insomnia/6.3.2'
+    'HTTP_COOKIE' => '_csrf=1534702370392f0bf056658f78f0f9dc24cef3ccad5a9ded94bc12df5cbf5d9ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22rhjMz7JFU99H05B9F75L9nJwzdKw0wts%22%3B%7D; _csrf-backend=3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX%22%3B%7D; _csrf-frontend=cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL%22%3B%7D; advanced-backend=3256e4hsge6sbpuf3eudq5r9cn2rv3iv; advanced-frontend=npllkbntnkjqo32s6hdi47o34dnnd3bj'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '179'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/api/web/index.php'
+    'REMOTE_PORT' => '8554'
+    'REDIRECT_URL' => '/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'triest'
+    'PHP_AUTH_PW' => '22d2af28'
+    'REQUEST_TIME_FLOAT' => 1548696985.226
+    'REQUEST_TIME' => 1548696985
+    'argv' => []
+    'argc' => 0
+]
+2019-01-28 20:36:33 [127.0.0.1][6][3256e4hsge6sbpuf3eudq5r9cn2rv3iv][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(61): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#9 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('user/index', Array)
+#10 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 W:\domains\Insigne\yii-application\api\web\index.php(17): yii\base\Application->run()
+#12 {main}
+2019-01-28 20:36:33 [127.0.0.1][6][3256e4hsge6sbpuf3eudq5r9cn2rv3iv][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '1534702370392f0bf056658f78f0f9dc24cef3ccad5a9ded94bc12df5cbf5d9ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"rhjMz7JFU99H05B9F75L9nJwzdKw0wts\";}'
+    '_csrf-backend' => '3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX\";}'
+    '_csrf-frontend' => 'cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL\";}'
+    'advanced-backend' => '3256e4hsge6sbpuf3eudq5r9cn2rv3iv'
+    'advanced-frontend' => 'npllkbntnkjqo32s6hdi47o34dnnd3bj'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/?id=54'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api'
+    'HTTP_USER_AGENT' => 'insomnia/6.3.2'
+    'HTTP_COOKIE' => '_csrf=1534702370392f0bf056658f78f0f9dc24cef3ccad5a9ded94bc12df5cbf5d9ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22rhjMz7JFU99H05B9F75L9nJwzdKw0wts%22%3B%7D; _csrf-backend=3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX%22%3B%7D; _csrf-frontend=cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL%22%3B%7D; advanced-backend=3256e4hsge6sbpuf3eudq5r9cn2rv3iv; advanced-frontend=npllkbntnkjqo32s6hdi47o34dnnd3bj'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '179'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/api/web/index.php'
+    'REMOTE_PORT' => '8554'
+    'REDIRECT_URL' => '/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'triest'
+    'PHP_AUTH_PW' => '22d2af28'
+    'REQUEST_TIME_FLOAT' => 1548696993.231
+    'REQUEST_TIME' => 1548696993
+    'argv' => []
+    'argc' => 0
+]
+2019-01-28 20:50:47 [127.0.0.1][6][3256e4hsge6sbpuf3eudq5r9cn2rv3iv][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(61): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#9 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('user/index', Array)
+#10 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 W:\domains\Insigne\yii-application\api\web\index.php(17): yii\base\Application->run()
+#12 {main}
+2019-01-28 20:50:46 [127.0.0.1][6][3256e4hsge6sbpuf3eudq5r9cn2rv3iv][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '1534702370392f0bf056658f78f0f9dc24cef3ccad5a9ded94bc12df5cbf5d9ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"rhjMz7JFU99H05B9F75L9nJwzdKw0wts\";}'
+    '_csrf-backend' => '3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX\";}'
+    '_csrf-frontend' => 'cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL\";}'
+    'advanced-backend' => '3256e4hsge6sbpuf3eudq5r9cn2rv3iv'
+    'advanced-frontend' => 'npllkbntnkjqo32s6hdi47o34dnnd3bj'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/?id=54'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api'
+    'HTTP_USER_AGENT' => 'insomnia/6.3.2'
+    'HTTP_COOKIE' => '_csrf=1534702370392f0bf056658f78f0f9dc24cef3ccad5a9ded94bc12df5cbf5d9ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22rhjMz7JFU99H05B9F75L9nJwzdKw0wts%22%3B%7D; _csrf-backend=3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX%22%3B%7D; _csrf-frontend=cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL%22%3B%7D; advanced-backend=3256e4hsge6sbpuf3eudq5r9cn2rv3iv; advanced-frontend=npllkbntnkjqo32s6hdi47o34dnnd3bj'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '179'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/api/web/index.php'
+    'REMOTE_PORT' => '13736'
+    'REDIRECT_URL' => '/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'triest'
+    'PHP_AUTH_PW' => '22d2af28'
+    'REQUEST_TIME_FLOAT' => 1548697846.586
+    'REQUEST_TIME' => 1548697846
+    'argv' => []
+    'argc' => 0
+]
+2019-01-28 20:52:05 [127.0.0.1][6][3256e4hsge6sbpuf3eudq5r9cn2rv3iv][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(61): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#9 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('user/index', Array)
+#10 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 W:\domains\Insigne\yii-application\api\web\index.php(17): yii\base\Application->run()
+#12 {main}
+2019-01-28 20:52:04 [127.0.0.1][6][3256e4hsge6sbpuf3eudq5r9cn2rv3iv][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '1534702370392f0bf056658f78f0f9dc24cef3ccad5a9ded94bc12df5cbf5d9ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"rhjMz7JFU99H05B9F75L9nJwzdKw0wts\";}'
+    '_csrf-backend' => '3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX\";}'
+    '_csrf-frontend' => 'cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL\";}'
+    'advanced-backend' => '3256e4hsge6sbpuf3eudq5r9cn2rv3iv'
+    'advanced-frontend' => 'npllkbntnkjqo32s6hdi47o34dnnd3bj'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/?id=54'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api'
+    'HTTP_USER_AGENT' => 'insomnia/6.3.2'
+    'HTTP_COOKIE' => '_csrf=1534702370392f0bf056658f78f0f9dc24cef3ccad5a9ded94bc12df5cbf5d9ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22rhjMz7JFU99H05B9F75L9nJwzdKw0wts%22%3B%7D; _csrf-backend=3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX%22%3B%7D; _csrf-frontend=cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL%22%3B%7D; advanced-backend=3256e4hsge6sbpuf3eudq5r9cn2rv3iv; advanced-frontend=npllkbntnkjqo32s6hdi47o34dnnd3bj'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '179'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/api/web/index.php'
+    'REMOTE_PORT' => '14213'
+    'REDIRECT_URL' => '/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'triest'
+    'PHP_AUTH_PW' => '22d2af28'
+    'REQUEST_TIME_FLOAT' => 1548697924.501
+    'REQUEST_TIME' => 1548697924
+    'argv' => []
+    'argc' => 0
+]
+2019-01-28 20:52:27 [127.0.0.1][6][3256e4hsge6sbpuf3eudq5r9cn2rv3iv][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(61): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#9 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('user/index', Array)
+#10 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 W:\domains\Insigne\yii-application\api\web\index.php(17): yii\base\Application->run()
+#12 {main}
+2019-01-28 20:52:26 [127.0.0.1][6][3256e4hsge6sbpuf3eudq5r9cn2rv3iv][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '1534702370392f0bf056658f78f0f9dc24cef3ccad5a9ded94bc12df5cbf5d9ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"rhjMz7JFU99H05B9F75L9nJwzdKw0wts\";}'
+    '_csrf-backend' => '3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX\";}'
+    '_csrf-frontend' => 'cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL\";}'
+    'advanced-backend' => '3256e4hsge6sbpuf3eudq5r9cn2rv3iv'
+    'advanced-frontend' => 'npllkbntnkjqo32s6hdi47o34dnnd3bj'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/?id=54'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api'
+    'HTTP_USER_AGENT' => 'insomnia/6.3.2'
+    'HTTP_COOKIE' => '_csrf=1534702370392f0bf056658f78f0f9dc24cef3ccad5a9ded94bc12df5cbf5d9ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22rhjMz7JFU99H05B9F75L9nJwzdKw0wts%22%3B%7D; _csrf-backend=3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX%22%3B%7D; _csrf-frontend=cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL%22%3B%7D; advanced-backend=3256e4hsge6sbpuf3eudq5r9cn2rv3iv; advanced-frontend=npllkbntnkjqo32s6hdi47o34dnnd3bj'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '179'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/api/web/index.php'
+    'REMOTE_PORT' => '14345'
+    'REDIRECT_URL' => '/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'triest'
+    'PHP_AUTH_PW' => '22d2af28'
+    'REQUEST_TIME_FLOAT' => 1548697946.479
+    'REQUEST_TIME' => 1548697946
+    'argv' => []
+    'argc' => 0
+]
+2019-01-28 21:06:22 [127.0.0.1][6][3256e4hsge6sbpuf3eudq5r9cn2rv3iv][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(61): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#9 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('user/index', Array)
+#10 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 W:\domains\Insigne\yii-application\api\web\index.php(17): yii\base\Application->run()
+#12 {main}
+2019-01-28 21:06:21 [127.0.0.1][6][3256e4hsge6sbpuf3eudq5r9cn2rv3iv][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '1534702370392f0bf056658f78f0f9dc24cef3ccad5a9ded94bc12df5cbf5d9ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"rhjMz7JFU99H05B9F75L9nJwzdKw0wts\";}'
+    '_csrf-backend' => '3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX\";}'
+    '_csrf-frontend' => 'cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL\";}'
+    'advanced-backend' => '3256e4hsge6sbpuf3eudq5r9cn2rv3iv'
+    'advanced-frontend' => 'npllkbntnkjqo32s6hdi47o34dnnd3bj'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/?id=54'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api'
+    'HTTP_USER_AGENT' => 'insomnia/6.3.2'
+    'HTTP_COOKIE' => '_csrf=1534702370392f0bf056658f78f0f9dc24cef3ccad5a9ded94bc12df5cbf5d9ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22rhjMz7JFU99H05B9F75L9nJwzdKw0wts%22%3B%7D; _csrf-backend=3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX%22%3B%7D; _csrf-frontend=cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL%22%3B%7D; advanced-backend=3256e4hsge6sbpuf3eudq5r9cn2rv3iv; advanced-frontend=npllkbntnkjqo32s6hdi47o34dnnd3bj'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '179'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/api/web/index.php'
+    'REMOTE_PORT' => '19571'
+    'REDIRECT_URL' => '/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'triest'
+    'PHP_AUTH_PW' => '22d2af28'
+    'REQUEST_TIME_FLOAT' => 1548698781.676
+    'REQUEST_TIME' => 1548698781
+    'argv' => []
+    'argc' => 0
+]
+2019-01-28 21:06:51 [127.0.0.1][6][3256e4hsge6sbpuf3eudq5r9cn2rv3iv][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(61): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#9 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('user/index', Array)
+#10 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 W:\domains\Insigne\yii-application\api\web\index.php(17): yii\base\Application->run()
+#12 {main}
+2019-01-28 21:06:50 [127.0.0.1][6][3256e4hsge6sbpuf3eudq5r9cn2rv3iv][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '1534702370392f0bf056658f78f0f9dc24cef3ccad5a9ded94bc12df5cbf5d9ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"rhjMz7JFU99H05B9F75L9nJwzdKw0wts\";}'
+    '_csrf-backend' => '3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX\";}'
+    '_csrf-frontend' => 'cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL\";}'
+    'advanced-backend' => '3256e4hsge6sbpuf3eudq5r9cn2rv3iv'
+    'advanced-frontend' => 'npllkbntnkjqo32s6hdi47o34dnnd3bj'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/?id=54'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api'
+    'HTTP_USER_AGENT' => 'insomnia/6.3.2'
+    'HTTP_COOKIE' => '_csrf=1534702370392f0bf056658f78f0f9dc24cef3ccad5a9ded94bc12df5cbf5d9ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22rhjMz7JFU99H05B9F75L9nJwzdKw0wts%22%3B%7D; _csrf-backend=3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX%22%3B%7D; _csrf-frontend=cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL%22%3B%7D; advanced-backend=3256e4hsge6sbpuf3eudq5r9cn2rv3iv; advanced-frontend=npllkbntnkjqo32s6hdi47o34dnnd3bj'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '179'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/api/web/index.php'
+    'REMOTE_PORT' => '19771'
+    'REDIRECT_URL' => '/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'triest'
+    'PHP_AUTH_PW' => '22d2af28'
+    'REQUEST_TIME_FLOAT' => 1548698810.578
+    'REQUEST_TIME' => 1548698810
+    'argv' => []
+    'argc' => 0
+]
+2019-01-28 21:07:22 [127.0.0.1][6][3256e4hsge6sbpuf3eudq5r9cn2rv3iv][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(61): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#9 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('user/index', Array)
+#10 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 W:\domains\Insigne\yii-application\api\web\index.php(17): yii\base\Application->run()
+#12 {main}
+2019-01-28 21:07:21 [127.0.0.1][6][3256e4hsge6sbpuf3eudq5r9cn2rv3iv][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '1534702370392f0bf056658f78f0f9dc24cef3ccad5a9ded94bc12df5cbf5d9ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"rhjMz7JFU99H05B9F75L9nJwzdKw0wts\";}'
+    '_csrf-backend' => '3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX\";}'
+    '_csrf-frontend' => 'cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL\";}'
+    'advanced-backend' => '3256e4hsge6sbpuf3eudq5r9cn2rv3iv'
+    'advanced-frontend' => 'npllkbntnkjqo32s6hdi47o34dnnd3bj'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/?id=54'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api'
+    'HTTP_USER_AGENT' => 'insomnia/6.3.2'
+    'HTTP_COOKIE' => '_csrf=1534702370392f0bf056658f78f0f9dc24cef3ccad5a9ded94bc12df5cbf5d9ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22rhjMz7JFU99H05B9F75L9nJwzdKw0wts%22%3B%7D; _csrf-backend=3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX%22%3B%7D; _csrf-frontend=cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL%22%3B%7D; advanced-backend=3256e4hsge6sbpuf3eudq5r9cn2rv3iv; advanced-frontend=npllkbntnkjqo32s6hdi47o34dnnd3bj'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '179'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/api/web/index.php'
+    'REMOTE_PORT' => '19967'
+    'REDIRECT_URL' => '/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'triest'
+    'PHP_AUTH_PW' => '22d2af28'
+    'REQUEST_TIME_FLOAT' => 1548698841.319
+    'REQUEST_TIME' => 1548698841
+    'argv' => []
+    'argc' => 0
+]
+2019-01-28 21:07:37 [127.0.0.1][6][3256e4hsge6sbpuf3eudq5r9cn2rv3iv][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(61): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#9 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('user/index', Array)
+#10 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 W:\domains\Insigne\yii-application\api\web\index.php(17): yii\base\Application->run()
+#12 {main}
+2019-01-28 21:07:36 [127.0.0.1][6][3256e4hsge6sbpuf3eudq5r9cn2rv3iv][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '1534702370392f0bf056658f78f0f9dc24cef3ccad5a9ded94bc12df5cbf5d9ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"rhjMz7JFU99H05B9F75L9nJwzdKw0wts\";}'
+    '_csrf-backend' => '3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX\";}'
+    '_csrf-frontend' => 'cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL\";}'
+    'advanced-backend' => '3256e4hsge6sbpuf3eudq5r9cn2rv3iv'
+    'advanced-frontend' => 'npllkbntnkjqo32s6hdi47o34dnnd3bj'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/?id=54'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api'
+    'HTTP_USER_AGENT' => 'insomnia/6.3.2'
+    'HTTP_COOKIE' => '_csrf=1534702370392f0bf056658f78f0f9dc24cef3ccad5a9ded94bc12df5cbf5d9ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22rhjMz7JFU99H05B9F75L9nJwzdKw0wts%22%3B%7D; _csrf-backend=3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX%22%3B%7D; _csrf-frontend=cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL%22%3B%7D; advanced-backend=3256e4hsge6sbpuf3eudq5r9cn2rv3iv; advanced-frontend=npllkbntnkjqo32s6hdi47o34dnnd3bj'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '179'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/api/web/index.php'
+    'REMOTE_PORT' => '20058'
+    'REDIRECT_URL' => '/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'triest'
+    'PHP_AUTH_PW' => '22d2af28'
+    'REQUEST_TIME_FLOAT' => 1548698856.455
+    'REQUEST_TIME' => 1548698856
+    'argv' => []
+    'argc' => 0
+]
+2019-01-28 22:06:19 [127.0.0.1][6][3256e4hsge6sbpuf3eudq5r9cn2rv3iv][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\HttpBasicAuth.php(112): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(61): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#9 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('user/index', Array)
+#10 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 W:\domains\Insigne\yii-application\api\web\index.php(17): yii\base\Application->run()
+#12 {main}
+2019-01-28 22:06:18 [127.0.0.1][6][3256e4hsge6sbpuf3eudq5r9cn2rv3iv][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '1534702370392f0bf056658f78f0f9dc24cef3ccad5a9ded94bc12df5cbf5d9ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"rhjMz7JFU99H05B9F75L9nJwzdKw0wts\";}'
+    '_csrf-backend' => '3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX\";}'
+    '_csrf-frontend' => 'cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL\";}'
+    'advanced-backend' => '3256e4hsge6sbpuf3eudq5r9cn2rv3iv'
+    'advanced-frontend' => 'npllkbntnkjqo32s6hdi47o34dnnd3bj'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/?id=54'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api'
+    'HTTP_USER_AGENT' => 'insomnia/6.3.2'
+    'HTTP_COOKIE' => '_csrf=1534702370392f0bf056658f78f0f9dc24cef3ccad5a9ded94bc12df5cbf5d9ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22rhjMz7JFU99H05B9F75L9nJwzdKw0wts%22%3B%7D; _csrf-backend=3746f805f7bad5885fe3427307cab58d833e176d87a414e6d3f87b40a53121d7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22_IIW0DYIS8yZnAwIsIOCtTCjlyXdi6qX%22%3B%7D; _csrf-frontend=cb307c3854c35dadaa3f0cdf9dad1054e54563dbda79c71360cea1b10d86914da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22jxJhWBP8ZnLtZZtdytBafaEg3ANfdHNL%22%3B%7D; advanced-backend=3256e4hsge6sbpuf3eudq5r9cn2rv3iv; advanced-frontend=npllkbntnkjqo32s6hdi47o34dnnd3bj'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '179'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/api/web/index.php'
+    'REMOTE_PORT' => '42984'
+    'REDIRECT_URL' => '/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'triest'
+    'PHP_AUTH_PW' => '22d2af28'
+    'REQUEST_TIME_FLOAT' => 1548702378.522
+    'REQUEST_TIME' => 1548702378
+    'argv' => []
+    'argc' => 0
+]

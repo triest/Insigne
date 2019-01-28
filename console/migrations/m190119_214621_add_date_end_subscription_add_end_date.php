@@ -12,7 +12,7 @@ class m190119_214621_add_date_end_subscription_add_end_date extends Migration
      */
     public function safeUp()
     {
-        $this->addColumn('user_subscription', 'enddate', $this->timestamp());
+        $this->addColumn('userSubscription', 'enddate', $this->timestamp());
     }
 
     /**
@@ -20,7 +20,7 @@ class m190119_214621_add_date_end_subscription_add_end_date extends Migration
      */
     public function safeDown()
     {
-        $this->dropColumn('user_subscription', 'isAdmin');
+        $this->dropColumn('userSubscription', 'isAdmin');
     }
 
     /*

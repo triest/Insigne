@@ -2,6 +2,7 @@
 
 namespace app\modules\admin\controllers;
 
+use app\models\Subscription;
 use Yii;
 use yii\base\Exception;
 use yii\helpers\ArrayHelper;
@@ -11,6 +12,8 @@ use yii\web\Response;
 use common\models\User;
 use app\models\SignupForm;
 use app\models\EditForm;
+
+
 
 /**
  * Default controller for the `admin` module
@@ -80,13 +83,15 @@ class DefaultController extends Controller
         $model = new EditForm();
         if ($model->load(Yii::$app->request->post())) {
             $post = Yii::$app->request->post();
+
             $user_post = $post["EditForm"];
             $user = User::find()->where(['id' => $id])->one();
             $user->username = $user_post["username"];
             $user->email = $user_post["email"];
             $user->family = $user_post["family"];
             $user->patronymic = $user_post["patronymic"];
-            //     die("pass");
+            $subscription = Yii::$app->request->post('subscription');
+            $user->saveSubscription($subscription);
             if ($user_post["password"] != null) {
                 try {
                     $hash = Yii::$app->getSecurity()->generatePasswordHash($user_post["password"]);
@@ -104,10 +109,15 @@ class DefaultController extends Controller
         $model->name = $model2->name;
         $model->patronymic = $model2->patronymic;
         $model->family = $model2->family;
+        $subscrition = ArrayHelper::map(Subscription::find()->all(), 'id', 'name');
+
         return $this->render('edit', [
             'model' => $model,
+            'Subscription' =>$subscrition
         ]);
     }
+
+
 
 
 }

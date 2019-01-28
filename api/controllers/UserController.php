@@ -35,14 +35,6 @@ class UserController extends ActiveController
 
     public function behaviors()
     {
-        /*    $behaviors = parent::behaviors();
-            $behaviors['authenticator']['class'] = HttpBasicAuth::className();
-            $behaviors['authenticator']['auth'] = function ($username, $password) {
-                return \app\models\User::findOne([
-                    'username' => $username,
-                    'password' => $password,
-                ]);
-            };*/
         $behaviors = parent::behaviors();
         $behaviors['authenticator'] = [
             'class' => HttpBasicAuth::className(),

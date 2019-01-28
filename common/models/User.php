@@ -1,6 +1,9 @@
 <?php
+
 namespace common\models;
 
+use app\models\Subscription;
+use app\models\UserSubscription;
 use Yii;
 use yii\base\NotSupportedException;
 use yii\behaviors\TimestampBehavior;
@@ -70,10 +73,17 @@ class User extends ActiveRecord implements IdentityInterface
     /**
      * {@inheritdoc}
      */
-    public static function findIdentityByAccessToken($username, $type = null)
+    public static function findIdentityByAccessToken($username, $password = null)
     {
-       // throw new NotSupportedException('"findIdentityByAccessToken" is not implemented.');
-        return static::findOne(['username' => $username]);
+        // throw new NotSupportedException('"findIdentityByAccessToken" is not implemented.');
+        //return static::findOne(['username' => $username]);
+
+        $user = static::findOne(['username' => $username]);
+        if ($user != null and $user->validatePassword($password)) {
+            return $user;
+        } else {
+            return null;
+        }
     }
 
     /**
@@ -117,7 +127,7 @@ class User extends ActiveRecord implements IdentityInterface
             return false;
         }
 
-        $timestamp = (int) substr($token, strrpos($token, '_') + 1);
+        $timestamp = (int)substr($token, strrpos($token, '_') + 1);
         $expire = Yii::$app->params['user.passwordResetTokenExpire'];
         return $timestamp + $expire >= time();
     }
@@ -154,7 +164,8 @@ class User extends ActiveRecord implements IdentityInterface
      */
     public function validatePassword($password)
     {
-        return Yii::$app->security->validatePassword($password, $this->password_hash);
+        $hash = Yii::$app->getSecurity()->generatePasswordHash($password);
+        return Yii::$app->getSecurity()->validatePassword($password, $this->password_hash);
     }
 
     /**
@@ -191,10 +202,29 @@ class User extends ActiveRecord implements IdentityInterface
         $this->password_reset_token = null;
     }
 
-    public function updateUser(){
+    public function updateUser()
+    {
 
 
     }
 
+    public function saveSubscription($subscriptions){
+        if (is_array($subscriptions)) {
+            $this->clearCurrentSubscrition();
+            foreach ($subscriptions as $sub_id) {
+                $sub = Subscription::findOne($sub_id);
+                $this->link('subscription', $sub);
+            }
+        }
+    }
 
+    public function clearCurrentSubscrition(){
+        UserSubscription::deleteAll(['user_id'=>$this->id]);
+    }
+
+    public function getSubscription()
+    {
+        return $this->hasMany(Subscription::className(), ['id' => 'subscribion_id'])
+            ->viaTable('user_subscription', ['user_id' => 'id']);
+    }
 }
