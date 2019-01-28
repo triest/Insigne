@@ -32,7 +32,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
             <?= $form->field($model, 'patronymic')->textInput(['autofocus' => true]) ?>
 
-            <?= Html::dropDownList('subscription',  [],$Subscription, ['class'=>'form-control', 'multiple'=>true]) ?>
+            <?= Html::dropDownList('subscription',  $selectedSubscription,$Subscription, ['class'=>'form-control', 'multiple'=>true]) ?>
 
             <br>
             <div class="form-group">

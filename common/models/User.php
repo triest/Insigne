@@ -9,6 +9,7 @@ use yii\base\NotSupportedException;
 use yii\behaviors\TimestampBehavior;
 use yii\db\ActiveRecord;
 use yii\web\IdentityInterface;
+use yii\helpers\ArrayHelper;
 
 /**
  * User model
@@ -220,6 +221,12 @@ class User extends ActiveRecord implements IdentityInterface
 
     public function clearCurrentSubscrition(){
         UserSubscription::deleteAll(['user_id'=>$this->id]);
+    }
+
+    public function getSelectedSubscription()
+    {
+        $selectedIds = $this->getSubscription()->select(['id', 'name'])->asArray()->all();
+        return ArrayHelper::getColumn($selectedIds, 'id');
     }
 
     public function getSubscription()

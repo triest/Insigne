@@ -4135,3 +4135,307 @@ $_SERVER = [
     ]
     'argc' => 1
 ]
+2019-01-28 23:36:43 [127.0.0.1][-][0ovr4i6l40shn7hr0ikd6kf00mbhto9r][error][yii\db\Exception] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'enddate' in 'field list' in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\db\Command.php:1258
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\db\Command.php(1258): PDOStatement->execute()
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\db\Command.php(1148): yii\db\Command->internalExecute('SELECT `id`, `e...')
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\db\Query.php(237): yii\db\Command->queryAll()
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#5 W:\domains\Insigne\yii-application\common\models\User.php(227): yii\db\ActiveQuery->all()
+#6 W:\domains\Insigne\yii-application\backend\modules\admin\controllers\DefaultController.php(113): common\models\User->getSelectedSubscription()
+#7 [internal function]: app\modules\admin\controllers\DefaultController->actionEdit('3')
+#8 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('edit', Array)
+#11 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/default/e...', Array)
+#12 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'enddate' in 'field list'
+The SQL being executed was: SELECT `id`, `enddate` FROM `subscription` WHERE `id` IN ('1', '2') in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\db\Schema.php:664
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\db\Command.php(1263): yii\db\Schema->convertException(Object(PDOException), 'SELECT `id`, `e...')
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\db\Command.php(1148): yii\db\Command->internalExecute('SELECT `id`, `e...')
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\db\Query.php(237): yii\db\Command->queryAll()
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#5 W:\domains\Insigne\yii-application\common\models\User.php(227): yii\db\ActiveQuery->all()
+#6 W:\domains\Insigne\yii-application\backend\modules\admin\controllers\DefaultController.php(113): common\models\User->getSelectedSubscription()
+#7 [internal function]: app\modules\admin\controllers\DefaultController->actionEdit('3')
+#8 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('edit', Array)
+#11 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/default/e...', Array)
+#12 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'enddate' in 'field list'
+)
+
+2019-01-28 23:36:43 [127.0.0.1][-][0ovr4i6l40shn7hr0ikd6kf00mbhto9r][info][application] $_GET = [
+    'id' => '3'
+]
+
+$_POST = [
+    '_csrf-backend' => 'YqhBz_mS-uY3eKQ1Tv5ECfJtvBTMyowKVVDi4c4pP4EnhWyNvfrCskIo11ggthNeohfOc6i5xFg5MoumgF5W2A=='
+    'EditForm' => [
+        'username' => 'd'
+        'password' => ''
+        'email' => 'aa@dd.ru'
+        'family' => 'ssssss'
+        'name' => 'sssssssss'
+        'patronymic' => 'dddddd'
+    ]
+    'subscription' => [
+        0 => '1'
+        1 => '2'
+    ]
+    'signup-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '0ovr4i6l40shn7hr0ikd6kf00mbhto9r'
+    '_csrf-backend' => 'd61a712728292c27db851dee9dc826a660c361c09b15338aa1cf46e3000f20b9a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"E--BDh8TuPsmnHWWPzrgdsHRlbiGNwiY\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'backend'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '332'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://backend'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://backend/admin/default/edit?id=3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=0ovr4i6l40shn7hr0ikd6kf00mbhto9r; _csrf-backend=d61a712728292c27db851dee9dc826a660c361c09b15338aa1cf46e3000f20b9a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22E--BDh8TuPsmnHWWPzrgdsHRlbiGNwiY%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'backend'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '14367'
+    'REDIRECT_URL' => '/admin/default/edit'
+    'REDIRECT_QUERY_STRING' => 'id=3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'id=3'
+    'REQUEST_URI' => '/admin/default/edit?id=3'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1548707803.747
+    'REQUEST_TIME' => 1548707803
+    'argv' => [
+        0 => 'id=3'
+    ]
+    'argc' => 1
+]
+2019-01-28 23:36:47 [127.0.0.1][-][0ovr4i6l40shn7hr0ikd6kf00mbhto9r][error][yii\db\Exception] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'enddate' in 'field list' in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\db\Command.php:1258
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\db\Command.php(1258): PDOStatement->execute()
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\db\Command.php(1148): yii\db\Command->internalExecute('SELECT `id`, `e...')
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\db\Query.php(237): yii\db\Command->queryAll()
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#5 W:\domains\Insigne\yii-application\common\models\User.php(227): yii\db\ActiveQuery->all()
+#6 W:\domains\Insigne\yii-application\backend\modules\admin\controllers\DefaultController.php(113): common\models\User->getSelectedSubscription()
+#7 [internal function]: app\modules\admin\controllers\DefaultController->actionEdit('3')
+#8 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('edit', Array)
+#11 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/default/e...', Array)
+#12 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'enddate' in 'field list'
+The SQL being executed was: SELECT `id`, `enddate` FROM `subscription` WHERE `id` IN ('1', '2') in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\db\Schema.php:664
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\db\Command.php(1263): yii\db\Schema->convertException(Object(PDOException), 'SELECT `id`, `e...')
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\db\Command.php(1148): yii\db\Command->internalExecute('SELECT `id`, `e...')
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\db\Query.php(237): yii\db\Command->queryAll()
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#5 W:\domains\Insigne\yii-application\common\models\User.php(227): yii\db\ActiveQuery->all()
+#6 W:\domains\Insigne\yii-application\backend\modules\admin\controllers\DefaultController.php(113): common\models\User->getSelectedSubscription()
+#7 [internal function]: app\modules\admin\controllers\DefaultController->actionEdit('3')
+#8 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('edit', Array)
+#11 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/default/e...', Array)
+#12 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'enddate' in 'field list'
+)
+
+2019-01-28 23:36:47 [127.0.0.1][-][0ovr4i6l40shn7hr0ikd6kf00mbhto9r][info][application] $_GET = [
+    'id' => '3'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '0ovr4i6l40shn7hr0ikd6kf00mbhto9r'
+    '_csrf-backend' => 'd61a712728292c27db851dee9dc826a660c361c09b15338aa1cf46e3000f20b9a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"E--BDh8TuPsmnHWWPzrgdsHRlbiGNwiY\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'backend'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=0ovr4i6l40shn7hr0ikd6kf00mbhto9r; _csrf-backend=d61a712728292c27db851dee9dc826a660c361c09b15338aa1cf46e3000f20b9a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22E--BDh8TuPsmnHWWPzrgdsHRlbiGNwiY%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'backend'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '14368'
+    'REDIRECT_URL' => '/admin/default/edit'
+    'REDIRECT_QUERY_STRING' => 'id=3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=3'
+    'REQUEST_URI' => '/admin/default/edit?id=3'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1548707807.03
+    'REQUEST_TIME' => 1548707807
+    'argv' => [
+        0 => 'id=3'
+    ]
+    'argc' => 1
+]
+2019-01-28 23:37:29 [127.0.0.1][-][0ovr4i6l40shn7hr0ikd6kf00mbhto9r][error][Error] Error: Class 'common\models\ArrayHelper' not found in W:\domains\Insigne\yii-application\common\models\User.php:228
+Stack trace:
+#0 W:\domains\Insigne\yii-application\backend\modules\admin\controllers\DefaultController.php(113): common\models\User->getSelectedSubscription()
+#1 [internal function]: app\modules\admin\controllers\DefaultController->actionEdit('3')
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('edit', Array)
+#5 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/default/e...', Array)
+#6 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2019-01-28 23:37:29 [127.0.0.1][-][0ovr4i6l40shn7hr0ikd6kf00mbhto9r][info][application] $_GET = [
+    'id' => '3'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '0ovr4i6l40shn7hr0ikd6kf00mbhto9r'
+    '_csrf-backend' => 'd61a712728292c27db851dee9dc826a660c361c09b15338aa1cf46e3000f20b9a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"E--BDh8TuPsmnHWWPzrgdsHRlbiGNwiY\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'backend'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=0ovr4i6l40shn7hr0ikd6kf00mbhto9r; _csrf-backend=d61a712728292c27db851dee9dc826a660c361c09b15338aa1cf46e3000f20b9a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22E--BDh8TuPsmnHWWPzrgdsHRlbiGNwiY%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'backend'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '14709'
+    'REDIRECT_URL' => '/admin/default/edit'
+    'REDIRECT_QUERY_STRING' => 'id=3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=3'
+    'REQUEST_URI' => '/admin/default/edit?id=3'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1548707849.781
+    'REQUEST_TIME' => 1548707849
+    'argv' => [
+        0 => 'id=3'
+    ]
+    'argc' => 1
+]

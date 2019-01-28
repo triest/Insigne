@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a83ccce-360c-4867-8d0f-4e729b3a1cab" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/models/Subscription.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/models/UserSubscription.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/runtime/debug/index.data" beforeDir="false" afterPath="$PROJECT_DIR$/api/runtime/debug/index.data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/runtime/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/api/runtime/logs/app.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/modules/admin/controllers/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/admin/controllers/DefaultController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/modules/admin/views/default/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/admin/views/default/edit.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/runtime/debug/index.data" beforeDir="false" afterPath="$PROJECT_DIR$/backend/runtime/debug/index.data" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/runtime/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/backend/runtime/logs/app.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/console/migrations/m190119_202823_user_subscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/console/migrations/m190119_202823_user_subscription.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/console/migrations/m190119_214621_add_date_end_subscription_add_end_date.php" beforeDir="false" afterPath="$PROJECT_DIR$/console/migrations/m190119_214621_add_date_end_subscription_add_end_date.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/index.data" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/runtime/debug/index.data" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,8 +24,8 @@
       <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/modules/admin/controllers/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="96" column="66" selection-start-line="96" selection-start-column="66" selection-end-line="96" selection-end-column="66" />
+            <state relative-caret-position="514">
+              <caret line="116" column="37" lean-forward="true" selection-start-line="116" selection-start-column="37" selection-end-line="116" selection-end-column="37" />
               <folding>
                 <element signature="e#49#77#0#PHP" expanded="true" />
               </folding>
@@ -44,8 +36,8 @@
       <file leaf-file-name="User.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/common/models/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="226" column="47" lean-forward="true" selection-start-line="226" selection-start-column="47" selection-end-line="226" selection-end-column="47" />
+            <state relative-caret-position="187">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
               <folding>
                 <element signature="e#33#61#0#PHP" expanded="true" />
               </folding>
@@ -66,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/backend/modules/admin/views/default/edit.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="312">
-              <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+              <caret line="34" column="50" lean-forward="true" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -186,9 +178,9 @@
         <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/resources/views/custom/registration.blade.php" />
         <option value="$PROJECT_DIR$/api/controllers/UserController.php" />
         <option value="E:/Документы/Программы/openSerwer/Open Server 5.2.9/OSPanel/domains/Insigne/yii-application/common/models/User.php" />
-        <option value="$PROJECT_DIR$/backend/modules/admin/views/default/edit.php" />
-        <option value="$PROJECT_DIR$/backend/modules/admin/controllers/DefaultController.php" />
         <option value="$PROJECT_DIR$/backend/models/UserSubscription.php" />
+        <option value="$PROJECT_DIR$/backend/modules/admin/controllers/DefaultController.php" />
+        <option value="$PROJECT_DIR$/backend/modules/admin/views/default/edit.php" />
         <option value="$PROJECT_DIR$/common/models/User.php" />
       </list>
     </option>
@@ -393,7 +385,7 @@
       <workItem from="1548488730521" duration="20307000" />
       <workItem from="1548670822692" duration="3309000" />
       <workItem from="1548676797236" duration="13630000" />
-      <workItem from="1548696306461" duration="7120000" />
+      <workItem from="1548696306461" duration="7920000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1547705077064</created>
@@ -584,11 +576,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548692769561</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Add subscription">
+      <created>1548707158974</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1548707158974</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="259054000" />
+    <option name="totallyTimeSpent" value="259854000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -625,7 +624,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add correct user model and admin module" />
     <MESSAGE value="Cleare URLs" />
     <MESSAGE value="Json response" />
     <MESSAGE value="Json response2" />
@@ -650,7 +648,8 @@
     <MESSAGE value="Work corect validation" />
     <MESSAGE value="Fix validation." />
     <MESSAGE value="Add base authorization for rest api" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add base authorization for rest api" />
+    <MESSAGE value="Add subscription" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add subscription" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -914,14 +913,14 @@
     <entry file="file://$PROJECT_DIR$/backend/modules/admin/views/default/edit.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
-          <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+          <caret line="34" column="50" lean-forward="true" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/modules/admin/controllers/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="96" column="66" selection-start-line="96" selection-start-column="66" selection-end-line="96" selection-end-column="66" />
+        <state relative-caret-position="514">
+          <caret line="116" column="37" lean-forward="true" selection-start-line="116" selection-start-column="37" selection-end-line="116" selection-end-column="37" />
           <folding>
             <element signature="e#49#77#0#PHP" expanded="true" />
           </folding>
@@ -937,8 +936,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common/models/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="226" column="47" lean-forward="true" selection-start-line="226" selection-start-column="47" selection-end-line="226" selection-end-column="47" />
+        <state relative-caret-position="187">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
           <folding>
             <element signature="e#33#61#0#PHP" expanded="true" />
           </folding>
