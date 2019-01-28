@@ -10,6 +10,7 @@ namespace api\controllers;
 
 use common\models\User;
 //use common\models\User;
+use yii\filters\auth\HttpBasicAuth;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Json;
 use yii\web\Controller;
@@ -30,6 +31,25 @@ class UserController extends ActiveController
 
         return $actions;
     }
+
+
+    public function behaviors()
+    {
+        /*    $behaviors = parent::behaviors();
+            $behaviors['authenticator']['class'] = HttpBasicAuth::className();
+            $behaviors['authenticator']['auth'] = function ($username, $password) {
+                return \app\models\User::findOne([
+                    'username' => $username,
+                    'password' => $password,
+                ]);
+            };*/
+        $behaviors = parent::behaviors();
+        $behaviors['authenticator'] = [
+            'class' => HttpBasicAuth::className(),
+        ];
+        return $behaviors;
+    }
+
 
     public function actionSingup()
     {
@@ -182,5 +202,7 @@ class UserController extends ActiveController
 
         Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
     }
+
+
 
 }

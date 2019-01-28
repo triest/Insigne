@@ -3,28 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="1a83ccce-360c-4867-8d0f-4e729b3a1cab" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/EditForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/EditForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/index.data" beforeDir="false" afterPath="$PROJECT_DIR$/backend/runtime/debug/index.data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/models/SignupForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/models/SignupForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c4436e67ac6a.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c4436e96c304.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c4436e9b2565.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c4436eec484f.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c4436efbca8b.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c4436fd162fa.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c4436fd476fa.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c443aa5c1579.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c44590776d82.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c445e57981b0.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c4484607151e.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c448baf9e105.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c44c598eb324.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c44c5a285ab3.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c44dc7e220c8.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c44df69e6660.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5c44f1b344de4.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/runtime/debug/index.data" beforeDir="false" afterPath="$PROJECT_DIR$/api/runtime/debug/index.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/runtime/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/api/runtime/logs/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/index.data" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/runtime/debug/index.data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/runtime/logs/app.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,11 +22,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SignupForm.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/frontend/models/SignupForm.php">
+      <file leaf-file-name="GirlsController.php" pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/app/Http/Controllers/GirlsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="57" column="14" lean-forward="true" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
+            <state relative-caret-position="17">
+              <caret line="144" selection-start-line="144" selection-end-line="144" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+        <entry file="file://E:/Документы/Программы/openSerwer/Open Server 5.2.9/OSPanel/domains/Insigne/yii-application/common/models/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="72" column="62" selection-start-line="72" selection-start-column="62" selection-end-line="72" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registration.blade.php" pinned="true" current-in-tab="true">
+        <entry file="remoteDeploymentFS://&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/resources/views/custom/registration.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="71" column="32" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/controllers/UserController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/models/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="75" column="58" selection-start-line="75" selection-start-column="58" selection-end-line="75" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnketController.php" pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/app/Http/Controllers/AnketController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="105" selection-start-line="105" selection-end-line="105" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="girlView.blade.php" pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/resources/views/girlView.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="59" column="59" selection-start-line="59" selection-start-column="59" selection-end-line="59" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Girl.php" pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/app/Girl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -58,12 +105,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>backend</find>
-      <find>backend\</find>
-      <find>index</find>
-      <find>sendmail</find>
-      <find>sms</find>
-      <find>requi</find>
       <find>войти</find>
       <find>ошибка</find>
       <find>sendSmS</find>
@@ -88,6 +129,12 @@
       <find>youfeel.ru</find>
       <find>youfeel.ru/rules</find>
       <find>send</find>
+      <find>modad</find>
+      <find>телефон</find>
+      <find>store</find>
+      <find>stor</find>
+      <find>value</find>
+      <find>findIdentityByAccessToken</find>
     </findStrings>
     <replaceStrings>
       <replace>api</replace>
@@ -101,14 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/database/migrations/2019_01_21_192028_add_any_to_many.php" />
-        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/database/migrations/2019_01_21_193832_create_user_user_table.php" />
-        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/database/migrations/2019_01_21_194104_add_referens_users_users.php" />
-        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/resources/views/welcome.blade.php" />
-        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/app/User.php" />
-        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/app/Http/Controllers/GirlsController.php" />
-        <option value="$PROJECT_DIR$/backend/controllers/SiteController.php" />
-        <option value="$PROJECT_DIR$/api/controllers/TestController.php" />
         <option value="$PROJECT_DIR$/api/models/SignupForm.php" />
         <option value="$PROJECT_DIR$/api/views/site/login.php" />
         <option value="$PROJECT_DIR$/api/views/site/contact.php" />
@@ -122,10 +161,8 @@
         <option value="$PROJECT_DIR$/api/models/ContactForm.php" />
         <option value="$PROJECT_DIR$/api/models/PasswordResetRequestForm.php" />
         <option value="$PROJECT_DIR$/api/models/ResetPasswordForm.php" />
-        <option value="$PROJECT_DIR$/api/models/User.php" />
         <option value="$PROJECT_DIR$/api/config/main.php" />
         <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/app/Http/Controllers/Auth/RegisterController.php" />
-        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/resources/views/layouts/blog3.blade.php" />
         <option value="$PROJECT_DIR$/backend/controllers/AuthController.php" />
         <option value="$PROJECT_DIR$/backend/models/SignupForm.php" />
         <option value="$PROJECT_DIR$/backend/modules/admin/views/default/edit.php" />
@@ -133,25 +170,35 @@
         <option value="$PROJECT_DIR$/backend/modules/admin/controllers/DefaultController.php" />
         <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/resources/views/requwest/myRequwest.blade.php" />
         <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/resources/views/requwest/whoCanSee.blade.php" />
-        <option value="$PROJECT_DIR$/api/controllers/UserController.php" />
         <option value="$PROJECT_DIR$/backend/models/EditForm.php" />
         <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/resources/views/auth/login.blade.php" />
         <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/app/Http/Controllers/CustomUserController.php" />
-        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/resources/views/girlView.blade.php" />
-        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/.env" />
         <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/app/Http/Controllers/PrivateController.php" />
         <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/resources/views/editGirl.blade.php" />
-        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/resources/views/custom/registration.blade.php" />
         <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/resources/views/rules.blade.php" />
-        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/resources/views/custom/resetSMS.blade.php" />
         <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/routes/web.php" />
-        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/app/Privatephoto.php" />
         <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/app/Girl.php" />
         <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/resources/views/createGirl.blade.php" />
-        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/app/Http/Controllers/AnketController.php" />
         <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/database/migrations/2019_01_27_104629_add_goregin_for_private_photo.php" />
         <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/database/migrations/2019_01_27_103754_add_private_photos_table.php" />
         <option value="$PROJECT_DIR$/frontend/models/SignupForm.php" />
+        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/database/migrations/2019_01_27_113108_create_private_photos_table.php" />
+        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/database/migrations/2019_01_22_104029_add_referenses_to_user.php" />
+        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/database/migrations/2019_01_27_112622_create_provate_photos_table.php" />
+        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/database/migrations/2019_01_27_113344_add_foregin_key_to_private_photos.php" />
+        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/database/migrations/2019_01_27_112622_create_private_photos_table.php" />
+        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/app/Privatephoto.php" />
+        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/.env" />
+        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/database/migrations/2019_01_27_120725_create_private_photos_table.php" />
+        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/resources/views/layouts/blog3.blade.php" />
+        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/resources/views/custom/resetSMS.blade.php" />
+        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/resources/views/girlView.blade.php" />
+        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/app/Http/Controllers/AnketController.php" />
+        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/app/Http/Controllers/GirlsController.php" />
+        <option value="$PROJECT_DIR$/api/models/User.php" />
+        <option value="$PROJECT_DIR$/api/controllers/UserController.php" />
+        <option value="E:/Документы/Программы/openSerwer/Open Server 5.2.9/OSPanel/domains/Insigne/yii-application/common/models/User.php" />
+        <option value="&lt;9382c2c2-de88-4570-ad9a-0f1ef8f8f57c&gt;/sakura-city.info/public_html/resources/views/custom/registration.blade.php" />
       </list>
     </option>
   </component>
@@ -271,6 +318,12 @@
             <path>
               <item name="yii-application" type="b2602c69:ProjectViewProjectNode" />
               <item name="yii-application" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yii-application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yii-application" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -352,7 +405,9 @@
       <workItem from="1548439557826" duration="599000" />
       <workItem from="1548440942064" duration="599000" />
       <workItem from="1548441870906" duration="7574000" />
-      <workItem from="1548488730521" duration="14647000" />
+      <workItem from="1548488730521" duration="20307000" />
+      <workItem from="1548670822692" duration="3309000" />
+      <workItem from="1548676797236" duration="11063000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1547705077064</created>
@@ -522,26 +577,40 @@
       <option name="project" value="LOCAL" />
       <updated>1548420996382</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Work corect validation">
+      <created>1548587172943</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1548587172943</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Fix validation.">
+      <created>1548587786484</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1548587786484</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="229335000" />
+    <option name="totallyTimeSpent" value="249367000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.503125" side_tool="true" visible="true" weight="0.32946146" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50364584" side_tool="true" visible="true" weight="0.32946146" />
       <window_info anchor="bottom" id="Migrations" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.496875" visible="true" weight="0.32946146" />
+      <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.49635416" visible="true" weight="0.32946146" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.2640625" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19270833" />
+      <window_info active="true" anchor="right" id="Remote Host" order="3" visible="true" weight="0.2640625" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19270833" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -586,7 +655,9 @@
     <MESSAGE value="Fix update data in edit form after save" />
     <MESSAGE value="Fix update user." />
     <MESSAGE value="Not vork validation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Not vork validation" />
+    <MESSAGE value="Work corect validation" />
+    <MESSAGE value="Fix validation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix validation." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -594,13 +665,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/api/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/web/.htaccess">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -769,13 +833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/models/SignupForm.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
@@ -826,20 +883,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/controllers/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="175" column="39" lean-forward="true" selection-start-line="175" selection-start-column="39" selection-end-line="175" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/controllers/AuthController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1110">
-          <caret line="28" column="6" lean-forward="true" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/models/EditForm.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -870,8 +913,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/models/SignupForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="57" column="14" lean-forward="true" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
+        <state relative-caret-position="167">
+          <caret line="47" column="3" selection-start-line="47" selection-start-column="3" selection-end-line="47" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/controllers/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="75" column="58" selection-start-line="75" selection-start-column="58" selection-end-line="75" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Документы/Программы/openSerwer/Open Server 5.2.9/OSPanel/domains/Insigne/yii-application/common/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="72" column="62" selection-start-line="72" selection-start-column="62" selection-end-line="72" selection-end-column="62" />
         </state>
       </provider>
     </entry>
