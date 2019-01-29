@@ -5,7 +5,10 @@ new Vue({
         searchLogin: "",
         searchName: "",
         searchFalily: "",
-        searchPatronymic: ""
+        searchPatronymic: "",
+        currentSort:'name',
+        currentSortDir:'asc',
+        sortKey: '',
     },
     methods: {
         getUsers: function () {
@@ -23,16 +26,37 @@ new Vue({
         searchNameFunction: function () {
             return users;
         },
-        computed: {
-            filterName: function () {
-                console.log("filetes");
-                //  return this.users.filter(this.users=>{return users.username.match(this.searchName)})
+
+        sort:function(col) {
+            //if s == current sort, reverse
+         // return   this.users.items.sort(this.users.username, 'value', 'desc');
+            //return this.users.orderBy(this.users,'login')
+
+            console.log(this.currentSortDir)
+         //   return this.users.orderBy(this.users,'name','ASC')
+            //this.users.sort(this.users.username)
+           /* if(this.currentSortDir=='ASC'){
+                this.currentSortDir='DESC';
             }
-        }
+            else{
+                this.currentSortDir='ASC';
+            }*/
+
+        },
+
 
 
     },
+    computed: {
+        filterName: function () {
+            return this.users.filter(post => {
+                return post.username.toLowerCase().includes(this.searchLogin.toLowerCase())
+            })
+            return this.users;
+        }
+    },
     beforeMount() {
         this.getUsers()
-    }
+    },
+
 })

@@ -24,6 +24,7 @@ class EditForm extends Model
     public $phone;
     public $password_repeat;
     public $verifyCode;
+    public $datetime;
 
     public function rules()
     {

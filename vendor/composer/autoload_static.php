@@ -7,15 +7,15 @@ namespace Composer\Autoload;
 class ComposerStaticInitd5e32b582fbf7e95ad518fa7cfa9c994
 {
     public static $files = array (
+        '2cffec82183ee1cea088009cef9a6fc3' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier.composer.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
-        '2cffec82183ee1cea088009cef9a6fc3' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier.composer.php',
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
         'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
-        '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
+        '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
         '180092cfc969a12e06f2132a203a3184' => __DIR__ . '/..' . '/codeception/verify/src/Codeception/function.php',
     );
 
@@ -23,6 +23,7 @@ class ComposerStaticInitd5e32b582fbf7e95ad518fa7cfa9c994
         'y' => 
         array (
             'yii\\swiftmailer\\' => 16,
+            'yii\\jui\\' => 8,
             'yii\\gii\\' => 8,
             'yii\\faker\\' => 10,
             'yii\\debug\\' => 10,
@@ -33,6 +34,13 @@ class ComposerStaticInitd5e32b582fbf7e95ad518fa7cfa9c994
         'p' => 
         array (
             'phpDocumentor\\Reflection\\' => 25,
+            'pheme\\jui\\' => 10,
+        ),
+        'k' => 
+        array (
+            'kartik\\datetime\\' => 16,
+            'kartik\\date\\' => 12,
+            'kartik\\base\\' => 12,
         ),
         'c' => 
         array (
@@ -93,6 +101,10 @@ class ComposerStaticInitd5e32b582fbf7e95ad518fa7cfa9c994
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2-swiftmailer/src',
         ),
+        'yii\\jui\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yiisoft/yii2-jui',
+        ),
         'yii\\gii\\' => 
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2-gii/src',
@@ -120,8 +132,24 @@ class ComposerStaticInitd5e32b582fbf7e95ad518fa7cfa9c994
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
-            1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
-            2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+        ),
+        'pheme\\jui\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/pheme/yii2-jui-timepicker',
+        ),
+        'kartik\\datetime\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-widget-datetimepicker/src',
+        ),
+        'kartik\\date\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-widget-datepicker/src',
+        ),
+        'kartik\\base\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-krajee-base/src',
         ),
         'cebe\\markdown\\' => 
         array (
@@ -221,8 +249,8 @@ class ComposerStaticInitd5e32b582fbf7e95ad518fa7cfa9c994
         ),
         'Codeception\\' => 
         array (
-            0 => __DIR__ . '/..' . '/codeception/stub/src',
-            1 => __DIR__ . '/..' . '/codeception/base/src/Codeception',
+            0 => __DIR__ . '/..' . '/codeception/base/src/Codeception',
+            1 => __DIR__ . '/..' . '/codeception/stub/src',
         ),
     );
 

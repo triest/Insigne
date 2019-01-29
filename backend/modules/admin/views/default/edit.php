@@ -7,6 +7,8 @@
 
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
+use yii\base\Widget;
+use yii\jui\DatePicker;
 
 $this->title = 'Signup';
 $this->params['breadcrumbs'][] = $this->title;
@@ -32,7 +34,13 @@ $this->params['breadcrumbs'][] = $this->title;
 
             <?= $form->field($model, 'patronymic')->textInput(['autofocus' => true]) ?>
 
-            <?= Html::dropDownList('subscription',  $selectedSubscription,$Subscription, ['class'=>'form-control', 'multiple'=>true]) ?>
+
+            <? $count = 0 ?>
+            <?php foreach ($Subscription as $sub): ?>
+                <p><?= $sub->name ?></p>
+                <?= $form->field($model, 'datetime[]')->widget(\pheme\jui\DateTimePicker::className()) ?>
+            <?php endforeach; ?>
+
 
             <br>
             <div class="form-group">

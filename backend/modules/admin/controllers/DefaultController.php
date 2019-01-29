@@ -110,6 +110,8 @@ class DefaultController extends Controller
         $model->patronymic = $model2->patronymic;
         $model->family = $model2->family;
         $subscrition = ArrayHelper::map(Subscription::find()->all(), 'id', 'name');
+        $subscrition=   Subscription::find()->all();
+       // var_dump($subscrition);
         $selectedSubs = $model2->getSelectedSubscription();
 
         return $this->render('edit', [
