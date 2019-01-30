@@ -6,7 +6,7 @@ new Vue({
         searchName: "",
         searchFalily: "",
         searchPatronymic: "",
-        searchEmail:"",
+        searchEmail: "",
         currentSort: 'name',
         currentSortDir: 'asc',
         sortKey: '',
@@ -29,19 +29,11 @@ new Vue({
         },
 
         sort: function (col) {
-            //if s == current sort, reverse
-            // return   this.users.items.sort(this.users.username, 'value', 'desc');
-            //return this.users.orderBy(this.users,'login')
+            console.log(col);
+            this.currentSort(col);
+           //  return this.users.items.sort(this.users.username, 'value', 'desc');
+          //  return this.users.col.orderBy(this.users,col)
 
-            console.log(this.currentSortDir)
-            //   return this.users.orderBy(this.users,'name','ASC')
-            //this.users.sort(this.users.username)
-            /* if(this.currentSortDir=='ASC'){
-                 this.currentSortDir='DESC';
-             }
-             else{
-                 this.currentSortDir='ASC';
-             }*/
 
         },
 
@@ -56,6 +48,11 @@ new Vue({
                     post.patronymic.toLowerCase().includes(this.searchPatronymic.toLowerCase()) &&
                     post.email.toLowerCase().includes(this.searchEmail.toLowerCase())
             })
+                .sort(function(a, b) {
+                    a = a.name.toLowerCase();
+                    b = b.name.toLowerCase();
+                    return a < b ? 1 : b < a ? -1 : 0;
+                });
 
         }
     },
