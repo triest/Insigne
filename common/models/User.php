@@ -209,7 +209,8 @@ class User extends ActiveRecord implements IdentityInterface
 
     }
 
-    public function saveSubscription($subscriptions){
+    public function saveSubscription($subscriptions)
+    {
         if (is_array($subscriptions)) {
             $this->clearCurrentSubscrition();
             foreach ($subscriptions as $sub_id) {
@@ -219,8 +220,9 @@ class User extends ActiveRecord implements IdentityInterface
         }
     }
 
-    public function clearCurrentSubscrition(){
-        UserSubscription::deleteAll(['user_id'=>$this->id]);
+    public function clearCurrentSubscrition()
+    {
+        UserSubscription::deleteAll(['user_id' => $this->id]);
     }
 
     public function getSelectedSubscription()

@@ -48,7 +48,12 @@ $this->title = "Список пользователей"
                                 v-on:click="sort('patronymic')">Отчество
                         </a>
                     </th>
-                    <th @click="sort('email')">email</th>
+                    <th>
+                        <a
+                                href="#"
+                                v-on:click="sort('email')">Email
+                        </a>
+                    </th>
                     <th>Подробно</th>
                 </tr>
                 </thead>
