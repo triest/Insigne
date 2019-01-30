@@ -1798,3 +1798,73 @@ $_SERVER = [
     'argv' => []
     'argc' => 0
 ]
+2019-01-30 11:40:19 [127.0.0.1][6][tasmv9dk8scafv9qmq44u41ncv8hhbho][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "admin". in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin', Array)
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\Insigne\yii-application\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\Insigne\yii-application\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-01-30 11:40:19 [127.0.0.1][6][tasmv9dk8scafv9qmq44u41ncv8hhbho][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-frontend' => '8b7a5f542b1a05bc92600142b90680f0593d8491fd513ec35cc1ffcbee2e04a5a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[6,\"LLKHdG-tjJnCZtAjBURlSr_j4EiPsiPU\",2592000]\";}'
+    'advanced-frontend' => 'tasmv9dk8scafv9qmq44u41ncv8hhbho'
+    '_csrf-frontend' => 'f95a0c08c3b53930c44a26527fbbe77517efcda4b37f48047e1daff43aede354a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Bn6LH_bD-IzRF-H1l2H52hh7yx3cBg5V\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'frontend'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_identity-frontend=8b7a5f542b1a05bc92600142b90680f0593d8491fd513ec35cc1ffcbee2e04a5a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22LLKHdG-tjJnCZtAjBURlSr_j4EiPsiPU%22%2C2592000%5D%22%3B%7D; advanced-frontend=tasmv9dk8scafv9qmq44u41ncv8hhbho; _csrf-frontend=f95a0c08c3b53930c44a26527fbbe77517efcda4b37f48047e1daff43aede354a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Bn6LH_bD-IzRF-H1l2H52hh7yx3cBg5V%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'frontend'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/frontend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/frontend/web/index.php'
+    'REMOTE_PORT' => '56051'
+    'REDIRECT_URL' => '/admin'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1548837619.434
+    'REQUEST_TIME' => 1548837619
+    'argv' => []
+    'argc' => 0
+]

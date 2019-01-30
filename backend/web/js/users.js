@@ -6,8 +6,9 @@ new Vue({
         searchName: "",
         searchFalily: "",
         searchPatronymic: "",
-        currentSort:'name',
-        currentSortDir:'asc',
+        searchEmail:"",
+        currentSort: 'name',
+        currentSortDir: 'asc',
         sortKey: '',
     },
     methods: {
@@ -27,32 +28,35 @@ new Vue({
             return users;
         },
 
-        sort:function(col) {
+        sort: function (col) {
             //if s == current sort, reverse
-         // return   this.users.items.sort(this.users.username, 'value', 'desc');
+            // return   this.users.items.sort(this.users.username, 'value', 'desc');
             //return this.users.orderBy(this.users,'login')
 
             console.log(this.currentSortDir)
-         //   return this.users.orderBy(this.users,'name','ASC')
+            //   return this.users.orderBy(this.users,'name','ASC')
             //this.users.sort(this.users.username)
-           /* if(this.currentSortDir=='ASC'){
-                this.currentSortDir='DESC';
-            }
-            else{
-                this.currentSortDir='ASC';
-            }*/
+            /* if(this.currentSortDir=='ASC'){
+                 this.currentSortDir='DESC';
+             }
+             else{
+                 this.currentSortDir='ASC';
+             }*/
 
         },
-
 
 
     },
     computed: {
         filterName: function () {
             return this.users.filter(post => {
-                return post.username.toLowerCase().includes(this.searchLogin.toLowerCase())
+                return post.family.toLowerCase().includes(this.searchFalily.toLowerCase()) &&
+                    post.username.toLowerCase().includes(this.searchLogin.toLowerCase()) &&
+                    post.name.toLowerCase().includes(this.searchName.toLowerCase()) &&
+                    post.patronymic.toLowerCase().includes(this.searchPatronymic.toLowerCase()) &&
+                    post.email.toLowerCase().includes(this.searchEmail.toLowerCase())
             })
-            return this.users;
+
         }
     },
     beforeMount() {

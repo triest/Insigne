@@ -2,29 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a83ccce-360c-4867-8d0f-4e729b3a1cab" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/yii-application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/yii-application.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/EditForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/EditForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/modules/admin/controllers/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/admin/controllers/DefaultController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/modules/admin/views/default/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/admin/views/default/edit.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/modules/admin/views/default/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/modules/admin/views/default/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/runtime/debug/index.data" beforeDir="false" afterPath="$PROJECT_DIR$/backend/runtime/debug/index.data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/backend/runtime/logs/app.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/web/js/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/js/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/index.data" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/runtime/debug/index.data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/layouts/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/environment/ChangeLog.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sebastian/environment/ChangeLog.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/environment/src/Runtime.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sebastian/environment/src/Runtime.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/extensions.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/extensions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/runtime/logs/app.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,8 +37,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/modules/admin/views/default/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+            <state relative-caret-position="340">
+              <caret line="20" column="39" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -63,8 +46,8 @@
       <file leaf-file-name="users.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/backend/web/js/users.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="52" column="76" selection-start-line="52" selection-start-column="76" selection-end-line="52" selection-end-column="76" />
+            <state relative-caret-position="512">
+              <caret line="56" column="70" selection-start-line="56" selection-start-column="70" selection-end-line="56" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -281,6 +264,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -310,7 +294,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -379,7 +362,8 @@
       <workItem from="1548676797236" duration="13630000" />
       <workItem from="1548696306461" duration="8582000" />
       <workItem from="1548756757256" duration="26338000" />
-      <workItem from="1548794207534" duration="1925000" />
+      <workItem from="1548794207534" duration="2870000" />
+      <workItem from="1548837659758" duration="1725000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1547705077064</created>
@@ -584,14 +568,21 @@
       <option name="project" value="LOCAL" />
       <updated>1548707926793</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Search name">
+      <created>1548799149263</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1548799149263</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="288779000" />
+    <option name="totallyTimeSpent" value="291449000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -625,7 +616,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Json response" />
     <MESSAGE value="Json response2" />
     <MESSAGE value="Edit User" />
     <MESSAGE value="fix get" />
@@ -650,7 +640,8 @@
     <MESSAGE value="Add base authorization for rest api" />
     <MESSAGE value="Add subscription" />
     <MESSAGE value="Add edit subscription" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add edit subscription" />
+    <MESSAGE value="Search name" />
+    <option name="LAST_COMMIT_MESSAGE" value="Search name" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -954,15 +945,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/modules/admin/views/default/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+        <state relative-caret-position="340">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/web/js/users.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="52" column="76" selection-start-line="52" selection-start-column="76" selection-end-line="52" selection-end-column="76" />
+        <state relative-caret-position="512">
+          <caret line="56" column="70" selection-start-line="56" selection-start-column="70" selection-end-line="56" selection-end-column="70" />
         </state>
       </provider>
     </entry>

@@ -11,9 +11,16 @@ $this->title = "Список пользователей"
         <!--serach for table -->
         <label>Family</label>
         <input v-model="searchFalily">
+        <label>Name</label>
+        <input v-model="searchName">
+
         <label>Patronymic</label>
         <input v-model="searchPatronymic">
         <table class="table table-condensed">
+            <label>Email</label>
+            <input v-model="searchEmail">
+            <table class="table table-condensed">
+
             <thead>
             <tr>
 
