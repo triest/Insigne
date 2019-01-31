@@ -36,9 +36,12 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
             <? $count = 0 ?>
+            Подписки:
             <?php foreach ($Subscription as $sub): ?>
                 <p><?= $sub->name ?></p>
-                <?= $form->field($model, 'datetime[]')->widget(\pheme\jui\DateTimePicker::className()) ?>
+            <input type="checkbox" name="<? $sub->name ?>" value="1" checked>
+                <input type="date" class="form-control">
+            
             <?php endforeach; ?>
 
 
