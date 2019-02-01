@@ -4,6 +4,7 @@ namespace app\modules\admin\controllers;
 
 use app\models\Subscription;
 use app\models\UserSubscription;
+use DateTime;
 use Yii;
 use yii\base\Exception;
 use yii\helpers\ArrayHelper;
@@ -102,15 +103,18 @@ class DefaultController extends Controller
                     //echo $date;
 
                     $subs = Subscription::find()->where(['name' => $item])->one();
-                    if ($subs != null and $date!=null) {
+                    if ($subs != null and $date != null) {
                         $user->saveSubscription($subscrition);
                         $user_sub = UserSubscription::find()
                             ->where(['user_id' => $user->id])
                             ->one();
-                    //    $this->dump_laravel($user_sub);
-                        $date= Yii::$app->formatter->asDate($date, 'Y-M-d');
-                    //    echo $date;
-                        $user_sub->enddate=$date;
+
+                        //  $date = Yii::$app->formatter->asDate($date, 'Y-M-d');
+                        $date = Yii::$app->formatter->asDate($date, 'Y-M-d H:i:s');
+                        $dateTime = new DateTime($date);
+                        $dateTime->setTime(23, 59, 59);
+                        $dateTime = $dateTime->format('Y-m-d H:i:s');
+                        $user_sub->enddate = $dateTime;
                         $user_sub->save(false);
 
                     }

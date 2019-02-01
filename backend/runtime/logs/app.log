@@ -16776,3 +16776,2338 @@ $_SERVER = [
     'argv' => []
     'argc' => 0
 ]
+2019-02-01 11:21:32 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "admin/default/js/jquery.datetimepicker.css". in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/default/j...', Array)
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-02-01 11:21:32 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'dsiq7kd6idhdneuisdfvjrjdpap90dlc'
+    '_csrf-backend' => 'a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'backend'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_REFERER' => 'http://backend/admin/default/edit?id=6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=dsiq7kd6idhdneuisdfvjrjdpap90dlc; _csrf-backend=a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'backend'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '37106'
+    'REDIRECT_URL' => '/admin/default/js/jquery.datetimepicker.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/default/js/jquery.datetimepicker.css'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1549009292.595
+    'REQUEST_TIME' => 1549009292
+    'argv' => []
+    'argc' => 0
+]
+2019-02-01 11:21:32 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "admin/default/js/jquery.datetimepicker.css". in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/default/j...', Array)
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-02-01 11:21:32 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'dsiq7kd6idhdneuisdfvjrjdpap90dlc'
+    '_csrf-backend' => 'a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'backend'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_REFERER' => 'http://backend/admin/default/edit?id=6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=dsiq7kd6idhdneuisdfvjrjdpap90dlc; _csrf-backend=a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'backend'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '37106'
+    'REDIRECT_URL' => '/admin/default/js/jquery.datetimepicker.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/default/js/jquery.datetimepicker.css'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1549009292.715
+    'REQUEST_TIME' => 1549009292
+    'argv' => []
+    'argc' => 0
+]
+2019-02-01 11:21:54 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "admin/default/js/jquery.datetimepicker.css". in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/default/j...', Array)
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-02-01 11:21:54 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'dsiq7kd6idhdneuisdfvjrjdpap90dlc'
+    '_csrf-backend' => 'a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'backend'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_REFERER' => 'http://backend/admin/default/edit?id=6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=dsiq7kd6idhdneuisdfvjrjdpap90dlc; _csrf-backend=a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'backend'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '37259'
+    'REDIRECT_URL' => '/admin/default/js/jquery.datetimepicker.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/default/js/jquery.datetimepicker.css'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1549009314.563
+    'REQUEST_TIME' => 1549009314
+    'argv' => []
+    'argc' => 0
+]
+2019-02-01 11:21:54 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "admin/default/js/jquery.datetimepicker.css". in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/default/j...', Array)
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-02-01 11:21:54 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'dsiq7kd6idhdneuisdfvjrjdpap90dlc'
+    '_csrf-backend' => 'a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'backend'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_REFERER' => 'http://backend/admin/default/edit?id=6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=dsiq7kd6idhdneuisdfvjrjdpap90dlc; _csrf-backend=a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'backend'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '37259'
+    'REDIRECT_URL' => '/admin/default/js/jquery.datetimepicker.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/default/js/jquery.datetimepicker.css'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1549009314.675
+    'REQUEST_TIME' => 1549009314
+    'argv' => []
+    'argc' => 0
+]
+2019-02-01 11:22:44 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "admin/default/js/jquery.datetimepicker.css". in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/default/j...', Array)
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-02-01 11:22:44 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'dsiq7kd6idhdneuisdfvjrjdpap90dlc'
+    '_csrf-backend' => 'a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'backend'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_REFERER' => 'http://backend/admin/default/edit?id=6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=dsiq7kd6idhdneuisdfvjrjdpap90dlc; _csrf-backend=a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'backend'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '37593'
+    'REDIRECT_URL' => '/admin/default/js/jquery.datetimepicker.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/default/js/jquery.datetimepicker.css'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1549009364.033
+    'REQUEST_TIME' => 1549009364
+    'argv' => []
+    'argc' => 0
+]
+2019-02-01 11:22:59 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "admin/default/js/jquery.datetimepicker.css". in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/default/j...', Array)
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-02-01 11:22:59 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'dsiq7kd6idhdneuisdfvjrjdpap90dlc'
+    '_csrf-backend' => 'a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'backend'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_REFERER' => 'http://backend/admin/default/edit?id=6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=dsiq7kd6idhdneuisdfvjrjdpap90dlc; _csrf-backend=a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'backend'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '37699'
+    'REDIRECT_URL' => '/admin/default/js/jquery.datetimepicker.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/default/js/jquery.datetimepicker.css'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1549009379.701
+    'REQUEST_TIME' => 1549009379
+    'argv' => []
+    'argc' => 0
+]
+2019-02-01 11:22:59 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "admin/default/js/jquery.datetimepicker.css". in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/default/j...', Array)
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-02-01 11:22:59 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'dsiq7kd6idhdneuisdfvjrjdpap90dlc'
+    '_csrf-backend' => 'a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'backend'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_REFERER' => 'http://backend/admin/default/edit?id=6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=dsiq7kd6idhdneuisdfvjrjdpap90dlc; _csrf-backend=a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'backend'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '37699'
+    'REDIRECT_URL' => '/admin/default/js/jquery.datetimepicker.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/default/js/jquery.datetimepicker.css'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1549009379.814
+    'REQUEST_TIME' => 1549009379
+    'argv' => []
+    'argc' => 0
+]
+2019-02-01 11:31:20 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][error][Error] Error: Call to a member function format() on string in W:\domains\Insigne\yii-application\backend\modules\admin\controllers\DefaultController.php:111
+Stack trace:
+#0 [internal function]: app\modules\admin\controllers\DefaultController->actionEdit('6')
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('edit', Array)
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/default/e...', Array)
+#5 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#7 {main}
+2019-02-01 11:31:20 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][info][application] $_GET = [
+    'id' => '6'
+]
+
+$_POST = [
+    '_csrf-backend' => 'fhtdKnSdnPhEnog4w8dlO95Rd7ymY8iWm3M_PL0K-Kw2bhlZDenViXL0ww61tVFQgRdDzsQIq_T8MVd3i2Ot-A=='
+    'EditForm' => [
+        'username' => 'triest'
+        'password' => ''
+        'email' => 'triest21@gmail.com'
+        'family' => 'Иванов'
+        'name' => 'Иван'
+        'patronymic' => 'Иванович'
+    ]
+    'sub1' => '2019-02-01'
+    'sub2' => ''
+    'sub3' => ''
+    'sub4' => ''
+    'signup-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'dsiq7kd6idhdneuisdfvjrjdpap90dlc'
+    '_csrf-backend' => 'a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'backend'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '426'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://backend'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://backend/admin/default/edit?id=6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=dsiq7kd6idhdneuisdfvjrjdpap90dlc; _csrf-backend=a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'backend'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '40870'
+    'REDIRECT_URL' => '/admin/default/edit'
+    'REDIRECT_QUERY_STRING' => 'id=6'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'id=6'
+    'REQUEST_URI' => '/admin/default/edit?id=6'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1549009880.438
+    'REQUEST_TIME' => 1549009880
+    'argv' => [
+        0 => 'id=6'
+    ]
+    'argc' => 1
+]
+2019-02-01 11:31:45 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][error][Error] Error: Call to a member function format() on string in W:\domains\Insigne\yii-application\backend\modules\admin\controllers\DefaultController.php:113
+Stack trace:
+#0 [internal function]: app\modules\admin\controllers\DefaultController->actionEdit('6')
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('edit', Array)
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/default/e...', Array)
+#5 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#7 {main}
+2019-02-01 11:31:45 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][info][application] $_GET = [
+    'id' => '6'
+]
+
+$_POST = [
+    '_csrf-backend' => 'fhtdKnSdnPhEnog4w8dlO95Rd7ymY8iWm3M_PL0K-Kw2bhlZDenViXL0ww61tVFQgRdDzsQIq_T8MVd3i2Ot-A=='
+    'EditForm' => [
+        'username' => 'triest'
+        'password' => ''
+        'email' => 'triest21@gmail.com'
+        'family' => 'Иванов'
+        'name' => 'Иван'
+        'patronymic' => 'Иванович'
+    ]
+    'sub1' => '2019-02-01'
+    'sub2' => ''
+    'sub3' => ''
+    'sub4' => ''
+    'signup-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'dsiq7kd6idhdneuisdfvjrjdpap90dlc'
+    '_csrf-backend' => 'a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'backend'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '426'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://backend'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://backend/admin/default/edit?id=6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=dsiq7kd6idhdneuisdfvjrjdpap90dlc; _csrf-backend=a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'backend'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '41023'
+    'REDIRECT_URL' => '/admin/default/edit'
+    'REDIRECT_QUERY_STRING' => 'id=6'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'id=6'
+    'REQUEST_URI' => '/admin/default/edit?id=6'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1549009905.164
+    'REQUEST_TIME' => 1549009905
+    'argv' => [
+        0 => 'id=6'
+    ]
+    'argc' => 1
+]
+2019-02-01 11:33:29 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "admin/default/js/jquery.datetimepicker.css". in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/default/j...', Array)
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-02-01 11:33:29 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'dsiq7kd6idhdneuisdfvjrjdpap90dlc'
+    '_csrf-backend' => 'a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'backend'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_REFERER' => 'http://backend/admin/default/edit?id=6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=dsiq7kd6idhdneuisdfvjrjdpap90dlc; _csrf-backend=a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'backend'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '41640'
+    'REDIRECT_URL' => '/admin/default/js/jquery.datetimepicker.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/default/js/jquery.datetimepicker.css'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1549010009.313
+    'REQUEST_TIME' => 1549010009
+    'argv' => []
+    'argc' => 0
+]
+2019-02-01 11:33:29 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "admin/default/js/jquery.datetimepicker.css". in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/default/j...', Array)
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-02-01 11:33:29 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'dsiq7kd6idhdneuisdfvjrjdpap90dlc'
+    '_csrf-backend' => 'a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'backend'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_REFERER' => 'http://backend/admin/default/edit?id=6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=dsiq7kd6idhdneuisdfvjrjdpap90dlc; _csrf-backend=a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'backend'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '41640'
+    'REDIRECT_URL' => '/admin/default/js/jquery.datetimepicker.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/default/js/jquery.datetimepicker.css'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1549010009.433
+    'REQUEST_TIME' => 1549010009
+    'argv' => []
+    'argc' => 0
+]
+2019-02-01 11:33:45 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "admin/default/js/jquery.datetimepicker.css". in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/default/j...', Array)
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-02-01 11:33:45 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'dsiq7kd6idhdneuisdfvjrjdpap90dlc'
+    '_csrf-backend' => 'a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'backend'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_REFERER' => 'http://backend/admin/default/edit?id=6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=dsiq7kd6idhdneuisdfvjrjdpap90dlc; _csrf-backend=a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'backend'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '41757'
+    'REDIRECT_URL' => '/admin/default/js/jquery.datetimepicker.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/default/js/jquery.datetimepicker.css'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1549010025.928
+    'REQUEST_TIME' => 1549010025
+    'argv' => []
+    'argc' => 0
+]
+2019-02-01 11:33:46 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "admin/default/js/jquery.datetimepicker.css". in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/default/j...', Array)
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-02-01 11:33:46 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'dsiq7kd6idhdneuisdfvjrjdpap90dlc'
+    '_csrf-backend' => 'a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'backend'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_REFERER' => 'http://backend/admin/default/edit?id=6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=dsiq7kd6idhdneuisdfvjrjdpap90dlc; _csrf-backend=a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'backend'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '41757'
+    'REDIRECT_URL' => '/admin/default/js/jquery.datetimepicker.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/default/js/jquery.datetimepicker.css'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1549010026.04
+    'REQUEST_TIME' => 1549010026
+    'argv' => []
+    'argc' => 0
+]
+2019-02-01 11:35:29 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "admin/default/js/jquery.datetimepicker.css". in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/default/j...', Array)
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-02-01 11:35:29 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'dsiq7kd6idhdneuisdfvjrjdpap90dlc'
+    '_csrf-backend' => 'a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'backend'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_REFERER' => 'http://backend/admin/default/edit?id=6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=dsiq7kd6idhdneuisdfvjrjdpap90dlc; _csrf-backend=a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'backend'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '42401'
+    'REDIRECT_URL' => '/admin/default/js/jquery.datetimepicker.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/default/js/jquery.datetimepicker.css'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1549010129.109
+    'REQUEST_TIME' => 1549010129
+    'argv' => []
+    'argc' => 0
+]
+2019-02-01 11:35:29 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "admin/default/js/jquery.datetimepicker.css". in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/default/j...', Array)
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-02-01 11:35:29 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'dsiq7kd6idhdneuisdfvjrjdpap90dlc'
+    '_csrf-backend' => 'a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'backend'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_REFERER' => 'http://backend/admin/default/edit?id=6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=dsiq7kd6idhdneuisdfvjrjdpap90dlc; _csrf-backend=a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'backend'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '42401'
+    'REDIRECT_URL' => '/admin/default/js/jquery.datetimepicker.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/default/js/jquery.datetimepicker.css'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1549010129.221
+    'REQUEST_TIME' => 1549010129
+    'argv' => []
+    'argc' => 0
+]
+2019-02-01 11:42:22 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "admin/default/js/jquery.datetimepicker.css". in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/default/j...', Array)
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-02-01 11:42:22 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'dsiq7kd6idhdneuisdfvjrjdpap90dlc'
+    '_csrf-backend' => 'a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'backend'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_REFERER' => 'http://backend/admin/default/edit?id=6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=dsiq7kd6idhdneuisdfvjrjdpap90dlc; _csrf-backend=a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'backend'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '44909'
+    'REDIRECT_URL' => '/admin/default/js/jquery.datetimepicker.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/default/js/jquery.datetimepicker.css'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1549010542.023
+    'REQUEST_TIME' => 1549010542
+    'argv' => []
+    'argc' => 0
+]
+2019-02-01 11:42:22 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "admin/default/js/jquery.datetimepicker.css". in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/default/j...', Array)
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-02-01 11:42:22 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'dsiq7kd6idhdneuisdfvjrjdpap90dlc'
+    '_csrf-backend' => 'a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'backend'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_REFERER' => 'http://backend/admin/default/edit?id=6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=dsiq7kd6idhdneuisdfvjrjdpap90dlc; _csrf-backend=a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'backend'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '44909'
+    'REDIRECT_URL' => '/admin/default/js/jquery.datetimepicker.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/default/js/jquery.datetimepicker.css'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1549010542.152
+    'REQUEST_TIME' => 1549010542
+    'argv' => []
+    'argc' => 0
+]
+2019-02-01 11:45:07 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][error][Error] Error: Call to a member function setTime() on string in W:\domains\Insigne\yii-application\backend\modules\admin\controllers\DefaultController.php:112
+Stack trace:
+#0 [internal function]: app\modules\admin\controllers\DefaultController->actionEdit('6')
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('edit', Array)
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/default/e...', Array)
+#5 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#7 {main}
+2019-02-01 11:45:07 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][info][application] $_GET = [
+    'id' => '6'
+]
+
+$_POST = [
+    '_csrf-backend' => 'EYAyO5POctENQh913XCjZnfsWWTUi94E78aIuEJCQ69Z9XZI6ro7oDsoVEOrApcNKKptFrbgvWaIhODzdCsW-w=='
+    'EditForm' => [
+        'username' => 'triest'
+        'password' => ''
+        'email' => 'triest21@gmail.com'
+        'family' => 'Иванов'
+        'name' => 'Иван'
+        'patronymic' => 'Иванович'
+    ]
+    'sub1' => '2019-02-05'
+    'sub2' => ''
+    'sub3' => ''
+    'sub4' => ''
+    'signup-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'dsiq7kd6idhdneuisdfvjrjdpap90dlc'
+    '_csrf-backend' => 'a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'backend'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '426'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://backend'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://backend/admin/default/edit?id=6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=dsiq7kd6idhdneuisdfvjrjdpap90dlc; _csrf-backend=a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'backend'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '46011'
+    'REDIRECT_URL' => '/admin/default/edit'
+    'REDIRECT_QUERY_STRING' => 'id=6'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'id=6'
+    'REQUEST_URI' => '/admin/default/edit?id=6'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1549010707.2
+    'REQUEST_TIME' => 1549010707
+    'argv' => [
+        0 => 'id=6'
+    ]
+    'argc' => 1
+]
+2019-02-01 11:49:24 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][error][Error] Error: Call to undefined function 2019-2-5 0:00:00() in W:\domains\Insigne\yii-application\backend\modules\admin\controllers\DefaultController.php:113
+Stack trace:
+#0 [internal function]: app\modules\admin\controllers\DefaultController->actionEdit('6')
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('edit', Array)
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/default/e...', Array)
+#5 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#7 {main}
+2019-02-01 11:49:24 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][info][application] $_GET = [
+    'id' => '6'
+]
+
+$_POST = [
+    '_csrf-backend' => 'EYAyO5POctENQh913XCjZnfsWWTUi94E78aIuEJCQ69Z9XZI6ro7oDsoVEOrApcNKKptFrbgvWaIhODzdCsW-w=='
+    'EditForm' => [
+        'username' => 'triest'
+        'password' => ''
+        'email' => 'triest21@gmail.com'
+        'family' => 'Иванов'
+        'name' => 'Иван'
+        'patronymic' => 'Иванович'
+    ]
+    'sub1' => '2019-02-05'
+    'sub2' => ''
+    'sub3' => ''
+    'sub4' => ''
+    'signup-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'dsiq7kd6idhdneuisdfvjrjdpap90dlc'
+    '_csrf-backend' => 'a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'backend'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '426'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://backend'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://backend/admin/default/edit?id=6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=dsiq7kd6idhdneuisdfvjrjdpap90dlc; _csrf-backend=a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'backend'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '47560'
+    'REDIRECT_URL' => '/admin/default/edit'
+    'REDIRECT_QUERY_STRING' => 'id=6'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'id=6'
+    'REQUEST_URI' => '/admin/default/edit?id=6'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1549010964.413
+    'REQUEST_TIME' => 1549010964
+    'argv' => [
+        0 => 'id=6'
+    ]
+    'argc' => 1
+]
+2019-02-01 11:49:27 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][error][Error] Error: Call to undefined function 2019-2-5 0:00:00() in W:\domains\Insigne\yii-application\backend\modules\admin\controllers\DefaultController.php:113
+Stack trace:
+#0 [internal function]: app\modules\admin\controllers\DefaultController->actionEdit('6')
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('edit', Array)
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/default/e...', Array)
+#5 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#7 {main}
+2019-02-01 11:49:27 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][info][application] $_GET = [
+    'id' => '6'
+]
+
+$_POST = [
+    '_csrf-backend' => 'EYAyO5POctENQh913XCjZnfsWWTUi94E78aIuEJCQ69Z9XZI6ro7oDsoVEOrApcNKKptFrbgvWaIhODzdCsW-w=='
+    'EditForm' => [
+        'username' => 'triest'
+        'password' => ''
+        'email' => 'triest21@gmail.com'
+        'family' => 'Иванов'
+        'name' => 'Иван'
+        'patronymic' => 'Иванович'
+    ]
+    'sub1' => '2019-02-05'
+    'sub2' => ''
+    'sub3' => ''
+    'sub4' => ''
+    'signup-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'dsiq7kd6idhdneuisdfvjrjdpap90dlc'
+    '_csrf-backend' => 'a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'backend'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '426'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://backend'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://backend/admin/default/edit?id=6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=dsiq7kd6idhdneuisdfvjrjdpap90dlc; _csrf-backend=a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'backend'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '47561'
+    'REDIRECT_URL' => '/admin/default/edit'
+    'REDIRECT_QUERY_STRING' => 'id=6'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'id=6'
+    'REQUEST_URI' => '/admin/default/edit?id=6'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1549010967.643
+    'REQUEST_TIME' => 1549010967
+    'argv' => [
+        0 => 'id=6'
+    ]
+    'argc' => 1
+]
+2019-02-01 11:49:46 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][error][Error] Error: Call to a member function setTime() on string in W:\domains\Insigne\yii-application\backend\modules\admin\controllers\DefaultController.php:114
+Stack trace:
+#0 [internal function]: app\modules\admin\controllers\DefaultController->actionEdit('6')
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('edit', Array)
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/default/e...', Array)
+#5 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#7 {main}
+2019-02-01 11:49:46 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][info][application] $_GET = [
+    'id' => '6'
+]
+
+$_POST = [
+    '_csrf-backend' => 'EYAyO5POctENQh913XCjZnfsWWTUi94E78aIuEJCQ69Z9XZI6ro7oDsoVEOrApcNKKptFrbgvWaIhODzdCsW-w=='
+    'EditForm' => [
+        'username' => 'triest'
+        'password' => ''
+        'email' => 'triest21@gmail.com'
+        'family' => 'Иванов'
+        'name' => 'Иван'
+        'patronymic' => 'Иванович'
+    ]
+    'sub1' => '2019-02-05'
+    'sub2' => ''
+    'sub3' => ''
+    'sub4' => ''
+    'signup-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'dsiq7kd6idhdneuisdfvjrjdpap90dlc'
+    '_csrf-backend' => 'a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'backend'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '426'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://backend'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://backend/admin/default/edit?id=6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=dsiq7kd6idhdneuisdfvjrjdpap90dlc; _csrf-backend=a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'backend'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '47687'
+    'REDIRECT_URL' => '/admin/default/edit'
+    'REDIRECT_QUERY_STRING' => 'id=6'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'id=6'
+    'REQUEST_URI' => '/admin/default/edit?id=6'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1549010986.532
+    'REQUEST_TIME' => 1549010986
+    'argv' => [
+        0 => 'id=6'
+    ]
+    'argc' => 1
+]
+2019-02-01 11:50:39 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][error][Error] Error: Class 'app\modules\admin\controllers\DateTime' not found in W:\domains\Insigne\yii-application\backend\modules\admin\controllers\DefaultController.php:113
+Stack trace:
+#0 [internal function]: app\modules\admin\controllers\DefaultController->actionEdit('6')
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('edit', Array)
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/default/e...', Array)
+#5 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#7 {main}
+2019-02-01 11:50:39 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][info][application] $_GET = [
+    'id' => '6'
+]
+
+$_POST = [
+    '_csrf-backend' => 'EYAyO5POctENQh913XCjZnfsWWTUi94E78aIuEJCQ69Z9XZI6ro7oDsoVEOrApcNKKptFrbgvWaIhODzdCsW-w=='
+    'EditForm' => [
+        'username' => 'triest'
+        'password' => ''
+        'email' => 'triest21@gmail.com'
+        'family' => 'Иванов'
+        'name' => 'Иван'
+        'patronymic' => 'Иванович'
+    ]
+    'sub1' => '2019-02-05'
+    'sub2' => ''
+    'sub3' => ''
+    'sub4' => ''
+    'signup-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'dsiq7kd6idhdneuisdfvjrjdpap90dlc'
+    '_csrf-backend' => 'a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'backend'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '426'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://backend'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://backend/admin/default/edit?id=6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=dsiq7kd6idhdneuisdfvjrjdpap90dlc; _csrf-backend=a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'backend'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '48012'
+    'REDIRECT_URL' => '/admin/default/edit'
+    'REDIRECT_QUERY_STRING' => 'id=6'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'id=6'
+    'REQUEST_URI' => '/admin/default/edit?id=6'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1549011039.717
+    'REQUEST_TIME' => 1549011039
+    'argv' => [
+        0 => 'id=6'
+    ]
+    'argc' => 1
+]
+2019-02-01 11:50:57 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][error][Exception] Exception: DateTime::__construct(): Failed to parse time string (Y-m-d H:i:s) at position 1 (-): Unexpected character in W:\domains\Insigne\yii-application\backend\modules\admin\controllers\DefaultController.php:114
+Stack trace:
+#0 W:\domains\Insigne\yii-application\backend\modules\admin\controllers\DefaultController.php(114): DateTime->__construct('Y-m-d H:i:s')
+#1 [internal function]: app\modules\admin\controllers\DefaultController->actionEdit('6')
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('edit', Array)
+#5 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/default/e...', Array)
+#6 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2019-02-01 11:50:57 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][info][application] $_GET = [
+    'id' => '6'
+]
+
+$_POST = [
+    '_csrf-backend' => 'EYAyO5POctENQh913XCjZnfsWWTUi94E78aIuEJCQ69Z9XZI6ro7oDsoVEOrApcNKKptFrbgvWaIhODzdCsW-w=='
+    'EditForm' => [
+        'username' => 'triest'
+        'password' => ''
+        'email' => 'triest21@gmail.com'
+        'family' => 'Иванов'
+        'name' => 'Иван'
+        'patronymic' => 'Иванович'
+    ]
+    'sub1' => '2019-02-05'
+    'sub2' => ''
+    'sub3' => ''
+    'sub4' => ''
+    'signup-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'dsiq7kd6idhdneuisdfvjrjdpap90dlc'
+    '_csrf-backend' => 'a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'backend'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '426'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://backend'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://backend/admin/default/edit?id=6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=dsiq7kd6idhdneuisdfvjrjdpap90dlc; _csrf-backend=a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'backend'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '48108'
+    'REDIRECT_URL' => '/admin/default/edit'
+    'REDIRECT_QUERY_STRING' => 'id=6'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'id=6'
+    'REQUEST_URI' => '/admin/default/edit?id=6'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1549011057.42
+    'REQUEST_TIME' => 1549011057
+    'argv' => [
+        0 => 'id=6'
+    ]
+    'argc' => 1
+]
+2019-02-01 11:51:48 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][error][Error] Error: Call to a member function setTime() on boolean in W:\domains\Insigne\yii-application\backend\modules\admin\controllers\DefaultController.php:115
+Stack trace:
+#0 [internal function]: app\modules\admin\controllers\DefaultController->actionEdit('6')
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('edit', Array)
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/default/e...', Array)
+#5 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#7 {main}
+2019-02-01 11:51:47 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][info][application] $_GET = [
+    'id' => '6'
+]
+
+$_POST = [
+    '_csrf-backend' => 'EYAyO5POctENQh913XCjZnfsWWTUi94E78aIuEJCQ69Z9XZI6ro7oDsoVEOrApcNKKptFrbgvWaIhODzdCsW-w=='
+    'EditForm' => [
+        'username' => 'triest'
+        'password' => ''
+        'email' => 'triest21@gmail.com'
+        'family' => 'Иванов'
+        'name' => 'Иван'
+        'patronymic' => 'Иванович'
+    ]
+    'sub1' => '2019-02-05'
+    'sub2' => ''
+    'sub3' => ''
+    'sub4' => ''
+    'signup-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'dsiq7kd6idhdneuisdfvjrjdpap90dlc'
+    '_csrf-backend' => 'a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'backend'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '426'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://backend'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://backend/admin/default/edit?id=6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=dsiq7kd6idhdneuisdfvjrjdpap90dlc; _csrf-backend=a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'backend'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '48399'
+    'REDIRECT_URL' => '/admin/default/edit'
+    'REDIRECT_QUERY_STRING' => 'id=6'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'id=6'
+    'REQUEST_URI' => '/admin/default/edit?id=6'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1549011107.86
+    'REQUEST_TIME' => 1549011107
+    'argv' => [
+        0 => 'id=6'
+    ]
+    'argc' => 1
+]
+2019-02-01 11:52:23 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][error][Exception] Exception: DateTime::__construct(): Failed to parse time string (Y-m-d) at position 1 (-): Unexpected character in W:\domains\Insigne\yii-application\backend\modules\admin\controllers\DefaultController.php:114
+Stack trace:
+#0 W:\domains\Insigne\yii-application\backend\modules\admin\controllers\DefaultController.php(114): DateTime->__construct('Y-m-d')
+#1 [internal function]: app\modules\admin\controllers\DefaultController->actionEdit('6')
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('edit', Array)
+#5 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/default/e...', Array)
+#6 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2019-02-01 11:52:23 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][info][application] $_GET = [
+    'id' => '6'
+]
+
+$_POST = [
+    '_csrf-backend' => 'EYAyO5POctENQh913XCjZnfsWWTUi94E78aIuEJCQ69Z9XZI6ro7oDsoVEOrApcNKKptFrbgvWaIhODzdCsW-w=='
+    'EditForm' => [
+        'username' => 'triest'
+        'password' => ''
+        'email' => 'triest21@gmail.com'
+        'family' => 'Иванов'
+        'name' => 'Иван'
+        'patronymic' => 'Иванович'
+    ]
+    'sub1' => '2019-02-05'
+    'sub2' => ''
+    'sub3' => ''
+    'sub4' => ''
+    'signup-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'dsiq7kd6idhdneuisdfvjrjdpap90dlc'
+    '_csrf-backend' => 'a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'backend'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '426'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://backend'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://backend/admin/default/edit?id=6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=dsiq7kd6idhdneuisdfvjrjdpap90dlc; _csrf-backend=a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'backend'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '48607'
+    'REDIRECT_URL' => '/admin/default/edit'
+    'REDIRECT_QUERY_STRING' => 'id=6'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'id=6'
+    'REQUEST_URI' => '/admin/default/edit?id=6'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1549011143.835
+    'REQUEST_TIME' => 1549011143
+    'argv' => [
+        0 => 'id=6'
+    ]
+    'argc' => 1
+]
+2019-02-01 11:52:59 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][error][yii\base\ErrorException:4096] yii\base\ErrorException: Object of class DateTime could not be converted to string in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\db\ColumnSchema.php:157
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\db\ColumnSchema.php(157): yii\base\ErrorHandler->handleError(4096, 'Object of class...', 'W:\\domains\\Insi...', 157, Array)
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\db\mysql\ColumnSchema.php(49): yii\db\ColumnSchema->typecast(Object(DateTime))
+#2 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\db\QueryBuilder.php(647): yii\db\mysql\ColumnSchema->dbTypecast(Object(DateTime))
+#3 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\db\QueryBuilder.php(625): yii\db\QueryBuilder->prepareUpdateSets('user_subscripti...', Array, Array)
+#4 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\db\Command.php(580): yii\db\QueryBuilder->update('user_subscripti...', Array, Array, '<span class="st...')
+#5 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\db\ActiveRecord.php(279): yii\db\Command->update('user_subscripti...', Array, Array, '<span class="st...')
+#6 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\db\BaseActiveRecord.php(802): yii\db\ActiveRecord::updateAll(Array, Array)
+#7 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\db\ActiveRecord.php(625): yii\db\BaseActiveRecord->updateInternal(NULL)
+#8 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\db\BaseActiveRecord.php(673): yii\db\ActiveRecord->update(false, NULL)
+#9 W:\domains\Insigne\yii-application\backend\modules\admin\controllers\DefaultController.php(117): yii\db\BaseActiveRecord->save(false)
+#10 [internal function]: app\modules\admin\controllers\DefaultController->actionEdit('6')
+#11 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#12 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#13 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('edit', Array)
+#14 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/default/e...', Array)
+#15 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#17 {main}
+2019-02-01 11:52:59 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][info][application] $_GET = [
+    'id' => '6'
+]
+
+$_POST = [
+    '_csrf-backend' => 'EYAyO5POctENQh913XCjZnfsWWTUi94E78aIuEJCQ69Z9XZI6ro7oDsoVEOrApcNKKptFrbgvWaIhODzdCsW-w=='
+    'EditForm' => [
+        'username' => 'triest'
+        'password' => ''
+        'email' => 'triest21@gmail.com'
+        'family' => 'Иванов'
+        'name' => 'Иван'
+        'patronymic' => 'Иванович'
+    ]
+    'sub1' => '2019-02-05'
+    'sub2' => ''
+    'sub3' => ''
+    'sub4' => ''
+    'signup-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'dsiq7kd6idhdneuisdfvjrjdpap90dlc'
+    '_csrf-backend' => 'a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'backend'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '426'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://backend'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://backend/admin/default/edit?id=6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=dsiq7kd6idhdneuisdfvjrjdpap90dlc; _csrf-backend=a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'backend'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '48827'
+    'REDIRECT_URL' => '/admin/default/edit'
+    'REDIRECT_QUERY_STRING' => 'id=6'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'id=6'
+    'REQUEST_URI' => '/admin/default/edit?id=6'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1549011179.172
+    'REQUEST_TIME' => 1549011179
+    'argv' => [
+        0 => 'id=6'
+    ]
+    'argc' => 1
+]
+2019-02-01 11:56:52 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "admin/default/js/jquery.datetimepicker.css". in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/default/j...', Array)
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-02-01 11:56:52 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'dsiq7kd6idhdneuisdfvjrjdpap90dlc'
+    '_csrf-backend' => 'a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'backend'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_REFERER' => 'http://backend/admin/default/edit?id=6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=dsiq7kd6idhdneuisdfvjrjdpap90dlc; _csrf-backend=a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'backend'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '50285'
+    'REDIRECT_URL' => '/admin/default/js/jquery.datetimepicker.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/default/js/jquery.datetimepicker.css'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1549011412.606
+    'REQUEST_TIME' => 1549011412
+    'argv' => []
+    'argc' => 0
+]
+2019-02-01 11:56:52 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "admin/default/js/jquery.datetimepicker.css". in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/default/j...', Array)
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-02-01 11:56:52 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'dsiq7kd6idhdneuisdfvjrjdpap90dlc'
+    '_csrf-backend' => 'a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'backend'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_REFERER' => 'http://backend/admin/default/edit?id=6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=dsiq7kd6idhdneuisdfvjrjdpap90dlc; _csrf-backend=a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'backend'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '50285'
+    'REDIRECT_URL' => '/admin/default/js/jquery.datetimepicker.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/default/js/jquery.datetimepicker.css'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1549011412.739
+    'REQUEST_TIME' => 1549011412
+    'argv' => []
+    'argc' => 0
+]
+2019-02-01 11:57:04 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "admin/default/js/jquery.datetimepicker.css". in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/default/j...', Array)
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-02-01 11:57:04 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'dsiq7kd6idhdneuisdfvjrjdpap90dlc'
+    '_csrf-backend' => 'a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'backend'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_REFERER' => 'http://backend/admin/default/edit?id=6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=dsiq7kd6idhdneuisdfvjrjdpap90dlc; _csrf-backend=a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'backend'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '50374'
+    'REDIRECT_URL' => '/admin/default/js/jquery.datetimepicker.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/default/js/jquery.datetimepicker.css'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1549011424.704
+    'REQUEST_TIME' => 1549011424
+    'argv' => []
+    'argc' => 0
+]
+2019-02-01 11:57:04 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "admin/default/js/jquery.datetimepicker.css". in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/default/j...', Array)
+#1 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\Insigne\yii-application\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\Insigne\yii-application\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-02-01 11:57:04 [127.0.0.1][-][dsiq7kd6idhdneuisdfvjrjdpap90dlc][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'dsiq7kd6idhdneuisdfvjrjdpap90dlc'
+    '_csrf-backend' => 'a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'backend'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_REFERER' => 'http://backend/admin/default/edit?id=6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=dsiq7kd6idhdneuisdfvjrjdpap90dlc; _csrf-backend=a4c36c683471912485900b0f1764ea905eb8487993f23321588b5592e3ae3af7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22HuDsytIq6jK6vr4k_F4rbkcbgBhK6iUT%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7-x64\\bin;w:\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'backend'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/Insigne/yii-application/backend/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/Insigne/yii-application/backend/web/index.php'
+    'REMOTE_PORT' => '50374'
+    'REDIRECT_URL' => '/admin/default/js/jquery.datetimepicker.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/default/js/jquery.datetimepicker.css'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1549011424.819
+    'REQUEST_TIME' => 1549011424
+    'argv' => []
+    'argc' => 0
+]
