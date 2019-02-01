@@ -100,29 +100,21 @@ class DefaultController extends Controller
                 if (isset($_POST[$item->name])) {
                     // выбираем подписку по имени
                     $date = $_POST[$item->name];
-                    //echo $date;
-
                     $subs = Subscription::find()->where(['name' => $item])->one();
                     if ($subs != null and $date != null) {
                         $user->saveSubscription($subscrition);
                         $user_sub = UserSubscription::find()
                             ->where(['user_id' => $user->id])
                             ->one();
-
-                        //  $date = Yii::$app->formatter->asDate($date, 'Y-M-d');
                         $date = Yii::$app->formatter->asDate($date, 'Y-M-d H:i:s');
                         $dateTime = new DateTime($date);
-                        $dateTime->setTime(23, 59, 59);
+                        $dateTime->setTime(23, 59, 59); //устнвливаем время в 23:59:59 как окончание подписки
                         $dateTime = $dateTime->format('Y-m-d H:i:s');
                         $user_sub->enddate = $dateTime;
                         $user_sub->save(false);
-
                     }
                 }
-                //       echo $item;
             }
-
-
             $subscription = Yii::$app->request->post('subscription');
             $user->saveSubscription($subscription);
             if ($user_post["password"] != null) {
@@ -142,9 +134,7 @@ class DefaultController extends Controller
         $model->name = $model2->name;
         $model->patronymic = $model2->patronymic;
         $model->family = $model2->family;
-        $subscrition = ArrayHelper::map(Subscription::find()->all(), 'id', 'name');
         $subscrition = Subscription::find()->all();
-        // var_dump($subscrition);
         $selectedSubs = $model2->getSelectedSubscription();
 
         return $this->render('edit', [
