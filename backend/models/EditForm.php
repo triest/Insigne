@@ -26,6 +26,7 @@ class EditForm extends Model
     public $verifyCode;
     public $datetime;
 
+
     public function rules()
     {
         return [

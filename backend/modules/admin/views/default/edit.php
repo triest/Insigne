@@ -38,10 +38,11 @@ $this->params['breadcrumbs'][] = $this->title;
             <? $count = 0 ?>
             Подписки:
             <?php foreach ($Subscription as $sub): ?>
+                <br>
+                <?= $count ?>
                 <p><?= $sub->name ?></p>
-            <input type="checkbox" name="<? $sub->name ?>" value="1" checked>
-                <input type="date" class="form-control">
-            
+                <input type="date" id="date" name="<?= $sub->name ?>" class="form-control">
+
             <?php endforeach; ?>
 
 

@@ -3,6 +3,7 @@
 namespace app\modules\admin\controllers;
 
 use app\models\Subscription;
+use app\models\UserSubscription;
 use Yii;
 use yii\base\Exception;
 use yii\helpers\ArrayHelper;
@@ -12,7 +13,6 @@ use yii\web\Response;
 use common\models\User;
 use app\models\SignupForm;
 use app\models\EditForm;
-
 
 
 /**
@@ -81,15 +81,44 @@ class DefaultController extends Controller
     {
         $model2 = User::find()->where(['id' => $id])->one();
         $model = new EditForm();
+        $subscrition = Subscription::find()->all();
         if ($model->load(Yii::$app->request->post())) {
+            //       $this->dump_laravel(Yii::$app->request->post());
             $post = Yii::$app->request->post();
+            //    $this->dump_laravel($post);
 
+            $sub = [];
+            //ищим подписки
             $user_post = $post["EditForm"];
             $user = User::find()->where(['id' => $id])->one();
             $user->username = $user_post["username"];
             $user->email = $user_post["email"];
             $user->family = $user_post["family"];
             $user->patronymic = $user_post["patronymic"];
+            foreach ($subscrition as $item) {
+                if (isset($_POST[$item->name])) {
+                    // выбираем подписку по имени
+                    $date = $_POST[$item->name];
+                    //echo $date;
+
+                    $subs = Subscription::find()->where(['name' => $item])->one();
+                    if ($subs != null and $date!=null) {
+                        $user->saveSubscription($subscrition);
+                        $user_sub = UserSubscription::find()
+                            ->where(['user_id' => $user->id])
+                            ->one();
+                    //    $this->dump_laravel($user_sub);
+                        $date= Yii::$app->formatter->asDate($date, 'Y-M-d');
+                    //    echo $date;
+                        $user_sub->enddate=$date;
+                        $user_sub->save(false);
+
+                    }
+                }
+                //       echo $item;
+            }
+
+
             $subscription = Yii::$app->request->post('subscription');
             $user->saveSubscription($subscription);
             if ($user_post["password"] != null) {
@@ -110,18 +139,23 @@ class DefaultController extends Controller
         $model->patronymic = $model2->patronymic;
         $model->family = $model2->family;
         $subscrition = ArrayHelper::map(Subscription::find()->all(), 'id', 'name');
-        $subscrition=   Subscription::find()->all();
-       // var_dump($subscrition);
+        $subscrition = Subscription::find()->all();
+        // var_dump($subscrition);
         $selectedSubs = $model2->getSelectedSubscription();
 
         return $this->render('edit', [
             'model' => $model,
-            'Subscription' =>$subscrition,
-            'selectedSubscription'=>$selectedSubs
+            'Subscription' => $subscrition,
+            'selectedSubscription' => $selectedSubs
         ]);
     }
 
 
-
+    function dump_laravel($mixed)
+    {
+        echo '<pre>';
+        print_r($mixed);
+        echo '</pre>';
+    }
 
 }
