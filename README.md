@@ -1,60 +1,38 @@
-<p align="center">
-    <a href="https://github.com/yiisoft" target="_blank">
-        <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
-    </a>
-    <h1 align="center">Yii 2 Advanced Project Template</h1>
-    <br>
-</p>
+Задачу необходимо реализовать на основе Yii 2 Advanced Project Template - https://github.com/yiisoft/yii2-app-advanced
+Каждая часть приложения должна работать на собственном домене/поддомене, например:
+backend - admin.site.test
+api - api.site.test
+frontend - site.test
 
-Yii 2 Advanced Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
-developing complex Web applications with multiple tiers.
+Описание задачи:
+Нужна система с базой пользователей и подписками этих пользователей (обязательно отдельной связанной таблицей, например, user_subscription) на какие-то услуги системы (услуги опустим).
 
-The template includes three tiers: front end, back end, and console, each of which
-is a separate Yii application.
+Необходимо реализовать:
 
-The template is designed to work in a team development environment. It supports
-deploying the application in different environments.
+1. Вывод данных по пользователям в админке (в табличном виде) с поиском и сортировкой по следующим столбцам:
+id,
+логин,
+ФИО, (одним полем, конкатинация из трех соответствующих полей
+e-mail,
+дата окончания подписки (поиск по значению даты можно не делать, достаточно сортировки, но если делать, то через datepicker).
 
-Documentation is at [docs/guide/README.md](docs/guide/README.md).
+2. Редактирование пользователя.
+В форме редактирования должны быть следующие поля:
+Логин - только латинские буквы и цифры
+Имя - обязательно, если заполнена Фамилия или Отчество
+Фамилия - обязательно, если заполнено Имя или Отчество
+Отчество - обязательно, если заполнено Имя или Фамилия
+Пароль пользователя - по-умолчанию пустой, если указать значение, то пароль поменяется.
+E-mail - только корректный email
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/yiisoft/yii2-app-advanced.svg)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
-[![Total Downloads](https://img.shields.io/packagist/dt/yiisoft/yii2-app-advanced.svg)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
-[![Build Status](https://travis-ci.org/yiisoft/yii2-app-advanced.svg?branch=master)](https://travis-ci.org/yiisoft/yii2-app-advanced)
+В форме редактирования должна быть возможность указать дату окончания подписки. Если подписки нет, то установка даты подписки автоматически создаст эту подписку для пользователя с указанной датой окончания. Если удалить дату подписки, то подписка пользователя аннулируется (удаляется). В базе данных дата подписки лежит в формате unix timestamp (integer), в форме - в формате даты "день-месяц-год" (выбирается datepicker'ом.). Дата окончания подписки должна покрывать весь указанный день, т.е. до 23:59:59.
 
-DIRECTORY STRUCTURE
--------------------
+3. Rest-api с базовой авторизацией (HTTP BASE) (принимаемый логин/пароль единый для всех запросов в API, значения логина и пароля для авторизации получать из переменных окружения AUTH_LOGIN и AUTH_PASSWORD):
+а. Запрос (GET /users) на получение списка пользователей с полями: id, логин, ФИО (одним полем), дата окончания подписки в формате даты (день-месяц-год). (email, пароль не возвращать). Результат - массив объектов в формате json. Данные должны кешироваться.
+б. Запрос (GET /user/{id}, где id - идентификатор пользователя в базе данных) на получение данных одного пользователя с полями: id, логин, ФИО (одним полем), дата окончания подписки в формате даты (день-месяц-год). (email, пароль не возвращать). Результат - объект в формате json.
+в. Запрос (PUT /user/{id}, где id - идентификатор пользователя в базе данных) на обновление данных конкретного пользователя (поля и логика те же, что и при редактировании пользователя). Редактируемые параметры передаются в теле запроса (json), например:
+{ "login": "new_login", "password": "new_password" }
 
-```
-common
-    config/              contains shared configurations
-    mail/                contains view files for e-mails
-    models/              contains model classes used in both backend and frontend
-    tests/               contains tests for common classes    
-console
-    config/              contains console configurations
-    controllers/         contains console controllers (commands)
-    migrations/          contains database migrations
-    models/              contains console-specific model classes
-    runtime/             contains files generated during runtime
-backend
-    assets/              contains application assets such as JavaScript and CSS
-    config/              contains backend configurations
-    controllers/         contains Web controller classes
-    models/              contains backend-specific model classes
-    runtime/             contains files generated during runtime
-    tests/               contains tests for backend application    
-    views/               contains view files for the Web application
-    web/                 contains the entry script and Web resources
-frontend
-    assets/              contains application assets such as JavaScript and CSS
-    config/              contains frontend configurations
-    controllers/         contains Web controller classes
-    models/              contains frontend-specific model classes
-    runtime/             contains files generated during runtime
-    tests/               contains tests for frontend application
-    views/               contains view files for the Web application
-    web/                 contains the entry script and Web resources
-    widgets/             contains frontend widgets
-vendor/                  contains dependent 3rd-party packages
-environments/            contains environment-based overrides
-```
+Решение тестового задания необходимо загрузить на Bitbucket или GitHub.
+
+Для тестирования API рекомендуем использовать Postman и приложить к заданию ссылку на коллекцию, либо положить файл для импорта коллекции в репозиторий.
